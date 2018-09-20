@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+%\topmargin=-0.5in
+%\textheight=9in
+%\evensidemargin=0in
+%\oddsidemargin=0in
+%\setlength{\textwidth}{6.5in}
+
+\input{project-info} 
+\input{preamble}
+
+\title{\thesistitle} 
+\author{\studentname}
+\date{\today}
+
+\begin{document}
+
+\input{pages/frontpage}
+\baselineskip = \baselineskip
+\newpage
+
+\input{pages/copyrightpage}
+\newpage
+
+\input{pages/approvalpage}
+\newpage
+
+\includepdf{media/distribution-license.pdf}
+\newpage
+
+
+\maketitle
+
+\begin{abstract}
+Due to globalization and changing lifestyle, more and more people are visiting foreign countries for business and travel. Also lately, a lot of newly arriving refugee families to the U.S face legal consequences. One of the struggles they face is reading documentation they receive through mail; whether bills, court documents or financial assistance documents, they struggle to read and understand them. There are thousands of languages in the world and it is impractical to install signage and print documents in all the languages. In this research, by combining Computer Vision and Bluetooth beacons, multilingual digital information is displayed on the user's smartphone. Smartphone camera allows the user to take a picture of a document. It is then posted to the Google Cloud Vision API which returns the text of that document. It can then be translated to any language using Google Translate API. The system also displays the information of nearby signages (with bluetooth beacons) on the smartphone. This system was implemented in the university campus and the evaluation experiment was conducted by on international students. It was found that the system helps the users to understand their environment better in their native language.
+\end{abstract}
+
+\newpage
+\pagenumbering{roman}
+
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\newpage
+\pagenumbering{arabic}
+
+\section{Introduction}
+\label{sect-intro}
+
+With changing lifestyle and globalization, more people visit foreign countries. Every country is working towards becoming tourism oriented to increase their economy. Most of the visitors use their smartphone to access information. However, when visiting foreign countries, most people face difficulties in obtaining information due to difference in language, which makes it an inconvenience to stay in foreign countries for a longer time.  \\
+
+Recently, a lot of refugee and migrant families from all over the world faced a lot of struggles at the U.S immigrations. A lot of these refugees faced problems with the documentation because they could not understand the content of the legal documents. Therefore, an effective method of providing and accessing information in multiple languages is required. \\
+
+In this study, in order to solve such problems, a multilingual information service was developed using Computer Vision and Bluetooth beacons. The information can be accessed from the user's smartphone in most of the languages. We focus on the smartphone's camera to 'see' information in multiple languages. We also use bluetooth beacons to 'push' information to smartphones in proximity. The user can then access the information in multiple languages. By using this method, we expect people visiting foreign countries to access information naturally in the same way they would in their home countries. This paper evaluates various options like GPS, NFC and RFID which could be used to provide information based on user's location. We then describe the required functions and configuration of the prototype system developed. \\
+
+%An example citation: \cite{graves-1995}.\\
+%An example reference: \autoref{fig:ci-logo} (Notice references and citations are clickable!)
+
+% When including grapics, make sure the directory is relative to root .tex document, not the current .tex file
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{media/ci-logo}
+%	\caption{This is an example graphic}
+%	\label{fig:ci-logo}
+%\end{figure} 
+
+\section{Background}
+\label{sect-background}
+Your work goes here
+
+\section{Conclusion and future work}
+\label{sect-conclusion}
+Your work goes here
+
+\cleardoublepage
+\phantomsection
+\bibliographystyle{plain}
+\bibliography{references}
+\addcontentsline{toc}{section}{References}
+
+\end{document}
+
