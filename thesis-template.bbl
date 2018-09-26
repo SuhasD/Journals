@@ -1,11 +1,24 @@
 \begin{thebibliography}{1}
 
+\bibitem{vision}
+Maria Fazio Massimo~Villari Davide~Mulfari, Antonio~Celesti and Antonio
+  Puliafito.
+\newblock Using google cloud vision in assistive technology scenarios.
+\newblock {\em IEEE Workshop on ICT solutions for eHealth 2016}, 2016.
+
 \bibitem{taiwan}
 Y.~Jeng, M.~Hong, and H.~Lu.
 \newblock The development of the mobile situated learning application based on
   microlocation technology.
 \newblock In {\em 2017 6th IIAI International Congress on Advanced Applied
   Informatics (IIAI-AAI)}, pages 715--718, July 2017.
+
+\bibitem{indoor}
+X.~Li, D.~Xu, X.~Wang, and R.~Muhammad.
+\newblock Design and implementation of indoor positioning system based on
+  ibeacon.
+\newblock In {\em 2016 International Conference on Audio, Language and Image
+  Processing (ICALIP)}, pages 126--130, July 2016.
 
 \bibitem{one}
 T.~Ogi, K.~Ito, and S.~Konita.

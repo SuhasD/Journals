@@ -1,5 +1,22 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Background}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Related Work}{section.2}% 3
-\BOOKMARK [1][-]{section.3}{Conclusion and future work}{}% 4
-\BOOKMARK [1][-]{section*.8}{References}{}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Outline}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{GPS}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Wi-Fi}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Near Field Communication \(NFC\)}{subsection.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Bluetooth}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.5}{iBeacon}{subsection.2.2}% 9
+\BOOKMARK [1][-]{section.3}{Understanding iBeacon Technology}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{The algorithm to calculate distance based on RSSI}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Google Vision API}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Sample Request}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Sample Response}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Google Cloud Translation API}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Sample Request}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Sample Response}{section.5}% 17
+\BOOKMARK [1][-]{section.6}{System Construction}{}% 18
+\BOOKMARK [2][-]{subsection.6.1}{Hardware}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.2}{Mobile application}{section.6}% 20
+\BOOKMARK [1][-]{section.7}{Conclusion and future work}{}% 21
+\BOOKMARK [1][-]{section*.35}{References}{}% 22

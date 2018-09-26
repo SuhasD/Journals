@@ -55,9 +55,6 @@ Recently, a lot of refugee and migrant families from all over the world faced a 
 
 In this study, in order to solve such problems, a multilingual information service was developed using Computer Vision and Bluetooth beacons. The information can be accessed from the user's smartphone in most of the languages. We focus on the smartphone's camera to 'see' information in multiple languages. We also use bluetooth beacons to 'push' information to smartphones in proximity. The user can then access the information in multiple languages. By using this method, we expect people visiting foreign countries to access information naturally in the same way they would in their home countries. This paper evaluates various options like GPS, NFC and RFID which could be used to provide information based on user's location. We then describe the required functions and configuration of the prototype system developed. \\
 
-An example citation: \cite{graves-1995}.\\
-
-An example citation: \cite{one}.\\
 %An example reference: \autoref{fig:ci-logo} (Notice references and citations are clickable!)
 
 % When including grapics, make sure the directory is relative to root .tex document, not the current .tex file
@@ -80,6 +77,8 @@ An example citation: \cite{one}.\\
 
 \paragraph{} A study of multilingual digital signage using iBeacon communication was done, for the purpose of evaluating the technology in an university campus at Japan.  \cite{one} In the experiment, the authors installed a total of 25 iBeacon devices at some sightseeing spots, restaurants, souvenir shops, photo shops, etc. in Shirakawa-go, Japan. When vistors look at these heritage spots from the outside, it is difficult for them to understand whether it is a restaurant or a souvenir shop. By using this system, the tourists was able to obtain necessary information in their native languages when they enter each iBeacon area while walking in Shirakawa-go. The paper confirmed that this system can be used effectively for both Japanese and the foreigners \cite{one}.  In this system, it was possible to change the displayed language automatically when the user comes near to the digital signage, by using the mechanism of background communication of the iBeacon. \textbf{However, the study is dependent on installing and configuring bluetooth iBeacons for the user to be able to understand the signages.}
 
+\paragraph{}American MLB has been equipped with iBeacon. Its mobile application can provide navigation system, so the ticket in your hand will pop out automatically and your position will be indicated when you get close to ticket entrance. When iBeacon is connected to the nearest iBeacon base station, the position information of base station will be gained and customers will be provided with high-quality service.\cite{taiwan}
+
 \paragraph{}In India, a study of text detection and extraction based on Stroke Width Transform (SWT) and methodology to extract letters was conducted. \cite{india} Major application focus were tourism industry and local transport, to help people to deal with different Indian languages which involve text associated with natural scenes in the local public places. Using SWT method, various Indian languages and their combination with English were detected. \textbf{However, this study does not translate the detected texts into the user's preferred languages. This is still a hindrance for foreigners to understand their environment.}
 
 \paragraph{} The problem of proximity estimation is found to be difficult in a variety of environment. Existing approaches such as Global Positioning System and Wi-Fi triangulations are insufficient to meet the requirements of accuracy and also requires high cost. A study was made using, Bluetooth which is commonly available in all smartphones to find the proximity over a shorter distance and provide an estimation model to determine the distance based on the Received Signal Strength Indicator (RSSI) values of the Bluetooth  \cite{distance}. In existing system GPS is used to find the location, it won't work as accurately indoors and inside most commercial building areas. So the authors proposed a system to overcome the problem by using Bluetooth to Bluetooth proximity estimation. By using the signal strength of the Bluetooth device, estimated RSSI value is used to find out exact distance between the devices. This technique helps in tracking the location of nearby user. The study proposed the proximity estimation model by combining Bluetooth RSSI value. The results demonstrate that Bluetooth offers an effective mechanism that is accurate and power-efficient for measuring face-to-face proximity to increase Bluetooth signal length \cite{distance}. \textbf{While this study does not focus on text detection or digital signage, this is  useful for our study to determine the distance of the user/smartphone to the iBeacons} 
@@ -88,6 +87,205 @@ An example citation: \cite{one}.\\
 
 \paragraph{}In Taiwan, to encourage learning English, a study was carried out using the iBeacon's micro-positioning function to set the location in museum, restaurant, store, etc. When your mobile phone detects the information of iBeacon's location situation, you can learn by interacting with users' surrounding environment. \cite{taiwan} English obtained from the vocabulary performance includes the single words and expressions commonly used in daily life. With the listing narration and use of straightforward sentence structure and grammar, users can learn English conveniently and rapidly and apply it flexibly to real situations. In this way, users can learn English whenever and wherever possible to enhance English ability, achieve better effects with half efforts and gain language learning fun in the proposed mobile application. With the combination of the proposed application, English learning materials and iBeacon micro-location feature, learners can receive the surrounding related learning materials. In this manner, learners will have chance to build the connection between the learning materials and the environment which can enforce their memory to remember the learning concept.  \cite{taiwan} It was found that the system can raise the learning intent of the learners and may improve their learning effectiveness. \textbf{However, this study focusses on converting Chinese language to English based on the user's location. It does not support multiple languages and the system is entirely dependent on iBeacons.}
 
+\paragraph{} With the rapid increase in data and multimedia services, demand for positioning has increased especially in complex indoor environment which often needs to determine the location information of the mobile terminal. There is a lack of accuracy and robustness in current indoor positioning system. A study was made to design and implement a mobile-based indoor location system which has the mobile applications with the Bluetooth Low Energy technology based on the iBeacon. This study designs and implements an indoor positioning system based on iBeacon \cite{indoor}. The authors adopted Gaussian filter and Unscented Kalman filter method to robustly extract strong signals from iBeacon device. With the extracted signals, the authors compared them with-in database. They were able to display data based on micro-location on the user's smartphone.  It was found that the iBeacon approach has better performance compared with WiFi method  \cite{indoor}. \textbf{However, this study does not translate the detected texts into the user's preferred languages. This is still a hindrance for foreigners to understand their environment.}
+
+\subsection{Outline}
+
+\paragraph{}With the development of Internet of things (IoT), the user and their location is closely interrelated. The outdoor positioning system based on satellite position (GPS) has matured enough that it provide users with the needs of high-precision positioning. However, GPS positioning satellite signals can only be received in outdoor environment, it difficult to meet the needs of indoor positioning  \cite{indoor}. So, there is an urgent demand for indoor positioning technology and providing micro-location-aware data. 
+
+\paragraph{}In recent years, various types of emerging short- range wireless communication protocol and related products are presented in the market, where the standards of short-range wireless data communication includes ZigBee, WIFI, Bluetooth, NFC, RFID and Ultra Wideband (UWB) and other types of technology. These technologies play an important role in their respective areas as they meet current application requirements. Let us evaluate some of the options we have to provide data based on micro-location.
+
+\subsubsection{GPS}
+\paragraph{} The outdoor positioning system based on satellite position (GPS) provides users with the needs of high-precision positioning, accurate to 5 meters. However, GPS positioning satellite signals can only be received in outdoor environment. GPS fails to determine the user's location accurately inside a building or within a room \cite{indoor}. Hence, we cannot use GPS to accurately provide users with micro-location aware data.
+
+\subsubsection{Wi-Fi}
+\paragraph{} The coverage of radio wave is very wide, it can reach 100 meters, and achieve coverage with comprehensive. Also, the speed of network transmission is higher, it’s useful for real-time interactive facet of the application. The Wi-Fi network construction has a low cost, easy to maintain and very suitable for use in mobile phones. However, the core drawbacks are data security and performance slightly less compared to Bluetooth \cite{indoor}. It is also difficult to accurately triangulate the user's position inside the network.
+
+\subsubsection{Near Field Communication (NFC)}
+\paragraph{}NFC is a set of short-range wireless technologies that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them in close proximity. However, the range  of NFC is less than 10 centimeters and it gets very expensive to install a lot of NFC tags. Thus, it is not feasible to use NFC in our study.
+
+\subsubsection{Bluetooth}
+\paragraph{}Bluetooth is a radio technology which supports short distance communication from each other, the positioning of Bluetooth technology is the measuring of radio wave signal intensity values for targeting. The main advantage of Bluetooth indoor positioning technology is that, Bluetooth chips are small, easy to integrate in mobile phones and even in smaller devices. On the other hand, the shortcomings of Bluetooth technology are; more expensive equipment, relatively high power consumption and lack of stability when the system in complex space environment \cite{indoor}.
+
+\subsubsection{iBeacon}
+\paragraph{}The communication protocol used in iBeacon is the Bluetooth Low Energy (BLE), maximum Bluetooth version 4. 0 devices supports Bluetooth BLE version \cite{indoor}. iBeacon communication frequency consumption is the 2.4GHz band, which is as fast as the Wi-Fi. iBeacon has proximity sensing technology of BLE, it can transfer Uniform Code of unique ID (UUID), APP intelligent terminal obtained the information about UUID and RSSI, and it can be converted into a physical location, which triggers location-aware applications. iBeacons are also low-cost devices and typically run for an year on a single coin CR2032 battery. This makes it feasible for us to implement iBeacons into out study of providing data based on user's micro-location.
+
+\section{Understanding iBeacon Technology}
+\label{iBeacon-tech}
+\paragraph{}iBeacon is Apple’s implementation of Bluetooth low-energy (BLE) wireless technology to create a different way of providing micro-location-based information and services to nearby smartphones supporting BLE. This allows mobile applications on a smartphone to determine when it has entered or left the region, along with an estimation of proximity to a beacon. \\
+
+Bluetooth 4.0 is proposed according to the Bluetooth technology standard set by SIG to achieve two-way transmission in technology. Compared with traditional Bluetooth, Bluetooth 4.0 has the advantages of lower cost and lower energy. One button cell can make the Bluetooth Low Energy be operated for 1 to 2 years. \cite{taiwan} \\
+
+iBeacon devices simply broadcasts its configured advertising packets in specific time intervals \cite{one}. Apple has standardized the format for BLE Advertising. Under this format, an advertising packet consists of four main pieces of information. \\
+
+\textbf{UUID}: This is a 16 byte string used to differentiate a large group of related beacons. For example, if National Park Services (NPS) maintained a network of beacons among all national parks, all national park beacons would share the same UUID. This allows NPS dedicated smartphone app to know which beacon advertisements come from NPS owned beacons. Example: E6FA79C7-804F-4742-863B-BD4D282ED9BA \\
+
+\textbf{Major}: This is a 2 byte string used to distinguish a smaller subset of beacons within the larger group. For example, if NPS had fifty beacons in a particular national park, all fifty would have the same Major. This allows NPS to know exactly which park its visitor is in. Example: 1101  \\
+
+\textbf{Minor}: This is a 2 byte string meant to identify individual beacons. Keeping with the NPS example, a beacon at the front of the park would have its own unique Minor. This allows NPS’s dedicated app to know exactly where the visitor is in the park. Example: 9901\\
+
+\textbf{Tx Power}: This is used to determine proximity (distance) from the beacon. TX power is defined as the strength of the signal exactly 1 meter from the device. This has to be calibrated and hardcoded in advance. Devices can then use this as a baseline to give a estimate the distance between the beacon and the smartphone.  \\
+
+\subsection{The algorithm to calculate distance based on RSSI}
+\paragraph{}The rate of signal strength will be unstable because of the volatility of RF signal in actual data collection method. So there was no longer accurate correspondence between the RSSI and distance. Consequently, we need to purify the sample data in order to reduce the relevant positioning errors.
+
+\paragraph{}We place iBeacon at some fixed position in the test environment before positioning, the mobile terminal detects the response of iBeacon signal strength, and we build RSSI vector set based on it, this set represents the RSSI vector is R=(R\textsubscript{1}, R\textsubscript{2}.....R\textsubscript{i}.....R\textsubscript{P}),where i is the signal strength of i-node RSSI, P is the total number of iBeacon.
+
+\paragraph{}We then repeatedly measured RSSI and averaging the values, the average value as the iBeacon characteristic value r=(r\textsubscript{1}, r\textsubscript{2} ,,,, r\textsubscript{i} ,,, r\textsubscript{m}), the formula is as follows:
+
+\begin{equation}
+RSSI = 1/m \sum_{i=1}^m RSSI \textsubscript{i}
+\end{equation}
+
+where m is the total number of collected RSSI vector at the coordinate points. This approach would correct the rather unstable distance of the beacon from the user. 
+
+\section{Google Vision API}
+\label{vision}
+\paragraph{}Google Cloud Vision is an image recognition technology that allows us to remotely process the content of an image and to retrieve its main features. By using specialized REST API, called Google Cloud Vision API, developers exploit such a technology within their own applications \cite{vision}. By using Google’s Cloud Platform to compute the content of an image through advanced machine learning processes, this solution allows developers to extract some relevant information from visual data, including image labeling, face and landmark detection, optical character recognition (OCR), and tagging of explicit content. It is possible to interact with Google’s Cloud Vision platform by using specialized REST API, called Google Cloud Vision API \cite{vision}.
+
+\paragraph{}We propose to exploit such cloud-based software resources in order to achieve a system for people with understand signages and their environment in general. In particular for users who are visiting foreign countries, our solution may help them to interact with the environment and the things around them. In this paper, we focus on the OCR functionality of the Google Cloud Vision. We also discuss the implementation and integration of the Google Vision into our software solution, a mobile application we developed. The smartphone requires an Internet connection to submit the captured images to Google’s cloud platform. The response from platform is processed and displayed on the user's smartphone.
+
+\paragraph{}The algorithm shown in Figure \ref{fig:vision} has been implemented in Javascript. In particular, here the request for Google Cloud Vision includes the TEXT DETECTION feature. A sample request and response is shown below:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{media/VISION_API.png}
+	\caption{UML activity diagram for Text Detection using Google Vision API}
+	\label{fig:vision}
+\end{figure} 
+
+\subsection{Sample Request}
+
+\paragraph{}Let us consider the image shown in Figure \ref{fig:request_sample} as the source of the image. We use the Algorithm mentioned in Figure \ref{fig:vision} to extract the text from the image.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{media/request_sample.png}
+	\caption{Example image for testing Google Vision API}
+	\label{fig:request_sample}
+\end{figure} 
+
+We convert this image to a base64 encoded string using Javascript and specify in the headers of the REST API to use 'Text Detection' feature of Google's Cloud Vision API. A sample request is as shown below:
+
+\begin{lstlisting}
+{
+	"requests":[{"image":{
+	"content":"base64_encoded_string_of_image"
+},	
+	"features":[{"type":"TEXT_DETECTION",
+	"maxResults":1}]}]
+}
+\end{lstlisting}
+
+\subsection{Sample Response}
+
+\begin{lstlisting}
+{
+"responses": [{
+"textAnnotations": [{
+"locale": "en",
+"description": "Lorem Ipsum",
+"boundingPoly": {
+"vertices": [
+{"x": 327,"y": 412},{"x": 1158,"y": 412},
+{"x": 1158,"y": 680},
+{"x": 327,"y": 680}]}}]}]
+}
+\end{lstlisting}
+
+\paragraph{} In this section, we discussed the capabilities of Google Cloud Vision API and how we implement it into our system. 
+
+\section{Google Cloud Translation API}
+
+\paragraph{}The Translation API provides a simple programmatic interface for translating an arbitrary string into any supported language using state-of-the-art Neural Machine Translation. It is highly responsive, so websites and applications can integrate with Translation API for fast, dynamic translation of source text from the source language to a target language (such as French to English). Language detection is also available in cases where the source language is unknown. The underlying technology is updated constantly to include improvements from Google research teams, which results in better translations and new languages and language pairs.
+
+\paragraph{}Translation API supports more than one hundred different languages, from Afrikaans to Zulu. Used in combination, this enables translation between thousands of language pairs. Translation API can be accessed using REST APIs. We extract text from the printed signages using Google Cloud Vision API, we then send the text to Google Translate API and convert it into the user's desired language.
+
+\paragraph{}The figure \ref{fig:translate_uml} describes the process of language translation in our system. We obtain the text from the printed media using Google Vision API as mentioned in section \ref{vision}. We then pass the obtained text to Google Cloud Translation API with the preferred language in the headers of REST API. The response from the Google Translate is then displayed in the user's smartphone. A sample request and response is shown below:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{media/Translate.png}
+	\caption{UML activity diagram using Google Translation API}
+	\label{fig:translate_uml}
+\end{figure} 
+
+\subsection{Sample Request}
+
+\paragraph{}Below code segment shows how to use Google Cloud Translate API using REST APIs using Javascript. Developers should replace their own Google API Key at  API-KEY-HERE. The target language to be translated is passed under 'target' parameter of the REST API. 
+
+\paragraph{}We use javascript to interact with Google Translation API as follows:
+
+\begin{lstlisting}
+    fetch(`https://translation.googleapis.com/language/translate/v2
+    ?key='API_KEY_HERE', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        q: "text_to_be_translated",
+        target: "target_language"
+      })
+    })
+    .then(data => data.json())
+    .then(res => this.cleanText(res))
+    .catch(err => console.log(err))
+  }
+\end{lstlisting}
+
+\subsection{Sample Response}
+
+\paragraph{} Google processes the requests and responds with a JSON object containing the translated text. A sample response is shown below:
+
+\begin{lstlisting}
+
+{
+  "data": {
+    "translations": [
+      {
+        "translatedText": "translated_text_here"
+      }
+    ]
+  }
+}
+\end{lstlisting}
+
+
+
+\section{System Construction}
+\label{system}
+\paragraph{}In this study, a prototype of multilingual information service system was designed and constructed. 3 beacons was configured and placed next to each of the 3 signage in a park. These beacons continuously broadcast their UUID, major and Minor. A mobile application is developed to listen to these beacons. The mobile application leverages the smartphone’s bluetooth technology to listen to the beacons.
+
+\paragraph{}The relevant information of the signage for each beacon is stored in a database in the cloud. Once the mobile application detects a beacon, it makes a call to the cloud, passing the detected beacon configuration to get the appropriate information of the signage using REST APIs. The information returned from the cloud is then translated to required languages using the Google Translate API and displayed on the user’s smartphone.
+
+\subsection{Hardware}
+\paragraph{}In this study, we used the iBeacons from www.estimote.come. The parameters of the beacons, which are discussed in the section \ref{iBeacon-tech} can be configured only by the administrator of the mobile application. To evaluate the system, we use 3 beacons. Below are the configurations of each beacons used in the study.
+
+\begin{lstlisting}
+UUID: E6FA79C7-804F-4742-863B-BD4D282ED9BA
+Major: 1111
+Minor: 9991
+\end{lstlisting}
+
+\noindent\rule{13cm}{0.4pt}
+
+\begin{lstlisting}
+UUID: E6FA79C7-804F-4742-863B-BD4D282ED9BA
+Major: 1111
+Minor: 9992
+\end{lstlisting}
+
+\noindent\rule{13cm}{0.4pt}
+
+\begin{lstlisting}
+UUID: E6FA79C7-804F-4742-863B-BD4D282ED9BA
+Major: 1111
+Minor: 9993
+\end{lstlisting}
+
+\subsection{Mobile application}
 
 \section{Conclusion and future work}
 \label{sect-conclusion}
