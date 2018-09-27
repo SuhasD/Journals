@@ -1,10 +1,21 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{vision}
 Maria Fazio Massimo~Villari Davide~Mulfari, Antonio~Celesti and Antonio
   Puliafito.
 \newblock Using google cloud vision in assistive technology scenarios.
 \newblock {\em IEEE Workshop on ICT solutions for eHealth 2016}, 2016.
+
+\bibitem{firebase}
+Google Firebase.
+\newblock https://firebase.google.com/docs/.
+
+\bibitem{hci}
+Xiangqian Fu.
+\newblock Mobile phone ui design principles in the design of human-machine
+  interaction design.
+\newblock In {\em 2010 IEEE 11th International Conference on Computer-Aided
+  Industrial Design Conceptual Design 1}, volume~1, pages 697--701, Nov 2010.
 
 \bibitem{taiwan}
 Y.~Jeng, M.~Hong, and H.~Lu.
@@ -19,6 +30,11 @@ X.~Li, D.~Xu, X.~Wang, and R.~Muhammad.
   ibeacon.
 \newblock In {\em 2016 International Conference on Audio, Language and Image
   Processing (ICALIP)}, pages 126--130, July 2016.
+
+\bibitem{norman}
+Donald~A. Norman.
+\newblock Emotional design.
+\newblock {\em House of Electronics Industry}, pages 44--79, 2005.
 
 \bibitem{one}
 T.~Ogi, K.~Ito, and S.~Konita.
@@ -38,11 +54,23 @@ P.~Salunkhe, S.~Bhaskaran, J.~Amudha, and D.~Gupta.
 \newblock In {\em 2017 International Conference on Advances in Computing,
   Communications and Informatics (ICACCI)}, pages 977--982, Sept 2017.
 
+\bibitem{uid}
+M.~Seraj and Chui~Yin Wong.
+\newblock A study of user interface design principles and requirements for
+  developing a mobile learning prototype.
+\newblock In {\em 2012 International Conference on Computer Information Science
+  (ICCIS)}, volume~2, pages 1014--1019, June 2012.
+
 \bibitem{ocr}
 S.~Sonth and J.~S. Kallimani.
 \newblock Ocr based facilitator for the visually challenged.
 \newblock In {\em 2017 International Conference on Electrical, Electronics,
   Communication, Computer, and Optimization Techniques (ICEECCOT)}, pages 1--7,
   Dec 2017.
+
+\bibitem{rest}
+Wikipedia.
+\newblock Representational state transfer (rest) -
+  https://en.wikipedia.org/wiki/.
 
 \end{thebibliography}

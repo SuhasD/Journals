@@ -141,7 +141,7 @@ where m is the total number of collected RSSI vector at the coordinate points. T
 
 \section{Google Vision API}
 \label{vision}
-\paragraph{}Google Cloud Vision is an image recognition technology that allows us to remotely process the content of an image and to retrieve its main features. By using specialized REST API, called Google Cloud Vision API, developers exploit such a technology within their own applications \cite{vision}. By using Google’s Cloud Platform to compute the content of an image through advanced machine learning processes, this solution allows developers to extract some relevant information from visual data, including image labeling, face and landmark detection, optical character recognition (OCR), and tagging of explicit content. It is possible to interact with Google’s Cloud Vision platform by using specialized REST API, called Google Cloud Vision API \cite{vision}.
+\paragraph{}Google Cloud Vision is an image recognition technology that allows us to remotely process the content of an image and to retrieve its main features. By using specialized  Representational State Transfer (REST), called Google Cloud Vision API, developers exploit such a technology within their own applications \cite{vision}. By using Google’s Cloud Platform to compute the content of an image through advanced machine learning processes, this solution allows developers to extract some relevant information from visual data, including image labeling, face and landmark detection, optical character recognition (OCR), and tagging of explicit content. It is possible to interact with Google’s Cloud Vision platform by using specialized REST API, called Google Cloud Vision API \cite{vision}.
 
 \paragraph{}We propose to exploit such cloud-based software resources in order to achieve a system for people with understand signages and their environment in general. In particular for users who are visiting foreign countries, our solution may help them to interact with the environment and the things around them. In this paper, we focus on the OCR functionality of the Google Cloud Vision. We also discuss the implementation and integration of the Google Vision into our software solution, a mobile application we developed. The smartphone requires an Internet connection to submit the captured images to Google’s cloud platform. The response from platform is processed and displayed on the user's smartphone.
 
@@ -196,6 +196,7 @@ We convert this image to a base64 encoded string using Javascript and specify in
 \paragraph{} In this section, we discussed the capabilities of Google Cloud Vision API and how we implement it into our system. 
 
 \section{Google Cloud Translation API}
+\label{translate}
 
 \paragraph{}The Translation API provides a simple programmatic interface for translating an arbitrary string into any supported language using state-of-the-art Neural Machine Translation. It is highly responsive, so websites and applications can integrate with Translation API for fast, dynamic translation of source text from the source language to a target language (such as French to English). Language detection is also available in cases where the source language is unknown. The underlying technology is updated constantly to include improvements from Google research teams, which results in better translations and new languages and language pairs.
 
@@ -260,8 +261,21 @@ We convert this image to a base64 encoded string using Javascript and specify in
 
 \paragraph{}The relevant information of the signage for each beacon is stored in a database in the cloud. Once the mobile application detects a beacon, it makes a call to the cloud, passing the detected beacon configuration to get the appropriate information of the signage using REST APIs. The information returned from the cloud is then translated to required languages using the Google Translate API and displayed on the user’s smartphone.
 
-\subsection{Hardware}
-\paragraph{}In this study, we used the iBeacons from www.estimote.come. The parameters of the beacons, which are discussed in the section \ref{iBeacon-tech} can be configured only by the administrator of the mobile application. To evaluate the system, we use 3 beacons. Below are the configurations of each beacons used in the study.
+\paragraph{}The below figure \ref{fig:system} gives an overview of different processes in our system.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{media/Architecture-3.png}
+	\caption{Process Flow Diagram}
+	\label{fig:system}
+\end{figure} 
+
+\subsection{Environment}
+\label{env}
+\paragraph{}To evaluate the system, we constructed a combination of digital signages and printed signages and placed them in the university campus. The students, including foreign students were handed out iPhones running the mobile application and were requested to use our system.
+
+\subsubsection{Digital Signages}
+\paragraph{}The digital signage was set up using the Estimote 2018 iBeacons. Each iBeacon is mounted on individual signages in the campus. The beacons are powered by individual CR2032 lithium-ion coin batteries. The users used the iPhone 6s in which the application program that reacts with the iBeacon signals. In this study, we used the iBeacons from www.estimote.com. The parameters of the beacons, which are discussed in the section \ref{iBeacon-tech} can be configured only by the administrator of the mobile application. To evaluate the system, we use 3 beacons. Below are the configurations of each beacons used in the study.
 
 \begin{lstlisting}
 UUID: E6FA79C7-804F-4742-863B-BD4D282ED9BA
@@ -285,7 +299,217 @@ Major: 1111
 Minor: 9993
 \end{lstlisting}
 
+\subsubsection{Printed Signages}
+\label{printed-signages}
+\paragraph{}To evaluate our solution of translating the signages without the iBeacons, we printed out commonly used  signages in multiple languages and placed them around the university campus. The students were handed out iPhone 6s, running the same mobile application and were requested to use the system to understand the information on the signages.
+
+
 \subsection{Mobile application}
+
+\paragraph{}
+To discover the beacons from the smartphone, we have designed and developed a mobile application. This mobile application is built using React native and Javascript. The mobile application uses Google Cloud Vision to detect the printed text using the smartphone camera. The Google Cloud Vision API detects the printed information using OCR feature as mentioned in section  \ref{vision}. This text can be converted to any language using Google Cloud Translation API, discussed in section \ref{translate}. The mobile application interacts with these APIs using REST method  To improve the efficiency and user-experience, we used both iBeacon monitoring and ranging to discover and interact with the beacons.
+
+
+\subsubsection{Background Monitoring}
+\paragraph{}Beacon monitoring is similar to geofence, i.e., a virtual barrier that is usually defined using a set of geographic coordinates. In case of iBeacon, the area is defined by the range of one or more beacons. This allows more granularity and precision than regular geofencing. Moving and out of the area it encloses triggers ’enter’ and ’exit’ events, which the app can react to. The smartphone will keep listening for those beacons at all times even if the application is not running in the foreground, and even if the iPhone/iPad is locked or rebooted. Once an ’enter’ or ’exit’ happens, iOS will launch the app into the background (if needed) and let it execute some code for a few seconds to handle the event.
+
+\subsubsection{Beacon Ranging}
+\paragraph{} Ranging actively scans for any nearby beacons on the foreground and delivers results to you every second. With monitoring, our app will be notified whenever the user enters and exits the terminal. Ranging for the exact same region, we’ll instead get a full list of matching beacons currently in range - complete with their UUID, major, and minor values.
+
+\subsubsection{Development stack}
+\paragraph{} The mobile application was developed after evaluating all the major development tools and technology present in the current market. The main goal is to develop the system, keeping performance and scalability in mind. Also, we want to make sure the system works efficiently on both iOS and Android platforms. Below is the development stack we used to develop the mobile application:
+
+\begin{itemize}
+  \item \textbf{React Native:} To develop the front end of the mobile application. The advantage of using React Native is it helps us to develop for both Android and iOS with the same codebase. Also, React Native is efficient in terms of performance.
+  
+   \item \textbf{JavaScript:} We used Javascript to interact with the web-services such as Google Vision and Google Translate. It makes it efficient to convert the captured images into Base64 encoded string and pass it in the headers of the request. Also, javascript makes it easier to process/parse the JSON response from the web-service and display it on the front-end using React Native. We use Javascript also to communicate with the Google Firestore database to query and retrieve data.
+  
+      \item \textbf{Camera:} To access the smartphone camera, we included a library called 'react-native-camera'. This extends the functionality of camera in terms of fragments and hence makes it easier to listen to the camera events and implement our logic where necessary.
+      
+        \item \textbf{Bluetooth:} Our system needs access smartphone's bluetooth module to discover the iBeacons. To check the state of Bluetooth, we included 'react-native-bluetooth-state' library. This helps us determine the bluetooth status of the smartphone, whether 'on' or 'off' and display appropriate messages to the user.
+        
+        \item \textbf{Beacon Manager:} To discover iBeacons from the smartphone, we integrated 'react-native-beacons-manager' library into React Native. This library helps us scan for the beacons and listen to changes of the beacon signal strength. The library also supports 'background ranging' and 'foreground monitoring' of the beacons, meaning it helps us scan for the beacons even when the application is running in background. 
+      
+      \item \textbf{Xcode:} To build and run the application on the iOS device, we need an Integrated Development Environment (IDE). Xcode is an IDE that can be used to run the developed mobile application on the iOS device.
+      
+ \end{itemize}
+
+\subsection{REST API Integration}
+\paragraph{} The mobile application developed communicates with the web-services such as Google Cloud Vision and Google Translation using Representational State Transfer (REST).  REST is an 
+architectural style that defines a set of constraints to be used for creating web services \cite{rest}. Web services that conform to the REST architectural style, or RESTful web services, provide interoperability between computer systems on the Internet.
+
+\paragraph{}By using a stateless protocol and standard operations, REST systems aim for fast performance, reliability, and the ability to grow, by re-using components that can be managed and updated without affecting the system as a whole, even while it is running. In our system, we interact with Google Vision and Translation web-services through REST method. The response from these web-services is processed in the mobile application and appropriate messages are shown. A sample request and response for each web-services is shown in Sections \ref{vision} and \ref{translate}.
+
+\subsection{Database}
+\label{database}
+\paragraph{}To store the information of each signage in a database, we chose Google Cloud Firestore. Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform \cite{firebase}. It keeps the data in sync across client apps through realtime listeners and offers offline support for mobile and web so we can build responsive apps that work regardless of network latency or Internet connectivity \cite{firebase}. Google Firestore is free of cost for less than 50 simultaneous connections to the database, which is a right fit for for the study.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{media/db.png}
+	\caption{Database Schema}
+	\label{fig:db}
+\end{figure} 
+
+\paragraph{} We designed the database schema with a goal to keep it as simple as possible so it can be scalable in the future. We organize the database schema as follows:
+
+\begin{itemize}
+  \item \textbf{Park:} Root of the database. All the beacons with the specified UUID falls under this bucket. 
+  
+  \item \textbf{1111:} This is the level 1 of the database. This is essentially the 'major' parameter of the iBeacons. Since all the 3 beacons we configured have the same 'major' value, we just have one collection of level 1. This level of database makes it possible for our mobile application to differentiate the sections of the park. This allows the administrator to configure beacon parameters according to sections of the park.
+  
+  \item \textbf{beacons}: This is the level 2 of the database schema. We now have identified which park the beacons are present in and which section of the park the beacons are present in using the above two levels. 'beacons' section of the database serves as the collection of beacons under a particular section of the park. They contain all the information about the individual beacons present in discovered section.
+  
+    \item \textbf{9992}: This is the last level of the designed database schema. '9992' refers to the 'minor' value of the iBeacon. Each iBeacon will have its own unique 'minor' value. This helps us to query for the exact beacon data. Each entry at this level have the below fields and values: \\
+    
+    \textbf{'name':} The name of the signage. \\
+    \textbf{'img':} Contains the URL of a picture of the signage. \\
+    \textbf{'english' :} This field contains the description of the signage, in English.\\
+  
+\end{itemize}
+
+\section{Designing the User Experience}
+\label{ux}
+\paragraph{} Applying UI Design principles and guidelines are very important for developing a mobile-based learning application. By observing user interface design principles and implementing them in the development process, it can be helpful for users to improve usability and grasp critical information as displayed in the application. 
+
+\paragraph{} For this study, set of User Interface Design (UID) principles is considered \cite{uid} for designing and developing the mobile-based multi-lingual signage application. Below are the set of UIDs adopted:
+
+\begin{itemize}
+
+ \item  Navigation should be simple and clear from a page to
+any particular section. In short, the navigation should be
+consistent throughout all pages in an application.
+
+ \item  Complex navigation needs to be avoided by the
+developer on the application.
+
+ \item Reduce scrolling frequently.
+
+ \item Application should be user-friendly and allow
+users to understand how the application works intuitively.
+
+ \item Similar actions and information need to be located in
+similar positions. For instance, similar buttons must be
+found in similar positions for the whole pages of the
+application.
+
+ \item Flexibility of the display is the significant property for
+usability of interface design.
+
+ \item Providing necessary information only. Unnecessary
+information confuses the learners and decreases their
+performance.
+
+ \item  Decreasing textual information and increasing
+information which is provided in graphical media to minimize learners' cognitive load and motivate
+them to keep using the application.
+
+\end{itemize}
+
+
+From the psychological point of view, interface design can be divided into feeling (visual, auditory and tactile etc) and emotional levels. User interface design is an important part of on-screen aplications. Interface design is a complex engineering which have different disciplines in, cognitive psychology, design, linguistics, etc. \cite{hci}. There are three main principles of User interface design:  Intuitive user interface, Reduce the burden of user memory, maintain the consistency of the interface. 
+
+
+\paragraph{}We are going to carefully design the User Interface (UI) and User Experience (UX) based on the best practices for Human Computer Interaction (HCI). Below sections describe the concepts behind designing the UI and UX.
+
+\subsection{User Analysis}
+
+Below are the different types of users we expect to use our system:
+
+\begin{itemize}
+
+ \item \textbf{Primary Users:} People who visit foreign countries either for tourism or business. Usually, the signages are displayed in local languages. This is a hindrance to visitors. They would want to understand their surroundings.
+ 
+  \item \textbf{Secondary Users:} Visitors of parks and exhibits who would like to know more about their surroundings in their native language. The application will scan for digital signages and present relevant information once the user is in proximity.
+  
+  \item \textbf{Tertiary Users: } Tertiary users are the users who interact with the translated information. They may be the native people interacting with the visitors. 
+  
+\end{itemize}
+
+\subsubsection{Example Persona}
+\label{persona}
+
+This section describes an example persona of a primary user:
+
+\paragraph{}Rebecca is a freshman in the Environmental Sciences program. She is 22 years old,
+from Arlington, VA. Throughout her high school years, she has been interested in preserving the environment, and has been involved in numerous recycling and conservation activities. She has had various international travel experiences, including a trip to Japan for a youth group ministry project.
+
+\paragraph{} Rebecca lives on campus in the dorm she shares with two other college students. She is very comfortable with technology and uses Twitter, Facebook, and email to communicate with friends and family. Rebecca believes in technology to reach out to people and spread knowledge about
+Amazon rainforests through images and icons. Rebecca is motivated to participate in a Peruvian conservation project during the summer following her high school graduation. She is the current Vice President of the Environmental Society.
+
+\paragraph{} During her foreign travels with the society, especially to the national parks, Rebecca likes to understand more about the environment and always makes sure there is enough signages so people are aware of the rules and do not pollute the environment. 
+
+\subsection{Task Analysis}
+\label{task}
+\paragraph{}In this section, we identify what the user is trying to achieve using our system. We also identify the tasks that need to be supported in order for the user to achieve his goal. Below are the list of tasks the system needs to support. 
+
+\begin{itemize}
+
+ \item The system needs to support taking pictures of the signage and extract the printed text. 
+ 
+  \item The system needs to translate text into the user's preferred language.
+ 
+  \item The application should remember the selected language and display the translated text into the preferred language.
+  
+  \item The application should scan for digital signages and display the distance of the user from the signage.
+  
+    \item The application should fetch the appropriate information from the database and display the same.
+    
+    \item The administrator of the system should be able to configure the beacons and change the fields of the database as well.
+    
+    \end{itemize}
+    
+    \subsection{Context Analysis}
+    
+    In this section, we discuss where the developed system can be used. We also discuss the social and environmental conditions. Below are the environments our system could be used:
+    
+   
+\begin{itemize}
+
+ \item In parks and exhibits that involve multiple signages.
+ 
+  \item Museums, where there is a need for foreign visitors to understand the signages in their native language.
+ 
+  \item In shopping malls, so visitors can understand critical information and navigate easily.
+  
+  \end{itemize}
+  
+    \subsection{Design Principles}
+    
+    The user experience was designed according to the design principles of Human Computer Interaction (HCI). In this section, we discuss the various design principles incorporated in designing the UX. 
+    
+    \subsubsection{Affordance}
+    \paragraph{}According to Donal Norman (1988) an affordance is the design aspect of an object which suggest how the object should be used; a visual clue to its function and use \cite{norman}. Affordance is a property in which the physical characteristics of an object influence its function. 
+    
+    \paragraph{} In the mobile application developed, the UI of the Landing page (shown on opening the application) is divided into 2 sections. About 3/4th of the screen shows the camera view, which means the application is ready to capture a picture of printed signages and extract text from it using Google Cloud Vision. The rest of the screen shows the nearby digital signages. The application also shows the distance between the digital signage and the user.
+    
+     \subsubsection{Visibility}
+     \paragraph{}The usability is improved when its status and methods of use are clearly visible. The more visible functions are, the more likely users will be able to know what to do next.\cite{norman} In contrast, when functions are 'out of sight,' it makes them more difficult to find and know how to use.
+     
+         \paragraph{} In the mobile application developed, the capture picture button has a green color, so as to invite the user to click the button. The camera functionality also has an 'upload image' icon and 'type and translate' icon present upfront. Their is no ambiguity in the user interface. The digital signage section also lists the nearby digital signages along with the title and distance from the user. This improves the visibility of all the features of the app without the user having to scroll down. 
+     
+      \subsubsection{Constraint} 
+      
+      \paragraph{}The design concept of constraining refers to determining ways of restricting the kind of user interaction that can take place at a given moment \cite{norman}. This helps the application to do what it is exactly supposed to do and eliminates many error scenarios. This is helpful for the stable functioning of the application.
+      
+      \paragraph{}In the system we built, we establish constraints by only listing the digital signages around. If there are no digital signages around, 'No digital signages around' message is shown to the user. Also, the system is constrained to capture/upload only one image and use web-services to extract text from it. This helps the application function without many errors. 
+      
+      
+      
+       \subsubsection{Consistency}
+       \paragraph{}This refers to designing interfaces to have similar operations and use similar elements for achieving similar tasks \cite{norman}. In particular, a consistent interface is one that follows rules, such as using the same operation to select all objects. This helps the user intuitively learn and use the application without having to spend more time on it \cite{norman}. 
+       
+       \paragraph{}In our study, we have designed the UI using the modules approach. That is, whether the user chooses to capture an image or upload from the camera roll, the layout is the same. In the digital signages section, all the signages are listed consistently and the whole thumbnail is clickable. Each click takes the user to a screen with more details about the signage. This page is designed consistently. This helps the user to understand our application faster.
+       
+        \subsubsection{Feedback}
+       \paragraph{}Feedback is about sending back information about what action has been done and what has been accomplished, allowing the person to continue with the activity \cite{norman}. This helps the user to understand there is a background process running and at the same time, the user is constrained from starting another process or quitting the current process. 
+       
+       \paragraph{}In the application developed, the user is shown 'loading' icon when a background process is running, for example, when an image is being uploaded through web-services. This helps the user understand that there is a process running in the background and also helps the user to understand the application better. Also, appropriate error messages are shown at the appropriate places to help user understand about the action being carried out \cite{norman}.
+       
+    
+    
+
+
 
 \section{Conclusion and future work}
 \label{sect-conclusion}

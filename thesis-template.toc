@@ -49,8 +49,54 @@
 \contentsline {section}{\numberline {6}System Construction}{17}{section.6}
 \contentsline {paragraph}{}{17}{paragraph*.32}
 \contentsline {paragraph}{}{17}{paragraph*.33}
-\contentsline {subsection}{\numberline {6.1}Hardware}{17}{subsection.6.1}
 \contentsline {paragraph}{}{17}{paragraph*.34}
-\contentsline {subsection}{\numberline {6.2}Mobile application}{18}{subsection.6.2}
-\contentsline {section}{\numberline {7}Conclusion and future work}{18}{section.7}
-\contentsline {section}{References}{19}{section*.35}
+\contentsline {subsection}{\numberline {6.1}Environment}{18}{subsection.6.1}
+\contentsline {paragraph}{}{18}{paragraph*.35}
+\contentsline {subsubsection}{\numberline {6.1.1}Digital Signages}{18}{subsubsection.6.1.1}
+\contentsline {paragraph}{}{18}{paragraph*.36}
+\contentsline {subsubsection}{\numberline {6.1.2}Printed Signages}{19}{subsubsection.6.1.2}
+\contentsline {paragraph}{}{19}{paragraph*.37}
+\contentsline {subsection}{\numberline {6.2}Mobile application}{19}{subsection.6.2}
+\contentsline {paragraph}{}{19}{paragraph*.38}
+\contentsline {subsubsection}{\numberline {6.2.1}Background Monitoring}{20}{subsubsection.6.2.1}
+\contentsline {paragraph}{}{20}{paragraph*.39}
+\contentsline {subsubsection}{\numberline {6.2.2}Beacon Ranging}{20}{subsubsection.6.2.2}
+\contentsline {paragraph}{}{20}{paragraph*.40}
+\contentsline {subsubsection}{\numberline {6.2.3}Development stack}{20}{subsubsection.6.2.3}
+\contentsline {paragraph}{}{20}{paragraph*.41}
+\contentsline {subsection}{\numberline {6.3}REST API Integration}{21}{subsection.6.3}
+\contentsline {paragraph}{}{21}{paragraph*.42}
+\contentsline {paragraph}{}{22}{paragraph*.43}
+\contentsline {subsection}{\numberline {6.4}Database}{22}{subsection.6.4}
+\contentsline {paragraph}{}{22}{paragraph*.44}
+\contentsline {paragraph}{}{22}{paragraph*.45}
+\contentsline {section}{\numberline {7}Designing the User Experience}{24}{section.7}
+\contentsline {paragraph}{}{24}{paragraph*.46}
+\contentsline {paragraph}{}{24}{paragraph*.47}
+\contentsline {paragraph}{}{25}{paragraph*.48}
+\contentsline {subsection}{\numberline {7.1}User Analysis}{25}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Example Persona}{25}{subsubsection.7.1.1}
+\contentsline {paragraph}{}{25}{paragraph*.49}
+\contentsline {paragraph}{}{26}{paragraph*.50}
+\contentsline {paragraph}{}{26}{paragraph*.51}
+\contentsline {subsection}{\numberline {7.2}Task Analysis}{26}{subsection.7.2}
+\contentsline {paragraph}{}{26}{paragraph*.52}
+\contentsline {subsection}{\numberline {7.3}Context Analysis}{27}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Design Principles}{27}{subsection.7.4}
+\contentsline {subsubsection}{\numberline {7.4.1}Affordance}{27}{subsubsection.7.4.1}
+\contentsline {paragraph}{}{27}{paragraph*.53}
+\contentsline {paragraph}{}{27}{paragraph*.54}
+\contentsline {subsubsection}{\numberline {7.4.2}Visibility}{27}{subsubsection.7.4.2}
+\contentsline {paragraph}{}{27}{paragraph*.55}
+\contentsline {paragraph}{}{28}{paragraph*.56}
+\contentsline {subsubsection}{\numberline {7.4.3}Constraint}{28}{subsubsection.7.4.3}
+\contentsline {paragraph}{}{28}{paragraph*.57}
+\contentsline {paragraph}{}{28}{paragraph*.58}
+\contentsline {subsubsection}{\numberline {7.4.4}Consistency}{28}{subsubsection.7.4.4}
+\contentsline {paragraph}{}{28}{paragraph*.59}
+\contentsline {paragraph}{}{28}{paragraph*.60}
+\contentsline {subsubsection}{\numberline {7.4.5}Feedback}{29}{subsubsection.7.4.5}
+\contentsline {paragraph}{}{29}{paragraph*.61}
+\contentsline {paragraph}{}{29}{paragraph*.62}
+\contentsline {section}{\numberline {8}Conclusion and future work}{30}{section.8}
+\contentsline {section}{References}{32}{section*.63}

@@ -3,49 +3,53 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis-template.aux
 The style file: plain.bst
 Database file #1: references.bib
+Warning--entry type for "firebase" isn't style-file defined
+--line 21 of file references.bib
+Warning--entry type for "rest" isn't style-file defined
+--line 29 of file references.bib
 Too many commas in name 1 of "Davide Mulfari, Antonio Celesti, Maria Fazio, Massimo Villari and Antonio Puliafito" for entry vision
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Davide Mulfari, Antonio Celesti, Maria Fazio, Massimo Villari and Antonio Puliafito" for entry vision
 while executing---line 1090 of file plain.bst
-You've used 7 entries,
+You've used 12 entries,
             2118 wiz_defined-function locations,
-            537 strings with 5419 characters,
-and the built_in function-call counts, 3068 in all, are:
-= -- 294
-> -- 121
-< -- 6
-+ -- 48
-- -- 40
-* -- 190
-:= -- 447
-add.period$ -- 21
-call.type$ -- 7
-change.case$ -- 41
+            562 strings with 6056 characters,
+and the built_in function-call counts, 4708 in all, are:
+= -- 454
+> -- 162
+< -- 11
++ -- 66
+- -- 52
+* -- 270
+:= -- 681
+add.period$ -- 34
+call.type$ -- 12
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 146
-empty$ -- 261
-format.name$ -- 40
-if$ -- 705
+cite$ -- 12
+duplicate$ -- 226
+empty$ -- 419
+format.name$ -- 52
+if$ -- 1088
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 7
-newline$ -- 38
-num.names$ -- 14
-pop$ -- 59
+int.to.str$ -- 12
+missing$ -- 10
+newline$ -- 61
+num.names$ -- 24
+pop$ -- 92
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 50
 quote$ -- 0
-skip$ -- 127
+skip$ -- 208
 stack$ -- 0
-substring$ -- 196
-swap$ -- 65
-text.length$ -- 6
+substring$ -- 306
+swap$ -- 101
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 28
+type$ -- 48
 warning$ -- 0
-while$ -- 26
-width$ -- 8
-write$ -- 78
+while$ -- 42
+width$ -- 14
+write$ -- 127
 (There were 2 error messages)
