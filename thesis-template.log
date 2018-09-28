@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 SEP 2018 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  28 SEP 2018 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,10 +24,47 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(./project-info.tex) (./preamble.tex
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks16
+\c@algorithm=\count89
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count90
+\c@ALG@rem=\count91
+\c@ALG@nested=\count92
+\ALG@tlm=\skip43
+\ALG@thistlm=\skip44
+\c@ALG@Lnr=\count93
+\c@ALG@blocknr=\count94
+\c@ALG@storecount=\count95
+\c@ALG@tmpcounter=\count96
+\ALG@tmplength=\skip45
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./project-info.tex) (./preamble.tex
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip43
+\@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -35,7 +72,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks14
+\@emptytoks=\toks17
 \ex@=\dimen103
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -45,41 +82,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count88
+\inf@bad=\count97
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count89
-\leftroot@=\count90
+\uproot@=\count98
+\leftroot@=\count99
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count91
-\DOTSCASE@=\count92
+\classnum@=\count100
+\DOTSCASE@=\count101
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
+\Mathstrutbox@=\box28
+\strutbox@=\box29
 \big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
 \dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
-\tag@help=\toks15
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
-\andhelp@=\toks16
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks18
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks19
 \eqnshift@=\dimen106
 \alignsep@=\dimen107
 \tagshift@=\dimen108
 \tagwidth@=\dimen109
 \totwidth@=\dimen110
 \lineht@=\dimen111
-\@envbody=\toks17
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks18
+\@envbody=\toks20
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -104,7 +141,7 @@ Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks22
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -184,23 +221,23 @@ e
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip46
-\subfigcapskip=\skip47
+\subfigtopskip=\skip49
+\subfigcapskip=\skip50
 \subfigcaptopadj=\dimen114
-\subfigbottomskip=\skip48
+\subfigbottomskip=\skip51
 \subfigcapmargin=\dimen115
-\subfiglabelskip=\skip49
-\c@subfigure=\count100
-\c@lofdepth=\count101
-\c@subtable=\count102
-\c@lotdepth=\count103
+\subfiglabelskip=\skip52
+\c@subfigure=\count109
+\c@lofdepth=\count110
+\c@subtable=\count111
+\c@lotdepth=\count112
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip50
-\subfig@bottom=\skip51
+\subfig@top=\skip53
+\subfig@bottom=\skip54
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -214,67 +251,30 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count104
-\lst@gtempboxa=\box28
-\lst@token=\toks20
-\lst@length=\count105
+\lst@mode=\count113
+\lst@gtempboxa=\box30
+\lst@token=\toks23
+\lst@length=\count114
 \lst@currlwidth=\dimen116
-\lst@column=\count106
-\lst@pos=\count107
+\lst@column=\count115
+\lst@pos=\count116
 \lst@lostspace=\dimen117
 \lst@width=\dimen118
-\lst@newlines=\count108
-\lst@lineno=\count109
+\lst@newlines=\count117
+\lst@lineno=\count118
 \lst@maxwidth=\dimen119
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count110
-\lst@skipnumbers=\count111
-\lst@framebox=\box29
+\c@lstnumber=\count119
+\lst@skipnumbers=\count120
+\lst@framebox=\box31
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
-Package: algpseudocode 
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count112
-\c@ALG@rem=\count113
-\c@ALG@nested=\count114
-\ALG@tlm=\skip52
-\ALG@thistlm=\skip53
-\c@ALG@Lnr=\count115
-\c@ALG@blocknr=\count116
-\c@ALG@storecount=\count117
-\c@ALG@tmpcounter=\count118
-\ALG@tmplength=\skip54
-)
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count119
-\float@exts=\toks21
-\float@box=\box30
-\@float@everytoks=\toks22
-\@floatcapt=\box31
-)
-\@float@every@algorithm=\toks23
-\c@algorithm=\count120
-)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xy.sty
 (/usr/local/texlive/2018/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
 catcodes, docmode,
@@ -545,28 +545,25 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
 (./thesis-template.aux
 
-LaTeX Warning: Label `fig:db' multiply defined.
-
-
-LaTeX Warning: Label `fig:db' multiply defined.
+LaTeX Warning: Label `euclid' multiply defined.
 
 )
 \openout1 = `thesis-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count147
@@ -582,21 +579,21 @@ LaTeX Font Info:    ... okay on input line 15.
 \everyMPtoPDFconversion=\toks35
 )
 \c@lstlisting=\count153
-LaTeX Font Info:    Try loading font information for U+lasy on input line 15.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 22.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.47998pt on input line 15.
+Package xypdf Info: Line width: 0.47998pt on input line 22.
 \AtBeginShipoutBox=\box40
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -607,7 +604,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -617,9 +614,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count154
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (./thesis-template.out) (./thesis-template.out)
 \@outlinefile=\write4
@@ -640,62 +637,62 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 \newpage
+l.29 \newpage
               [1] (./pages/approvalpage.tex)pdfTeX warning (ext4): destination 
 with the same identifier (name{page.}) has been already used, duplicate ignored
 
 <to be read again> 
                    \relax 
-l.25 \newpage
+l.32 \newpage
               [2]
-<media/distribution-license.pdf, id=182, 614.295pt x 794.97pt>
+<media/distribution-license.pdf, id=203, 614.295pt x 794.97pt>
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf>
-Package pdftex.def Info: media/distribution-license.pdf  used on input line 27.
+Package pdftex.def Info: media/distribution-license.pdf  used on input line 34.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf>
-Package pdftex.def Info: media/distribution-license.pdf  used on input line 27.
+Package pdftex.def Info: media/distribution-license.pdf  used on input line 34.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<media/distribution-license.pdf, id=185, page=1, 614.295pt x 794.97pt>
+<media/distribution-license.pdf, id=206, page=1, 614.295pt x 794.97pt>
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf, page 1>
 Package pdftex.def Info: media/distribution-license.pdf , page1 used on input l
-ine 27.
+ine 34.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf, page 1>
 Package pdftex.def Info: media/distribution-license.pdf , page1 used on input l
-ine 27.
+ine 34.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf, page 1>
 Package pdftex.def Info: media/distribution-license.pdf , page1 used on input l
-ine 27.
+ine 34.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf, page 1>
 Package pdftex.def Info: media/distribution-license.pdf , page1 used on input l
-ine 27.
+ine 34.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf, page 1>
 Package pdftex.def Info: media/distribution-license.pdf , page1 used on input l
-ine 27.
+ine 34.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 \includepdf{media/distribution-license.pdf}
+l.34 \includepdf{media/distribution-license.pdf}
                                                  [3 <./media/distribution-licen
 se.pdf>]pdfTeX warning (ext4): destination with the same identifier (name{page.
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \newpage
+l.44 \newpage
               [4] (./thesis-template.toc [1
 
 ])
@@ -710,17 +707,17 @@ l.37 \newpage
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
@@ -729,207 +726,255 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 ] [2
 
 ] [3] [4] [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 [8
 
 ] [9]
-<media/VISION_API.png, id=380, 307.1475pt x 523.9575pt>
+<media/VISION_API.png, id=409, 307.1475pt x 523.9575pt>
 File: media/VISION_API.png Graphic file (type png)
 <use media/VISION_API.png>
-Package pdftex.def Info: media/VISION_API.png  used on input line 152.
+Package pdftex.def Info: media/VISION_API.png  used on input line 159.
 (pdftex.def)             Requested size: 292.5pt x 499.00401pt.
  [10
 
 ] [11 <./media/VISION_API.png>]
-<media/request_sample.png, id=397, 714.67pt x 578.16pt>
+<media/request_sample.png, id=426, 714.67pt x 578.16pt>
 File: media/request_sample.png Graphic file (type png)
 <use media/request_sample.png>
-Package pdftex.def Info: media/request_sample.png  used on input line 163.
+Package pdftex.def Info: media/request_sample.png  used on input line 170.
 (pdftex.def)             Requested size: 390.0pt x 315.51pt.
  [12 <./media/request_sample.png>]
 [13]
-<media/Translate.png, id=432, 169.1118pt x 324.0105pt>
+<media/Translate.png, id=462, 169.1118pt x 324.0105pt>
 File: media/Translate.png Graphic file (type png)
 <use media/Translate.png>
-Package pdftex.def Info: media/Translate.png  used on input line 209.
+Package pdftex.def Info: media/Translate.png  used on input line 216.
 (pdftex.def)             Requested size: 195.0pt x 373.61281pt.
  [14
 
 ] [15 <./media/Translate.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 233.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 240.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 233.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 240.
  [16]
-<media/Architecture-3.png, id=482, 682.4697pt x 549.0111pt>
+<media/Architecture-3.png, id=511, 682.4697pt x 549.0111pt>
 File: media/Architecture-3.png Graphic file (type png)
 <use media/Architecture-3.png>
-Package pdftex.def Info: media/Architecture-3.png  used on input line 268.
+Package pdftex.def Info: media/Architecture-3.png  used on input line 275.
 (pdftex.def)             Requested size: 390.0pt x 313.74379pt.
  [17
 
 ]
 [18 <./media/Architecture-3.png>] [19] [20]
-<media/1.jpg, id=526, 752.8125pt x 1339.0025pt>
+<media/1.jpg, id=556, 752.8125pt x 1339.0025pt>
 File: media/1.jpg Graphic file (type jpg)
 <use media/1.jpg>
-Package pdftex.def Info: media/1.jpg  used on input line 345.
+Package pdftex.def Info: media/1.jpg  used on input line 352.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/2.PNG, id=527, 752.8125pt x 1339.0025pt>
+<media/2.PNG, id=557, 752.8125pt x 1339.0025pt>
 File: media/2.PNG Graphic file (type png)
 <use media/2.PNG>
-Package pdftex.def Info: media/2.PNG  used on input line 351.
+Package pdftex.def Info: media/2.PNG  used on input line 358.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
  [21] [22 <./media/1.jpg> <./media/2.PNG>]
-<media/3.PNG, id=542, 752.8125pt x 1339.0025pt>
+<media/3.PNG, id=571, 752.8125pt x 1339.0025pt>
 File: media/3.PNG Graphic file (type png)
 <use media/3.PNG>
-Package pdftex.def Info: media/3.PNG  used on input line 380.
+Package pdftex.def Info: media/3.PNG  used on input line 387.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/4.PNG, id=543, 752.8125pt x 1339.0025pt>
+<media/4.PNG, id=572, 752.8125pt x 1339.0025pt>
 File: media/4.PNG Graphic file (type png)
 <use media/4.PNG>
-Package pdftex.def Info: media/4.PNG  used on input line 386.
+Package pdftex.def Info: media/4.PNG  used on input line 393.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
  [23 <./media/3.PNG> <./media/4.PNG>]
-<media/5.PNG, id=555, 752.8125pt x 1339.0025pt>
+<media/5.PNG, id=584, 752.8125pt x 1339.0025pt>
 File: media/5.PNG Graphic file (type png)
 <use media/5.PNG>
-Package pdftex.def Info: media/5.PNG  used on input line 405.
+Package pdftex.def Info: media/5.PNG  used on input line 412.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
  [24]
-<media/beacon.PNG, id=563, 752.8125pt x 1339.0025pt>
+<media/beacon.PNG, id=592, 752.8125pt x 1339.0025pt>
 File: media/beacon.PNG Graphic file (type png)
 <use media/beacon.PNG>
-Package pdftex.def Info: media/beacon.PNG  used on input line 417.
+Package pdftex.def Info: media/beacon.PNG  used on input line 424.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/beacon2.PNG, id=564, 752.8125pt x 1339.0025pt>
+<media/beacon2.PNG, id=593, 752.8125pt x 1339.0025pt>
 File: media/beacon2.PNG Graphic file (type png)
 <use media/beacon2.PNG>
-Package pdftex.def Info: media/beacon2.PNG  used on input line 423.
+Package pdftex.def Info: media/beacon2.PNG  used on input line 430.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
  [25 <./media/5.PNG>] [26 <./media/beacon.PNG> <./media/beacon2.PNG>]
-<media/beacon3.PNG, id=579, 752.8125pt x 1339.0025pt>
+<media/beacon3.PNG, id=608, 752.8125pt x 1339.0025pt>
 File: media/beacon3.PNG Graphic file (type png)
 <use media/beacon3.PNG>
-Package pdftex.def Info: media/beacon3.PNG  used on input line 447.
+Package pdftex.def Info: media/beacon3.PNG  used on input line 454.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
  [27 <./media/beacon3.PNG>]
-<media/db.png, id=592, 973.6375pt x 368.37625pt>
+<media/db.png, id=621, 973.6375pt x 368.37625pt>
 File: media/db.png Graphic file (type png)
 <use media/db.png>
-Package pdftex.def Info: media/db.png  used on input line 475.
+Package pdftex.def Info: media/db.png  used on input line 482.
 (pdftex.def)             Requested size: 390.0pt x 147.55585pt.
  [28]
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--494
+Underfull \hbox (badness 10000) in paragraph at lines 498--501
 
  []
 
-[29 <./media/db.png>] [30] [31
+[29 <./media/db.png>] [30]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 507.
+ [31
 
-] [32] [33]
-<media/1a.PNG, id=638, 752.8125pt x 1339.0025pt>
+] [32
+
+] [33] [34]
+<media/1a.PNG, id=679, 752.8125pt x 1339.0025pt>
 File: media/1a.PNG Graphic file (type png)
 <use media/1a.PNG>
-Package pdftex.def Info: media/1a.PNG  used on input line 615.
+Package pdftex.def Info: media/1a.PNG  used on input line 669.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
- [34] [35 <./media/1a.PNG>] [36]
-<media/loading1.PNG, id=669, 752.8125pt x 1339.0025pt>
+ [35] [36 <./media/1a.PNG>]
+[37]
+<media/loading1.PNG, id=716, 752.8125pt x 1339.0025pt>
 File: media/loading1.PNG Graphic file (type png)
 <use media/loading1.PNG>
-Package pdftex.def Info: media/loading1.PNG  used on input line 647.
+Package pdftex.def Info: media/loading1.PNG  used on input line 701.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
+ [38 <./media/loading1.PNG>] [39
 
-[37 <./media/loading1.PNG>] [38
+] [40] [41] [42] [43
 
-] (./thesis-template.bbl [39
+]
+(./thesis-template.bbl [44
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 []\OT1/cmr/m/n/12 Wikipedia.  Rep-re-sen-ta-tional state trans-fer (rest) -
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 668.
- [40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 668.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 788.
+ [45]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 788.
  (./thesis-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 668.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 668.
-Package rerunfilecheck Info: File `thesis-template.out' has not changed.
-(rerunfilecheck)             Checksum: F2A1990653D908E6953249D96AB1926D;2727.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 788.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 788.
 
+
+Package rerunfilecheck Warning: File `thesis-template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis-template.out':
+(rerunfilecheck)             Before: 16CB717D9FFDB7298457E825379379D8;3009
+(rerunfilecheck)             After:  E439F009D899246CBAE9963103433297;2959.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 668.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 788.
  ) 
 Here is how much of TeX's memory you used:
- 12602 strings out of 492649
- 174769 string characters out of 6129622
- 320490 words of memory out of 5000000
- 15961 multiletter control sequences out of 15000+600000
- 15443 words of font info for 66 fonts, out of 8000000 for 9000
+ 12676 strings out of 492649
+ 175769 string characters out of 6129622
+ 320773 words of memory out of 5000000
+ 15995 multiletter control sequences out of 15000+600000
+ 15744 words of font info for 67 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  44i,18n,43p,3264b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis-template.pdf (48 pages, 7142268 bytes).
+pdfTeX warning (dest): name{section.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.10.2} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.10.1} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.9.4.5} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.9.4.4} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.9.4.3} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.9.4.2} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.9.4.1} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.9.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.9.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.9.1.1} has been referenced but does n
+ot exist, replaced by a fixed one
+
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis-template.pdf (53 pages, 7164406 bytes).
 PDF statistics:
- 780 PDF objects out of 1000 (max. 8388607)
- 688 compressed objects within 7 object streams
- 244 named destinations out of 1000 (max. 500000)
- 424 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 870 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
+ 283 named destinations out of 1000 (max. 500000)
+ 464 words of extra memory for PDF output out of 10000 (max. 10000000)
 

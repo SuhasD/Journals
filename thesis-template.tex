@@ -5,6 +5,13 @@
 %\oddsidemargin=0in
 %\setlength{\textwidth}{6.5in}
 
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
 \input{project-info} 
 \input{preamble}
 
@@ -77,7 +84,7 @@ In this study, in order to solve such problems, a multilingual information servi
 
 \paragraph{} A study of multilingual digital signage using iBeacon communication was done, for the purpose of evaluating the technology in an university campus at Japan.  \cite{one} In the experiment, the authors installed a total of 25 iBeacon devices at some sightseeing spots, restaurants, souvenir shops, photo shops, etc. in Shirakawa-go, Japan. When vistors look at these heritage spots from the outside, it is difficult for them to understand whether it is a restaurant or a souvenir shop. By using this system, the tourists was able to obtain necessary information in their native languages when they enter each iBeacon area while walking in Shirakawa-go. The paper confirmed that this system can be used effectively for both Japanese and the foreigners \cite{one}.  In this system, it was possible to change the displayed language automatically when the user comes near to the digital signage, by using the mechanism of background communication of the iBeacon. \textbf{However, the study is dependent on installing and configuring bluetooth iBeacons for the user to be able to understand the signages.}
 
-\paragraph{}American MLB has been equipped with iBeacon. Its mobile application can provide navigation system, so the ticket in your hand will pop out automatically and your position will be indicated when you get close to ticket entrance. When iBeacon is connected to the nearest iBeacon base station, the position information of base station will be gained and customers will be provided with high-quality service.\cite{taiwan}
+\paragraph{}American MLB has been equipped with iBeacon. Its mobile application can provide navigation system, so the ticket in your hand will pop out automatically and your position will be indicated when you get close to ticket entrance. Several techniques such as the method of displaying information written in several languages in cyclic order, the method of displaying multilingual information simultaneously, and the method of switching displayed language using touch buttons, have been used. \cite{zoo} When iBeacon is connected to the nearest iBeacon base station, the position information of base station will be gained and customers will be provided with high-quality service.\cite{taiwan} \cite{room}
 
 \paragraph{}In India, a study of text detection and extraction based on Stroke Width Transform (SWT) and methodology to extract letters was conducted. \cite{india} Major application focus were tourism industry and local transport, to help people to deal with different Indian languages which involve text associated with natural scenes in the local public places. Using SWT method, various Indian languages and their combination with English were detected. \textbf{However, this study does not translate the detected texts into the user's preferred languages. This is still a hindrance for foreigners to understand their environment.}
 
@@ -494,6 +501,53 @@ architectural style that defines a set of constraints to be used for creating we
   
 \end{itemize}
 
+\section{Pseudo-code}
+
+\begin{algorithm}
+\caption{Psuedocode}\label{euclid}
+\begin{algorithmic}[1]
+\Procedure{Scan for iBeacons}{}
+\If {iBeacons found}
+\BState \emph{loop}: 
+\State 	acquire RSSI info of beacon 
+\State 	calculate and display distance of beacon
+\State	query beacon parameters with server database
+
+\If {data exists}
+	\State fetch and display data
+	\State $counter \gets counter+1$.
+	\State \textbf{goto} \emph{loop}.
+\EndIf
+
+\State \textbf{goto} \textbf{procedure}.
+\EndIf
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+\begin{algorithm}
+\caption{Psuedocode}\label{euclid}
+\begin{algorithmic}[1]
+\Procedure{Scan for iBeacons}{}
+\If {iBeacons found}
+\BState \emph{loop}: 
+\State 	acquire RSSI info of beacon 
+\State 	calculate and display distance of beacon
+\State	query beacon parameters with server database
+
+\If {data exists}
+	\State fetch and display data
+	\State $counter \gets counter+1$.
+	\State \textbf{goto} \emph{loop}.
+\EndIf
+
+\State \textbf{goto} \textbf{procedure}.
+\EndIf
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
 \section{Designing the User Experience}
 \label{ux}
 \paragraph{} Applying UI Design principles and guidelines are very important for developing a mobile-based learning application. By observing user interface design principles and implementing them in the development process, it can be helpful for users to improve usability and grasp critical information as displayed in the application. 
@@ -649,11 +703,77 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 	\label{fig:feedback}
 \end{figure} 
 
-       
-    
-    
 
+\section{Evaluation experiment}
+\label{evaluation}
 
+\paragraph{}As an evaluation experiment of this system, the multilingual digital signage constructed in this study was placed in the library of the university campus, and the students, including foreign students were handed out smartphones running the mobile application and were asked to use the multilingual digital signage system.
+
+\paragraph{}For evaluation, different signages with information from the library office was displayed in Spanish language. After the use of the system, 20 students that include 10 American students and 10 international/foreign students were asked to answer a questionnaire and an interview. This is to simulate the 'foreign-visitor' environment. This is important for our study because foreign visitors are our primary users.
+
+\subsection{Questionnaire}
+
+\paragraph{}We developed the below questionnaire to evaluate the system. The subjects were asked to answer the questions using the five grade system. 
+
+\paragraph{}1. Have you faced the problems of not understanding signages when visiting foreign countries?
+\begin{itemize}
+	\item Strongly agree
+	\item Agree
+	\item Neither agree or disagree
+	\item Disagree
+	\item Strongly disagree
+\end{itemize}
+
+\paragraph{}
+
+\paragraph{}2. Do you think this system solves the language problem?
+\begin{itemize}
+	\item Strongly agree
+	\item Agree
+	\item Neither agree or disagree
+	\item Disagree
+	\item Strongly disagree
+\end{itemize}
+\paragraph{}
+
+\paragraph{}3. Do you feel the application is easy to use?
+\begin{itemize}
+	\item Strongly agree
+	\item Agree
+	\item Neither agree or disagree
+	\item Disagree
+	\item Strongly disagree
+\end{itemize}
+\paragraph{}
+
+\paragraph{}4. Would you like to use this application in the future?
+\begin{itemize}
+	\item Strongly agree
+	\item Agree
+	\item Neither agree or disagree
+	\item Disagree
+	\item Strongly disagree
+\end{itemize}
+
+\paragraph{}
+\paragraph{}5. Would you recommend this application to your friends?
+\begin{itemize}
+	\item Strongly agree
+	\item Agree
+	\item Neither agree or disagree
+	\item Disagree
+	\item Strongly disagree
+\end{itemize}
+
+\subsection{Survey Results}
+
+\textbf{Insert Pie chart here}
+
+\paragraph{}From the results, the percentages of the answers of “strongly agree” and “agree” were 90\% in both questions. For details, the percentages of the answers of the foreign students and Japanese students were 100\% and 80\% respectively. It is thought that this is caused by the difference of consciousness against the mechanism that the native language of the user is known by the system.
+
+\paragraph{}Figure 10 shows the result for the question of “Do you feel resistance for the possibility that the native language is known by the system?”. This result indicates that the Japanese students feels more resistance than the foreign students. In addition, from the interview to the subjects, we understood that the Japanese students often feel resistance for the possibility that the nationality is known by other people when they go to the foreign countries, but most of the foreign students have actually experienced some trouble caused by the language in Japan. From these results, we confirmed the effectiveness of the multilingual digital signage that was developed in this study.
+
+\paragraph{}This system can be used to provide the customized information effectively by using the short distance communication between the individual device of the smart phone and the digital signage that is placed in the public space [10]. Therefore, this technology can be used not only to transmit the language information but also to transmit the user's attribute information, so that the digital signage using this method can be used to display several information such as the customized advertisement or the healthcare information 
 
 \section{Conclusion and future work}
 \label{sect-conclusion}

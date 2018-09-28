@@ -4,52 +4,52 @@ The top-level auxiliary file: thesis-template.aux
 The style file: plain.bst
 Database file #1: references.bib
 Warning--entry type for "firebase" isn't style-file defined
---line 21 of file references.bib
+--line 31 of file references.bib
 Warning--entry type for "rest" isn't style-file defined
---line 29 of file references.bib
+--line 39 of file references.bib
 Too many commas in name 1 of "Davide Mulfari, Antonio Celesti, Maria Fazio, Massimo Villari and Antonio Puliafito" for entry vision
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Davide Mulfari, Antonio Celesti, Maria Fazio, Massimo Villari and Antonio Puliafito" for entry vision
 while executing---line 1090 of file plain.bst
-You've used 12 entries,
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            562 strings with 6056 characters,
-and the built_in function-call counts, 4708 in all, are:
-= -- 454
-> -- 162
-< -- 11
-+ -- 66
-- -- 52
-* -- 270
-:= -- 681
-add.period$ -- 34
-call.type$ -- 12
-change.case$ -- 62
+            574 strings with 6494 characters,
+and the built_in function-call counts, 5464 in all, are:
+= -- 529
+> -- 187
+< -- 12
++ -- 76
+- -- 60
+* -- 318
+:= -- 795
+add.period$ -- 40
+call.type$ -- 14
+change.case$ -- 72
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 226
-empty$ -- 419
-format.name$ -- 52
-if$ -- 1088
+cite$ -- 14
+duplicate$ -- 260
+empty$ -- 486
+format.name$ -- 60
+if$ -- 1259
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 10
-newline$ -- 61
-num.names$ -- 24
-pop$ -- 92
+int.to.str$ -- 14
+missing$ -- 12
+newline$ -- 71
+num.names$ -- 28
+pop$ -- 103
 preamble$ -- 1
-purify$ -- 50
+purify$ -- 58
 quote$ -- 0
-skip$ -- 208
+skip$ -- 235
 stack$ -- 0
-substring$ -- 306
-swap$ -- 101
-text.length$ -- 11
+substring$ -- 365
+swap$ -- 113
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
+type$ -- 56
 warning$ -- 0
-while$ -- 42
-width$ -- 14
-write$ -- 127
+while$ -- 49
+width$ -- 16
+write$ -- 149
 (There were 2 error messages)

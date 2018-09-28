@@ -17,6 +17,12 @@ Xiangqian Fu.
 \newblock In {\em 2010 IEEE 11th International Conference on Computer-Aided
   Industrial Design Conceptual Design 1}, volume~1, pages 697--701, Nov 2010.
 
+\bibitem{zoo}
+Anja~Schmidt Gudrun~Gorlitz.
+\newblock Digital signage: Informal learning in animal parks and zoos.
+\newblock {\em World Conference on E-Learning in Corporate Government
+  Healthcare and Higher Education 2008}, pp. 841-846:841--846, 2008.
+
 \bibitem{taiwan}
 Y.~Jeng, M.~Hong, and H.~Lu.
 \newblock The development of the mobile situated learning application based on
@@ -72,5 +78,12 @@ S.~Sonth and J.~S. Kallimani.
 Wikipedia.
 \newblock Representational state transfer (rest) -
   https://en.wikipedia.org/wiki/.
+
+\bibitem{room}
+Yang Yang, Zhouchi Li, and K.~Pahlavan.
+\newblock Using ibeacon for intelligent in-room presence detection.
+\newblock In {\em 2016 IEEE International Multi-Disciplinary Conference on
+  Cognitive Methods in Situation Awareness and Decision Support (CogSIMA)},
+  pages 187--191, March 2016.
 
 \end{thebibliography}
