@@ -218,8 +218,8 @@ We convert this image to a base64 encoded string using Javascript and specify in
 \paragraph{}We use javascript to interact with Google Translation API as follows:
 
 \begin{lstlisting}
-    fetch(`https://translation.googleapis.com/language/translate/v2
-    ?key='API_KEY_HERE', {
+    fetch(`https://translation.googleapis.com/language/
+    translate/v2?key='API_KEY_HERE', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -232,7 +232,7 @@ We convert this image to a base64 encoded string using Javascript and specify in
     })
     .then(data => data.json())
     .then(res => this.cleanText(res))
-    .catch(err => console.log(err))
+    .catch(err => 	`(err))
   }
 \end{lstlisting}
 
@@ -333,6 +333,132 @@ To discover the beacons from the smartphone, we have designed and developed a mo
       \item \textbf{Xcode:} To build and run the application on the iOS device, we need an Integrated Development Environment (IDE). Xcode is an IDE that can be used to run the developed mobile application on the iOS device.
       
  \end{itemize}
+ 
+ 
+ \subsubsection{Screenshots}
+ 
+
+ \begin{figure} [H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/1.jpg}
+  \caption{Home page}{Camera and digital signages around}
+  \label{fig:landing}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/2.PNG}
+  \caption{Text extraction} {Text extracted from the  picture}
+  \label{fig:ocr}
+\end{minipage}
+\end{figure}
+
+\paragraph{}The above figures show the screenshots of the mobile application. Figure \ref{fig:landing} shows the Landing screen of the application. The user sees this screen on opening the application. The Home page has the following functionalities: 
+
+\begin{itemize}
+	\item Capture image of a physical signage
+	\item Scan for digital signages around. If found, display the image, title and the distance of the digital signage from the user.
+	\item The user can also upload an image form camera roll of the smartphone and extract text from it. 
+	\item The user can choose to type a text and convert it into any language
+\end{itemize}
+
+
+\paragraph{}Figure \ref{fig:ocr} shows the text extracted from the image captured on figure \ref{fig:landing}. This screen is presented to the user right after capturing an image of a physical signage. We convert the captured image into Base64 string and pass it to Google Cloud Vision using REST and extract the text from the image. The screen on  \ref{fig:ocr} has the below functionalities: 
+
+\begin{itemize}
+	\item Display the extracted text from the image
+	\item The user can choose to translate the extracted text to any of the supported language. 
+\end{itemize}
+
+
+
+ \begin{figure} [H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/3.PNG}
+  \caption{Translation}{Extracted text translated to Spanish}
+  \label{fig:translated}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/4.PNG}
+  \caption{Share text feature}{Options to share the translated text}
+  \label{fig:share}
+\end{minipage}
+\end{figure}
+
+\paragraph{}Figure \ref{fig:translated} shows the text translated into Spanish. This is the same text extracted from figure \ref{fig:landing}. The extracted text is shown on \ref{fig:ocr}. This screen is presented to the user after the user chooses a language and taps on the 'GO' button. We listen to the event, capture the language selected and send a request to Google Translation API using web-services. The screen on figure \ref{fig:translated} has the below functionalities:
+
+\begin{itemize}
+	\item Display the translated text in user's preferred language.
+	\item Share the translated text using Share button.
+	\item Capture another image of a physical signage.
+	\item Go back to landing page.
+\end{itemize}
+
+\paragraph{}We strongly feel that there should be an option to share the translated text in any form. Figure \ref{fig:share} shows the Share feature we integrated so the user can record the translated text and share them with friends and family who might need the information. In our system, the user can choose from the multiple options to share the translated text with. The default options of the iOS include e-mail application, messaging application, notes application etc. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{media/5.PNG}
+	\caption{Type and translate text feature}
+	\label{fig:type}
+\end{figure} 
+
+\paragraph{} Since our primary users of our application are foreign visitors, we feel there is a strong need for them to communicate day-to-day for critical information in their native language. To achieve this in our system, we implemented a 'type and translate' feature. Figure \ref{fig:type} shows the screenshot of the 'type and translate' feature. The user can type in text in any language and choose to convert it into any of the supported languages. 
+
+
+ \begin{figure} [H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/beacon.PNG}
+  \caption{Digital Signage}{Details about the signage}
+  \label{fig:beaconDetails}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/beacon2.PNG}
+  \caption{Translate feature}{Translate text to other languages}
+  \label{fig:beaconTranslate}
+\end{minipage}
+\end{figure}
+
+
+\paragraph{}Figure \ref{fig:beaconDetails} shows more details of the digital signages which are listed on the landing page shown in \ref{fig:landing}. The user lands on this screen after tapping on any of the digital signage thumbnail. When the user taps on a particular signage, the system screen fetches the pre-configured information and media from the database and displays them on this screen. This screen displays the image of the signage, the title and the description of the signage in English. This component  has the below functionalities:
+
+\begin{itemize}
+	\item Fetch and display the appropriate data (media, title and description) from the database.
+	\item Provide the user with the option of translating the information into supported languages.
+\end{itemize}
+
+\paragraph{}Figure \ref{fig:beaconTranslate} is shown when the user taps on 'Translate' button from figure \ref{fig:beaconDetails}. The information of the digital signage is passed to this screen. Now, the user can translate the text into any supported language. This component is capable of the below functionalities:
+
+\begin{itemize}
+	\item Display the beacon information.
+	\item Provide the user with the option of translating the information into supported languages.
+\end{itemize}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{media/beacon3.PNG}
+	\caption{Text translated to Spanish language}
+	\label{fig:beaconSpanish}
+\end{figure} 
+
+\paragraph{}Figure \ref{fig:beaconSpanish} is shown when the user selects a language and taps on 'Go' button from figure \ref{fig:beaconTranslate}. The information of the digital signage is passed to this screen. Now, the user can translate the text into any supported language. This component is capable of the below functionalities:
+
+\begin{itemize}
+	\item Display the translated text in user's preferred language.
+	\item Share the translated information.
+	\item Go back to landing page.
+\end{itemize}
+
+
+
 
 \subsection{REST API Integration}
 \paragraph{} The mobile application developed communicates with the web-services such as Google Cloud Vision and Google Translation using Representational State Transfer (REST).  REST is an 
@@ -483,6 +609,16 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
     
     \paragraph{} In the mobile application developed, the UI of the Landing page (shown on opening the application) is divided into 2 sections. About 3/4th of the screen shows the camera view, which means the application is ready to capture a picture of printed signages and extract text from it using Google Cloud Vision. The rest of the screen shows the nearby digital signages. The application also shows the distance between the digital signage and the user.
     
+    
+    \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{media/1a.PNG}
+	\caption{Affordance design principle}
+	\label{fig:affordance}
+\end{figure} 
+
+    
+    
      \subsubsection{Visibility}
      \paragraph{}The usability is improved when its status and methods of use are clearly visible. The more visible functions are, the more likely users will be able to know what to do next.\cite{norman} In contrast, when functions are 'out of sight,' it makes them more difficult to find and know how to use.
      
@@ -505,6 +641,14 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
        \paragraph{}Feedback is about sending back information about what action has been done and what has been accomplished, allowing the person to continue with the activity \cite{norman}. This helps the user to understand there is a background process running and at the same time, the user is constrained from starting another process or quitting the current process. 
        
        \paragraph{}In the application developed, the user is shown 'loading' icon when a background process is running, for example, when an image is being uploaded through web-services. This helps the user understand that there is a process running in the background and also helps the user to understand the application better. Also, appropriate error messages are shown at the appropriate places to help user understand about the action being carried out \cite{norman}.
+       
+       \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{media/loading1.PNG}
+	\caption{Feedback}
+	\label{fig:feedback}
+\end{figure} 
+
        
     
     

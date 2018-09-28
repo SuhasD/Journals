@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 SEP 2018 13:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 SEP 2018 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -543,7 +543,14 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 \c@alg=\count145
 \c@thrm=\count146
 )
-(./thesis-template.aux)
+(./thesis-template.aux
+
+LaTeX Warning: Label `fig:db' multiply defined.
+
+
+LaTeX Warning: Label `fig:db' multiply defined.
+
+)
 \openout1 = `thesis-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -560,8 +567,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count147
 \scratchdimen=\dimen167
@@ -642,7 +648,7 @@ with the same identifier (name{page.}) has been already used, duplicate ignored
                    \relax 
 l.25 \newpage
               [2]
-<media/distribution-license.pdf, id=178, 614.295pt x 794.97pt>
+<media/distribution-license.pdf, id=182, 614.295pt x 794.97pt>
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf>
 Package pdftex.def Info: media/distribution-license.pdf  used on input line 27.
@@ -653,7 +659,7 @@ File: media/distribution-license.pdf Graphic file (type pdf)
 Package pdftex.def Info: media/distribution-license.pdf  used on input line 27.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<media/distribution-license.pdf, id=181, page=1, 614.295pt x 794.97pt>
+<media/distribution-license.pdf, id=185, page=1, 614.295pt x 794.97pt>
 File: media/distribution-license.pdf Graphic file (type pdf)
 <use media/distribution-license.pdf, page 1>
 Package pdftex.def Info: media/distribution-license.pdf , page1 used on input l
@@ -760,7 +766,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 [8
 
 ] [9]
-<media/VISION_API.png, id=355, 307.1475pt x 523.9575pt>
+<media/VISION_API.png, id=380, 307.1475pt x 523.9575pt>
 File: media/VISION_API.png Graphic file (type png)
 <use media/VISION_API.png>
 Package pdftex.def Info: media/VISION_API.png  used on input line 152.
@@ -768,26 +774,21 @@ Package pdftex.def Info: media/VISION_API.png  used on input line 152.
  [10
 
 ] [11 <./media/VISION_API.png>]
-<media/request_sample.png, id=372, 714.67pt x 578.16pt>
+<media/request_sample.png, id=397, 714.67pt x 578.16pt>
 File: media/request_sample.png Graphic file (type png)
 <use media/request_sample.png>
 Package pdftex.def Info: media/request_sample.png  used on input line 163.
 (pdftex.def)             Requested size: 390.0pt x 315.51pt.
  [12 <./media/request_sample.png>]
 [13]
-<media/Translate.png, id=407, 169.1118pt x 324.0105pt>
+<media/Translate.png, id=432, 169.1118pt x 324.0105pt>
 File: media/Translate.png Graphic file (type png)
 <use media/Translate.png>
 Package pdftex.def Info: media/Translate.png  used on input line 209.
 (pdftex.def)             Requested size: 195.0pt x 373.61281pt.
  [14
 
-]
-Overfull \hbox (82.34918pt too wide) in paragraph at lines 221--222
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-[15 <./media/Translate.png>]
+] [15 <./media/Translate.png>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 233.
 
 
@@ -797,7 +798,7 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 233.
  [16]
-<media/Architecture-3.png, id=457, 682.4697pt x 549.0111pt>
+<media/Architecture-3.png, id=482, 682.4697pt x 549.0111pt>
 File: media/Architecture-3.png Graphic file (type png)
 <use media/Architecture-3.png>
 Package pdftex.def Info: media/Architecture-3.png  used on input line 268.
@@ -805,27 +806,85 @@ Package pdftex.def Info: media/Architecture-3.png  used on input line 268.
  [17
 
 ]
-[18 <./media/Architecture-3.png>] [19] [20] [21]
-<media/db.png, id=512, 973.6375pt x 368.37625pt>
+[18 <./media/Architecture-3.png>] [19] [20]
+<media/1.jpg, id=526, 752.8125pt x 1339.0025pt>
+File: media/1.jpg Graphic file (type jpg)
+<use media/1.jpg>
+Package pdftex.def Info: media/1.jpg  used on input line 345.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+<media/2.PNG, id=527, 752.8125pt x 1339.0025pt>
+File: media/2.PNG Graphic file (type png)
+<use media/2.PNG>
+Package pdftex.def Info: media/2.PNG  used on input line 351.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+ [21] [22 <./media/1.jpg> <./media/2.PNG>]
+<media/3.PNG, id=542, 752.8125pt x 1339.0025pt>
+File: media/3.PNG Graphic file (type png)
+<use media/3.PNG>
+Package pdftex.def Info: media/3.PNG  used on input line 380.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+<media/4.PNG, id=543, 752.8125pt x 1339.0025pt>
+File: media/4.PNG Graphic file (type png)
+<use media/4.PNG>
+Package pdftex.def Info: media/4.PNG  used on input line 386.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+ [23 <./media/3.PNG> <./media/4.PNG>]
+<media/5.PNG, id=555, 752.8125pt x 1339.0025pt>
+File: media/5.PNG Graphic file (type png)
+<use media/5.PNG>
+Package pdftex.def Info: media/5.PNG  used on input line 405.
+(pdftex.def)             Requested size: 195.0pt x 346.84526pt.
+ [24]
+<media/beacon.PNG, id=563, 752.8125pt x 1339.0025pt>
+File: media/beacon.PNG Graphic file (type png)
+<use media/beacon.PNG>
+Package pdftex.def Info: media/beacon.PNG  used on input line 417.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+<media/beacon2.PNG, id=564, 752.8125pt x 1339.0025pt>
+File: media/beacon2.PNG Graphic file (type png)
+<use media/beacon2.PNG>
+Package pdftex.def Info: media/beacon2.PNG  used on input line 423.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+ [25 <./media/5.PNG>] [26 <./media/beacon.PNG> <./media/beacon2.PNG>]
+<media/beacon3.PNG, id=579, 752.8125pt x 1339.0025pt>
+File: media/beacon3.PNG Graphic file (type png)
+<use media/beacon3.PNG>
+Package pdftex.def Info: media/beacon3.PNG  used on input line 447.
+(pdftex.def)             Requested size: 195.0pt x 346.84526pt.
+ [27 <./media/beacon3.PNG>]
+<media/db.png, id=592, 973.6375pt x 368.37625pt>
 File: media/db.png Graphic file (type png)
 <use media/db.png>
-Package pdftex.def Info: media/db.png  used on input line 349.
+Package pdftex.def Info: media/db.png  used on input line 475.
 (pdftex.def)             Requested size: 390.0pt x 147.55585pt.
- [22 <./media/db.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--368
+Underfull \hbox (badness 10000) in paragraph at lines 491--494
 
  []
 
-[23] [24
+[29 <./media/db.png>] [30] [31
 
-] [25] [26] [27] [28] [29] [30
+] [32] [33]
+<media/1a.PNG, id=638, 752.8125pt x 1339.0025pt>
+File: media/1a.PNG Graphic file (type png)
+<use media/1a.PNG>
+Package pdftex.def Info: media/1a.PNG  used on input line 615.
+(pdftex.def)             Requested size: 195.0pt x 346.84526pt.
+ [34] [35 <./media/1a.PNG>] [36]
+<media/loading1.PNG, id=669, 752.8125pt x 1339.0025pt>
+File: media/loading1.PNG Graphic file (type png)
+<use media/loading1.PNG>
+Package pdftex.def Info: media/loading1.PNG  used on input line 647.
+(pdftex.def)             Requested size: 195.0pt x 346.84526pt.
 
-] (./thesis-template.bbl [31
+[37 <./media/loading1.PNG>] [38
+
+] (./thesis-template.bbl [39
 
 
 ]
@@ -834,21 +893,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--75
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
- [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 668.
+ [40]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 668.
  (./thesis-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 668.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 668.
 Package rerunfilecheck Info: File `thesis-template.out' has not changed.
-(rerunfilecheck)             Checksum: 89D81B928C9395B1EAC3CD3A2B679477;2656.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 524.
+(rerunfilecheck)             Checksum: F2A1990653D908E6953249D96AB1926D;2727.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 668.
  ) 
 Here is how much of TeX's memory you used:
- 12512 strings out of 492649
- 173522 string characters out of 6129622
- 320115 words of memory out of 5000000
- 15910 multiletter control sequences out of 15000+600000
+ 12602 strings out of 492649
+ 174769 string characters out of 6129622
+ 320490 words of memory out of 5000000
+ 15961 multiletter control sequences out of 15000+600000
  15443 words of font info for 66 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  44i,18n,43p,3264b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -863,10 +926,10 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis-template.pdf (40 pages, 1144402 bytes).
+Output written on thesis-template.pdf (48 pages, 7142268 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
- 610 compressed objects within 7 object streams
- 217 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 780 PDF objects out of 1000 (max. 8388607)
+ 688 compressed objects within 7 object streams
+ 244 named destinations out of 1000 (max. 500000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
 

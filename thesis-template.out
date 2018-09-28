@@ -23,18 +23,19 @@
 \BOOKMARK [3][-]{subsubsection.6.2.1}{Background Monitoring}{subsection.6.2}% 23
 \BOOKMARK [3][-]{subsubsection.6.2.2}{Beacon Ranging}{subsection.6.2}% 24
 \BOOKMARK [3][-]{subsubsection.6.2.3}{Development stack}{subsection.6.2}% 25
-\BOOKMARK [2][-]{subsection.6.3}{REST API Integration}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.4}{Database}{section.6}% 27
-\BOOKMARK [1][-]{section.7}{Designing the User Experience}{}% 28
-\BOOKMARK [2][-]{subsection.7.1}{User Analysis}{section.7}% 29
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Example Persona}{subsection.7.1}% 30
-\BOOKMARK [2][-]{subsection.7.2}{Task Analysis}{section.7}% 31
-\BOOKMARK [2][-]{subsection.7.3}{Context Analysis}{section.7}% 32
-\BOOKMARK [2][-]{subsection.7.4}{Design Principles}{section.7}% 33
-\BOOKMARK [3][-]{subsubsection.7.4.1}{Affordance}{subsection.7.4}% 34
-\BOOKMARK [3][-]{subsubsection.7.4.2}{Visibility}{subsection.7.4}% 35
-\BOOKMARK [3][-]{subsubsection.7.4.3}{Constraint}{subsection.7.4}% 36
-\BOOKMARK [3][-]{subsubsection.7.4.4}{Consistency}{subsection.7.4}% 37
-\BOOKMARK [3][-]{subsubsection.7.4.5}{Feedback}{subsection.7.4}% 38
-\BOOKMARK [1][-]{section.8}{Conclusion and future work}{}% 39
-\BOOKMARK [1][-]{section*.63}{References}{}% 40
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Screenshots}{subsection.6.2}% 26
+\BOOKMARK [2][-]{subsection.6.3}{REST API Integration}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.4}{Database}{section.6}% 28
+\BOOKMARK [1][-]{section.7}{Designing the User Experience}{}% 29
+\BOOKMARK [2][-]{subsection.7.1}{User Analysis}{section.7}% 30
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Example Persona}{subsection.7.1}% 31
+\BOOKMARK [2][-]{subsection.7.2}{Task Analysis}{section.7}% 32
+\BOOKMARK [2][-]{subsection.7.3}{Context Analysis}{section.7}% 33
+\BOOKMARK [2][-]{subsection.7.4}{Design Principles}{section.7}% 34
+\BOOKMARK [3][-]{subsubsection.7.4.1}{Affordance}{subsection.7.4}% 35
+\BOOKMARK [3][-]{subsubsection.7.4.2}{Visibility}{subsection.7.4}% 36
+\BOOKMARK [3][-]{subsubsection.7.4.3}{Constraint}{subsection.7.4}% 37
+\BOOKMARK [3][-]{subsubsection.7.4.4}{Consistency}{subsection.7.4}% 38
+\BOOKMARK [3][-]{subsubsection.7.4.5}{Feedback}{subsection.7.4}% 39
+\BOOKMARK [1][-]{section.8}{Conclusion and future work}{}% 40
+\BOOKMARK [1][-]{section*.71}{References}{}% 41
