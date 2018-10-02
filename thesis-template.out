@@ -15,18 +15,18 @@
 \BOOKMARK [1][-]{section.5}{Google Cloud Translation API}{}% 15
 \BOOKMARK [2][-]{subsection.5.1}{Sample Request}{section.5}% 16
 \BOOKMARK [2][-]{subsection.5.2}{Sample Response}{section.5}% 17
-\BOOKMARK [1][-]{section.6}{System Construction}{}% 18
-\BOOKMARK [2][-]{subsection.6.1}{Environment}{section.6}% 19
-\BOOKMARK [3][-]{subsubsection.6.1.1}{Digital Signages}{subsection.6.1}% 20
-\BOOKMARK [3][-]{subsubsection.6.1.2}{Printed Signages}{subsection.6.1}% 21
-\BOOKMARK [2][-]{subsection.6.2}{Mobile application}{section.6}% 22
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Background Monitoring}{subsection.6.2}% 23
-\BOOKMARK [3][-]{subsubsection.6.2.2}{Beacon Ranging}{subsection.6.2}% 24
-\BOOKMARK [3][-]{subsubsection.6.2.3}{Development stack}{subsection.6.2}% 25
-\BOOKMARK [3][-]{subsubsection.6.2.4}{Screenshots}{subsection.6.2}% 26
-\BOOKMARK [2][-]{subsection.6.3}{REST API Integration}{section.6}% 27
-\BOOKMARK [2][-]{subsection.6.4}{Database}{section.6}% 28
-\BOOKMARK [1][-]{section.7}{Pseudo-code}{}% 29
+\BOOKMARK [1][-]{section.6}{Algorithm}{}% 18
+\BOOKMARK [1][-]{section.7}{Proposed System}{}% 19
+\BOOKMARK [2][-]{subsection.7.1}{Environment}{section.7}% 20
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Digital Signages}{subsection.7.1}% 21
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Printed Signages}{subsection.7.1}% 22
+\BOOKMARK [2][-]{subsection.7.2}{Mobile application}{section.7}% 23
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Background Monitoring}{subsection.7.2}% 24
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Beacon Ranging}{subsection.7.2}% 25
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Development stack}{subsection.7.2}% 26
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Screenshots}{subsection.7.2}% 27
+\BOOKMARK [2][-]{subsection.7.3}{REST API Integration}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.4}{Database}{section.7}% 29
 \BOOKMARK [1][-]{section.8}{Designing the User Experience}{}% 30
 \BOOKMARK [2][-]{subsection.8.1}{User Analysis}{section.8}% 31
 \BOOKMARK [3][-]{subsubsection.8.1.1}{Example Persona}{subsection.8.1}% 32
@@ -38,8 +38,10 @@
 \BOOKMARK [3][-]{subsubsection.8.4.3}{Constraint}{subsection.8.4}% 38
 \BOOKMARK [3][-]{subsubsection.8.4.4}{Consistency}{subsection.8.4}% 39
 \BOOKMARK [3][-]{subsubsection.8.4.5}{Feedback}{subsection.8.4}% 40
-\BOOKMARK [1][-]{section.9}{Evaluation experiment}{}% 41
+\BOOKMARK [1][-]{section.9}{Case study}{}% 41
 \BOOKMARK [2][-]{subsection.9.1}{Questionnaire}{section.9}% 42
 \BOOKMARK [2][-]{subsection.9.2}{Survey Results}{section.9}% 43
-\BOOKMARK [1][-]{section.10}{Conclusion and future work}{}% 44
-\BOOKMARK [1][-]{section*.86}{References}{}% 45
+\BOOKMARK [2][-]{subsection.9.3}{Testing environment}{section.9}% 44
+\BOOKMARK [1][-]{section.10}{Conclusion}{}% 45
+\BOOKMARK [2][-]{subsubsection.10.0.1}{Future work}{section.10}% 46
+\BOOKMARK [1][-]{section*.91}{References}{}% 47

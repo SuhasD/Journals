@@ -46,85 +46,92 @@
 \contentsline {paragraph}{}{15}{paragraph*.30}
 \contentsline {subsection}{\numberline {5.2}Sample Response}{16}{subsection.5.2}
 \contentsline {paragraph}{}{16}{paragraph*.31}
-\contentsline {section}{\numberline {6}System Construction}{17}{section.6}
+\contentsline {section}{\numberline {6}Algorithm}{17}{section.6}
 \contentsline {paragraph}{}{17}{paragraph*.32}
 \contentsline {paragraph}{}{17}{paragraph*.33}
 \contentsline {paragraph}{}{17}{paragraph*.34}
-\contentsline {subsection}{\numberline {6.1}Environment}{18}{subsection.6.1}
-\contentsline {paragraph}{}{18}{paragraph*.35}
-\contentsline {subsubsection}{\numberline {6.1.1}Digital Signages}{18}{subsubsection.6.1.1}
-\contentsline {paragraph}{}{18}{paragraph*.36}
-\contentsline {subsubsection}{\numberline {6.1.2}Printed Signages}{19}{subsubsection.6.1.2}
+\contentsline {section}{\numberline {7}Proposed System}{19}{section.7}
+\contentsline {paragraph}{}{19}{paragraph*.35}
+\contentsline {paragraph}{}{19}{paragraph*.36}
 \contentsline {paragraph}{}{19}{paragraph*.37}
-\contentsline {subsection}{\numberline {6.2}Mobile application}{19}{subsection.6.2}
-\contentsline {paragraph}{}{19}{paragraph*.38}
-\contentsline {subsubsection}{\numberline {6.2.1}Background Monitoring}{20}{subsubsection.6.2.1}
+\contentsline {subsection}{\numberline {7.1}Environment}{20}{subsection.7.1}
+\contentsline {paragraph}{}{20}{paragraph*.38}
+\contentsline {subsubsection}{\numberline {7.1.1}Digital Signages}{20}{subsubsection.7.1.1}
 \contentsline {paragraph}{}{20}{paragraph*.39}
-\contentsline {subsubsection}{\numberline {6.2.2}Beacon Ranging}{20}{subsubsection.6.2.2}
-\contentsline {paragraph}{}{20}{paragraph*.40}
-\contentsline {subsubsection}{\numberline {6.2.3}Development stack}{20}{subsubsection.6.2.3}
-\contentsline {paragraph}{}{20}{paragraph*.41}
-\contentsline {subsubsection}{\numberline {6.2.4}Screenshots}{22}{subsubsection.6.2.4}
+\contentsline {subsubsection}{\numberline {7.1.2}Printed Signages}{21}{subsubsection.7.1.2}
+\contentsline {paragraph}{}{21}{paragraph*.40}
+\contentsline {subsection}{\numberline {7.2}Mobile application}{21}{subsection.7.2}
+\contentsline {paragraph}{}{21}{paragraph*.41}
+\contentsline {subsubsection}{\numberline {7.2.1}Background Monitoring}{22}{subsubsection.7.2.1}
 \contentsline {paragraph}{}{22}{paragraph*.42}
-\contentsline {paragraph}{}{23}{paragraph*.43}
-\contentsline {paragraph}{}{24}{paragraph*.44}
+\contentsline {subsubsection}{\numberline {7.2.2}Beacon Ranging}{22}{subsubsection.7.2.2}
+\contentsline {paragraph}{}{22}{paragraph*.43}
+\contentsline {subsubsection}{\numberline {7.2.3}Development stack}{22}{subsubsection.7.2.3}
+\contentsline {paragraph}{}{22}{paragraph*.44}
+\contentsline {subsubsection}{\numberline {7.2.4}Screenshots}{24}{subsubsection.7.2.4}
 \contentsline {paragraph}{}{24}{paragraph*.45}
 \contentsline {paragraph}{}{25}{paragraph*.46}
 \contentsline {paragraph}{}{26}{paragraph*.47}
-\contentsline {paragraph}{}{27}{paragraph*.48}
-\contentsline {paragraph}{}{28}{paragraph*.49}
-\contentsline {subsection}{\numberline {6.3}REST API Integration}{28}{subsection.6.3}
+\contentsline {paragraph}{}{26}{paragraph*.48}
+\contentsline {paragraph}{}{27}{paragraph*.49}
 \contentsline {paragraph}{}{28}{paragraph*.50}
-\contentsline {paragraph}{}{28}{paragraph*.51}
-\contentsline {subsection}{\numberline {6.4}Database}{28}{subsection.6.4}
-\contentsline {paragraph}{}{28}{paragraph*.52}
-\contentsline {paragraph}{}{29}{paragraph*.53}
-\contentsline {section}{\numberline {7}Pseudo-code}{31}{section.7}
-\contentsline {section}{\numberline {8}Designing the User Experience}{32}{section.8}
-\contentsline {paragraph}{}{32}{paragraph*.54}
-\contentsline {paragraph}{}{32}{paragraph*.55}
-\contentsline {paragraph}{}{33}{paragraph*.56}
-\contentsline {subsection}{\numberline {8.1}User Analysis}{33}{subsection.8.1}
-\contentsline {subsubsection}{\numberline {8.1.1}Example Persona}{33}{subsubsection.8.1.1}
+\contentsline {paragraph}{}{29}{paragraph*.51}
+\contentsline {paragraph}{}{30}{paragraph*.52}
+\contentsline {subsection}{\numberline {7.3}REST API Integration}{30}{subsection.7.3}
+\contentsline {paragraph}{}{30}{paragraph*.53}
+\contentsline {paragraph}{}{30}{paragraph*.54}
+\contentsline {subsection}{\numberline {7.4}Database}{30}{subsection.7.4}
+\contentsline {paragraph}{}{30}{paragraph*.55}
+\contentsline {paragraph}{}{31}{paragraph*.56}
+\contentsline {section}{\numberline {8}Designing the User Experience}{33}{section.8}
 \contentsline {paragraph}{}{33}{paragraph*.57}
-\contentsline {paragraph}{}{34}{paragraph*.58}
+\contentsline {paragraph}{}{33}{paragraph*.58}
 \contentsline {paragraph}{}{34}{paragraph*.59}
-\contentsline {subsection}{\numberline {8.2}Task Analysis}{34}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.1}User Analysis}{34}{subsection.8.1}
+\contentsline {subsubsection}{\numberline {8.1.1}Example Persona}{34}{subsubsection.8.1.1}
 \contentsline {paragraph}{}{34}{paragraph*.60}
-\contentsline {subsection}{\numberline {8.3}Context Analysis}{35}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}Design Principles}{35}{subsection.8.4}
-\contentsline {subsubsection}{\numberline {8.4.1}Affordance}{35}{subsubsection.8.4.1}
 \contentsline {paragraph}{}{35}{paragraph*.61}
 \contentsline {paragraph}{}{35}{paragraph*.62}
-\contentsline {subsubsection}{\numberline {8.4.2}Visibility}{36}{subsubsection.8.4.2}
-\contentsline {paragraph}{}{36}{paragraph*.63}
+\contentsline {subsection}{\numberline {8.2}Task Analysis}{35}{subsection.8.2}
+\contentsline {paragraph}{}{35}{paragraph*.63}
+\contentsline {subsection}{\numberline {8.3}Context Analysis}{36}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Design Principles}{36}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Affordance}{36}{subsubsection.8.4.1}
 \contentsline {paragraph}{}{36}{paragraph*.64}
-\contentsline {subsubsection}{\numberline {8.4.3}Constraint}{37}{subsubsection.8.4.3}
-\contentsline {paragraph}{}{37}{paragraph*.65}
+\contentsline {paragraph}{}{36}{paragraph*.65}
+\contentsline {subsubsection}{\numberline {8.4.2}Visibility}{37}{subsubsection.8.4.2}
 \contentsline {paragraph}{}{37}{paragraph*.66}
-\contentsline {subsubsection}{\numberline {8.4.4}Consistency}{37}{subsubsection.8.4.4}
 \contentsline {paragraph}{}{37}{paragraph*.67}
-\contentsline {paragraph}{}{37}{paragraph*.68}
-\contentsline {subsubsection}{\numberline {8.4.5}Feedback}{37}{subsubsection.8.4.5}
-\contentsline {paragraph}{}{37}{paragraph*.69}
+\contentsline {subsubsection}{\numberline {8.4.3}Constraint}{38}{subsubsection.8.4.3}
+\contentsline {paragraph}{}{38}{paragraph*.68}
+\contentsline {paragraph}{}{38}{paragraph*.69}
+\contentsline {subsubsection}{\numberline {8.4.4}Consistency}{38}{subsubsection.8.4.4}
 \contentsline {paragraph}{}{38}{paragraph*.70}
-\contentsline {section}{\numberline {9}Evaluation experiment}{39}{section.9}
-\contentsline {paragraph}{}{39}{paragraph*.71}
-\contentsline {paragraph}{}{39}{paragraph*.72}
-\contentsline {subsection}{\numberline {9.1}Questionnaire}{39}{subsection.9.1}
+\contentsline {paragraph}{}{38}{paragraph*.71}
+\contentsline {subsubsection}{\numberline {8.4.5}Feedback}{38}{subsubsection.8.4.5}
+\contentsline {paragraph}{}{38}{paragraph*.72}
 \contentsline {paragraph}{}{39}{paragraph*.73}
-\contentsline {paragraph}{}{39}{paragraph*.74}
-\contentsline {paragraph}{}{39}{paragraph*.75}
+\contentsline {section}{\numberline {9}Case study}{40}{section.9}
+\contentsline {paragraph}{}{40}{paragraph*.74}
+\contentsline {paragraph}{}{40}{paragraph*.75}
+\contentsline {subsection}{\numberline {9.1}Questionnaire}{40}{subsection.9.1}
 \contentsline {paragraph}{}{40}{paragraph*.76}
 \contentsline {paragraph}{}{40}{paragraph*.77}
 \contentsline {paragraph}{}{40}{paragraph*.78}
-\contentsline {paragraph}{}{40}{paragraph*.79}
-\contentsline {paragraph}{}{40}{paragraph*.80}
-\contentsline {paragraph}{}{40}{paragraph*.81}
+\contentsline {paragraph}{}{41}{paragraph*.79}
+\contentsline {paragraph}{}{41}{paragraph*.80}
+\contentsline {paragraph}{}{41}{paragraph*.81}
 \contentsline {paragraph}{}{41}{paragraph*.82}
-\contentsline {subsection}{\numberline {9.2}Survey Results}{41}{subsection.9.2}
 \contentsline {paragraph}{}{41}{paragraph*.83}
 \contentsline {paragraph}{}{41}{paragraph*.84}
-\contentsline {paragraph}{}{41}{paragraph*.85}
-\contentsline {section}{\numberline {10}Conclusion and future work}{43}{section.10}
-\contentsline {section}{References}{45}{section*.86}
+\contentsline {paragraph}{}{42}{paragraph*.85}
+\contentsline {paragraph}{}{42}{paragraph*.86}
+\contentsline {paragraph}{}{42}{paragraph*.87}
+\contentsline {paragraph}{}{42}{paragraph*.88}
+\contentsline {subsection}{\numberline {9.2}Survey Results}{42}{subsection.9.2}
+\contentsline {paragraph}{}{42}{paragraph*.89}
+\contentsline {subsection}{\numberline {9.3}Testing environment}{43}{subsection.9.3}
+\contentsline {paragraph}{}{43}{paragraph*.90}
+\contentsline {section}{\numberline {10}Conclusion}{44}{section.10}
+\contentsline {subsubsection}{\numberline {10.0.1}Future work}{44}{subsubsection.10.0.1}
+\contentsline {section}{References}{46}{section*.91}
