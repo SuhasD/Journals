@@ -117,6 +117,20 @@ In this study, in order to solve such problems, a multilingual information servi
 \subsubsection{iBeacon}
 \paragraph{}The communication protocol used in iBeacon is the Bluetooth Low Energy (BLE), maximum Bluetooth version 4. 0 devices supports Bluetooth BLE version \cite{indoor}. iBeacon communication frequency consumption is the 2.4GHz band, which is as fast as the Wi-Fi. iBeacon has proximity sensing technology of BLE, it can transfer Uniform Code of unique ID (UUID), APP intelligent terminal obtained the information about UUID and RSSI, and it can be converted into a physical location, which triggers location-aware applications. iBeacons are also low-cost devices and typically run for an year on a single coin CR2032 battery. This makes it feasible for us to implement iBeacons into out study of providing data based on user's micro-location.
 
+\subsubsection{Comparison of indoor positioning methods}
+\paragraph{} Below table presents the comparison between advantages and disadvantages of various indoor positioning systems. It can be seen that iBeacon has advantages of low cost, long battery life, feasible accuracy and range. 
+\paragraph{}
+\paragraph{} Also the fact that iBeacon technology is supported by most of the modern smartphones \cite{indoor} makes it the most feasible choice to implement the multilingual signage system for our study.
+ 
+\begin{center}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{media/comparison.png}
+	\caption{Comparison table}
+	\label{fig:translate_uml}
+\end{figure} 
+\end{center}
+
 \section{Understanding iBeacon Technology}
 \label{iBeacon-tech}
 \paragraph{}iBeacon is Apple’s implementation of Bluetooth low-energy (BLE) wireless technology to create a different way of providing micro-location-based information and services to nearby smartphones supporting BLE. This allows mobile applications on a smartphone to determine when it has entered or left the region, along with an estimation of proximity to a beacon. \\
@@ -125,6 +139,20 @@ Bluetooth 4.0 is proposed according to the Bluetooth technology standard set by 
 
 iBeacon devices simply broadcasts its configured advertising packets in specific time intervals \cite{one}. Apple has standardized the format for BLE Advertising. Under this format, an advertising packet consists of four main pieces of information. \\
 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{media/ibeacon-format.jpg}
+	\caption{iBeacon packet format}
+	\label{fig:translate_uml}
+\end{figure} 
+
+\paragraph{}Breaking down the iBeacon format, there are five parts: fixed iBeacon prefix; the proximity UUID: an identifier used to distinguish your Beacons from others, such as your stores or a museum; the major number can group a related set of beacons in an organizations, such as a floor in a store or a exhibition hall in a museum; the minor number can be used to identify individual beacons in a specific areas because each Beacon have a different minor number, by which we know where the customer is exactly. TX power, is used to determine how close you are to a beacon \cite{beacons}. It can be presented either as  rough information (immediate/far/out of range) or as a more precise measurement in meters.
+%
+%\paragraph{}An iBeacon can be placed in around an item (goods, art works, or some places of a shop or institution) or a special areas, take the lobby or the hallway between two exhibition halls or between the exhibition hall and other area.
+
+
+\paragraph{} 
 \textbf{UUID}: This is a 16 byte string used to differentiate a large group of related beacons. For example, if National Park Services (NPS) maintained a network of beacons among all national parks, all national park beacons would share the same UUID. This allows NPS dedicated smartphone app to know which beacon advertisements come from NPS owned beacons. Example: E6FA79C7-804F-4742-863B-BD4D282ED9BA \\
 
 \textbf{Major}: This is a 2 byte string used to distinguish a smaller subset of beacons within the larger group. For example, if NPS had fifty beacons in a particular national park, all fifty would have the same Major. This allows NPS to know exactly which park its visitor is in. Example: 1101  \\
@@ -132,6 +160,17 @@ iBeacon devices simply broadcasts its configured advertising packets in specific
 \textbf{Minor}: This is a 2 byte string meant to identify individual beacons. Keeping with the NPS example, a beacon at the front of the park would have its own unique Minor. This allows NPS’s dedicated app to know exactly where the visitor is in the park. Example: 9901\\
 
 \textbf{Tx Power}: This is used to determine proximity (distance) from the beacon. TX power is defined as the strength of the signal exactly 1 meter from the device. This has to be calibrated and hardcoded in advance. Devices can then use this as a baseline to give a estimate the distance between the beacon and the smartphone.  \\
+
+\subsection{Existing applications implemented using iBeacon technology}
+
+\begin{itemize}
+	\item Control the shoppers’ behaviors via recommending services automatically by iBeacons. In a store, the retailer can sense shoppers’ interests via the calculation of time a shopper in front of a specific item in the store, and then, the software in shopper’s smartphone will show the other color or style of this item, or even let shopper access to the online shop to compare the price and style at real time \cite{beacons}.
+
+\item The retailers can gather shoppers behavior info, for instance, the shopper have ever seen the same goods in the other store of the same chain online or onsite with iBeacon technology \cite{beacons}. And then, push the good coupons info at the store, meanwhile, show the shopper this goods in their online shop, so as to guide shoppers make purchase online or offline.
+
+\item iBeacon technology brings many chances for the retailers to keep broadcasting the items/events info automatically by smartphone application of users \cite{beacons}; to tracing users interests or potential demands; to contextualize shoppers’ purchase tendency.
+
+\end{itemize}
 
 \subsection{The algorithm to calculate distance based on RSSI}
 \paragraph{}The rate of signal strength will be unstable because of the volatility of RF signal in actual data collection method. So there was no longer accurate correspondence between the RSSI and distance. Consequently, we need to purify the sample data in order to reduce the relevant positioning errors.
@@ -724,9 +763,34 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 \section{Case study}
 \label{evaluation}
 
-\paragraph{}As an evaluation experiment of this system, the multilingual digital signage constructed in this study was placed in the library of the university campus, and the students, including foreign students were handed out smartphones running the mobile application and were asked to use the multilingual digital signage system.
+%\paragraph{}As an evaluation experiment of this system, the multilingual digital signage constructed in this study was placed in the library of the university campus, and the students, including foreign students were handed out smartphones running the mobile application and were asked to use the multilingual digital signage system.
+%
+%\paragraph{}For evaluation, different signages with information from the library office was displayed in Spanish language. After the use of the system, 20 students that include 10 American students and 10 international/foreign students were asked to answer a questionnaire and an interview. This is to simulate the 'foreign-visitor' environment. This is important for our study because foreign visitors are our primary users.
 
-\paragraph{}For evaluation, different signages with information from the library office was displayed in Spanish language. After the use of the system, 20 students that include 10 American students and 10 international/foreign students were asked to answer a questionnaire and an interview. This is to simulate the 'foreign-visitor' environment. This is important for our study because foreign visitors are our primary users.
+
+\paragraph{}We conducted a small scale evaluation of the multilingual digital signage system as mentioned in section \ref{system}. The purpose of this evaluation is to study the feasibility of using the inexpensive iBeacons along with computer vision features of the system. We set up a combination of digital and printed signages in a room. We set up three iBeacons along with two printed signages and measuring points in a room, approximately 25m x 15m.
+
+\paragraph{}Let us consider the digital signages (signages with iBeacons installed).There are two interactions during the discovery of nearby digital signages from the mobile application. The first part is interaction between iBeacons and the user. iBeacon will broadcast signals at a certain interval, if the smartphone detects and locates the iBeacons around it,  the application can handle the iBeacon event based on proximity location information, including major ID, minor ID and distance. The second part is interaction between the mobile application and database. During this interaction, the application should fetch respective information and display on the mobile application.
+
+\paragraph{}The other scenario we need to evaluate is the multilingual translation of printed signages (signages without iBeacons installed). When the user clicks an image of a signage, the mobile application should be able to extract text and translate it to the user's preferred language without missing critical information. We evaluate the feasibility of the system in the following scenarios.
+
+\paragraph{}The iBeacons used in this experiment were Gimbal Series 10 beacons, distributed by Gimbal. For reception, we used installed the developed mobile application on iPhone 6s, running iOS version 11.3.
+
+\subsection{1 digital signage and 1 printed signage }
+\label{oneone}
+\paragraph{}We set up two signages in the campus library, one signage with the iBeacon (digital signage) and one without the beacon (printed signage). We use the mobile application to evaluate the feasibility of the proposed system. Each signage is at least 30 meters away from each other. We downloaded the developed mobile application on to the iPhone 6s and walked towards the room.
+
+\paragraph{}The mobile application picked up the digital signage when the user was 27.4 meters away. On tapping the thumbnail from the application, it fetched and displayed relevant signage information from the database. We were also able to translate the signage description from English to Spanish and the translation was 100\% correct.
+
+\paragraph{}To evaluate the text extraction and translation from printed signage, we clicked a picture of the printed signage. The application extracted relevant text from the printed signage. The application also supported the translation of the extracted text to Spanish language and the translation was 100\% correct.
+
+\subsection{2 digital signages and 1 printed signage }
+\label{twoone}
+\paragraph{}
+
+\subsection{3 digital signages and 2 printed signages }
+\label{threetwo}
+\paragraph{}
 
 \subsection{Questionnaire}
 
@@ -799,13 +863,14 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 \subsection{Testing environment}
 \paragraph{}
 
-\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+\begin{tabular}{ |p{6cm}||p{6cm}|p{3cm}|p{3cm}|  }
  \hline
  \multicolumn{4}{|c|}{Testing conditions} \\
  \hline
- Smartphone   & iPhone 6s    & iPhone6 &   iPhone 5s\\
-  iOS version &11.3 & 11.4 &  12\\
- Internet &   LTE  & 4G   & WiFi\\
+ Smartphone   & iPhone 6s  \\
+  iOS version &11.3 \\
+ Internet &   LTE \\
+  iBeacons &   Gimbal  Series 10 \\
 % Albania &AL & ALB&  008\\
  
  \hline
@@ -813,6 +878,9 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 
 \section{Conclusion}
 \label{sect-conclusion}
+\paragraph{}We studied the feasibility of using the combination of inexpensive iBeacons and computer vision to construct a system of multilingual digital signages. We conducted a crude experiment using an actual room to estimate the positioning accuracy and accuracy of language translation. 
+
+\paragraph{}
 
 \begin{itemize}
 	\item Evaluation experiment proves that the system is helpful to understand all kinds of signages in foreign countries. 

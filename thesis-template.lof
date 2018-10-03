@@ -1,15 +1,17 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces UML activity diagram for Text Detection using Google Vision API}}{11}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Example image for testing Google Vision API}}{12}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces UML activity diagram using Google Translation API}}{15}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Process Flow Diagram}}{20}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Home page}}{24}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Text extraction}}{24}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Translation}}{25}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Share text feature}}{25}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Type and translate text feature}}{27}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Digital Signage}}{28}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Translate feature}}{28}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Text translated to Spanish language}}{29}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Database Schema}}{31}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Affordance design principle}}{37}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Feedback}}{39}{figure.15}
+\contentsline {figure}{\numberline {1}{\ignorespaces Comparison table}}{8}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces iBeacon packet format}}{9}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces UML activity diagram for Text Detection using Google Vision API}}{14}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Example image for testing Google Vision API}}{15}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces UML activity diagram using Google Translation API}}{18}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Process Flow Diagram}}{23}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Home page}}{27}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Text extraction}}{27}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Translation}}{28}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Share text feature}}{28}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Type and translate text feature}}{30}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Digital Signage}}{31}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Translate feature}}{31}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Text translated to Spanish language}}{32}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Database Schema}}{34}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Affordance design principle}}{40}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Feedback}}{42}{figure.17}

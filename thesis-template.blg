@@ -11,45 +11,45 @@ Too many commas in name 1 of "Davide Mulfari, Antonio Celesti, Maria Fazio, Mass
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Davide Mulfari, Antonio Celesti, Maria Fazio, Massimo Villari and Antonio Puliafito" for entry vision
 while executing---line 1090 of file plain.bst
-You've used 14 entries,
+You've used 15 entries,
             2118 wiz_defined-function locations,
-            574 strings with 6494 characters,
-and the built_in function-call counts, 5464 in all, are:
-= -- 529
-> -- 187
-< -- 12
-+ -- 76
-- -- 60
-* -- 318
-:= -- 795
-add.period$ -- 40
-call.type$ -- 14
-change.case$ -- 72
+            579 strings with 6710 characters,
+and the built_in function-call counts, 5971 in all, are:
+= -- 577
+> -- 210
+< -- 13
++ -- 86
+- -- 68
+* -- 352
+:= -- 867
+add.period$ -- 43
+call.type$ -- 15
+change.case$ -- 79
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 260
-empty$ -- 486
-format.name$ -- 60
-if$ -- 1259
+cite$ -- 15
+duplicate$ -- 283
+empty$ -- 527
+format.name$ -- 68
+if$ -- 1375
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 12
-newline$ -- 71
-num.names$ -- 28
-pop$ -- 103
+int.to.str$ -- 15
+missing$ -- 13
+newline$ -- 76
+num.names$ -- 30
+pop$ -- 113
 preamble$ -- 1
-purify$ -- 58
+purify$ -- 64
 quote$ -- 0
-skip$ -- 235
+skip$ -- 255
 stack$ -- 0
-substring$ -- 365
-swap$ -- 113
-text.length$ -- 12
+substring$ -- 399
+swap$ -- 124
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 60
 warning$ -- 0
-while$ -- 49
-width$ -- 16
-write$ -- 149
+while$ -- 53
+width$ -- 17
+write$ -- 160
 (There were 2 error messages)
