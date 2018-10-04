@@ -115,21 +115,42 @@ In this study, in order to solve such problems, a multilingual information servi
 \paragraph{}Bluetooth is a radio technology which supports short distance communication from each other, the positioning of Bluetooth technology is the measuring of radio wave signal intensity values for targeting. The main advantage of Bluetooth indoor positioning technology is that, Bluetooth chips are small, easy to integrate in mobile phones and even in smaller devices. On the other hand, the shortcomings of Bluetooth technology are; more expensive equipment, relatively high power consumption and lack of stability when the system in complex space environment \cite{indoor}.
 
 \subsubsection{iBeacon}
-\paragraph{}The communication protocol used in iBeacon is the Bluetooth Low Energy (BLE), maximum Bluetooth version 4. 0 devices supports Bluetooth BLE version \cite{indoor}. iBeacon communication frequency consumption is the 2.4GHz band, which is as fast as the Wi-Fi. iBeacon has proximity sensing technology of BLE, it can transfer Uniform Code of unique ID (UUID), APP intelligent terminal obtained the information about UUID and RSSI, and it can be converted into a physical location, which triggers location-aware applications. iBeacons are also low-cost devices and typically run for an year on a single coin CR2032 battery. This makes it feasible for us to implement iBeacons into out study of providing data based on user's micro-location.
+\paragraph{}The communication protocol used in iBeacon is the Bluetooth Low Energy (BLE), maximum Bluetooth version 4. 0 devices supports Bluetooth BLE version \cite{indoor}. iBeacon communication frequency consumption is the 2.4GHz band, which is as fast as the Wi-Fi. iBeacon has proximity sensing technology of BLE, it can transfer Uniform Code of unique ID (UUID), APP intelligent terminal obtained the information about UUID and RSSI, and it can be converted into a physical location, which triggers location-aware applications. iBeacons are also low-cost devices and typically run for an year on a single coin CR2032 battery. \cite{audioBeacon} This makes it feasible for us to implement iBeacons into out study of providing data based on user's micro-location.
 
 \subsubsection{Comparison of indoor positioning methods}
-\paragraph{} Below table presents the comparison between advantages and disadvantages of various indoor positioning systems. It can be seen that iBeacon has advantages of low cost, long battery life, feasible accuracy and range. 
+\paragraph{} Below table presents the comparison between advantages and disadvantages of various indoor positioning systems \cite{sensing}. It can be seen that iBeacon has advantages of low cost, long battery life, feasible accuracy and range.  \cite{augmented}
 \paragraph{}
 \paragraph{} Also the fact that iBeacon technology is supported by most of the modern smartphones \cite{indoor} makes it the most feasible choice to implement the multilingual signage system for our study.
  
-\begin{center}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1.0\linewidth]{media/comparison.png}
-	\caption{Comparison table}
-	\label{fig:translate_uml}
-\end{figure} 
-\end{center}
+%\begin{center}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=1.0\linewidth]{media/comparison.png}
+%	\caption{Comparison table}
+%	\label{fig:translate_uml}
+%\end{figure} 
+%\end{center}
+
+\begin{table}%[H]
+    \centering
+    \caption{Comparison of popular indoor positioning methods} 
+    \label{my-label2}
+       \begin{tabular}{|p{30mm}|p{30mm}|p{30mm}|p{30mm}|}
+ \hline
+  & \textbf{Wi-Fi }&.        \textbf{RFID} &  \textbf{iBeacon} \\ [0.5ex] 
+ \hline\hline
+ \textbf{Cost} & Medium & Medium & Low \\ 
+ \hline
+ \textbf{Accuracy} & Low & Low & High \\
+ \hline
+ \textbf{Range} & Far & Medium & Far \\
+ \hline
+ \textbf{Advantages} & Highly popular, far sensing range & Feasible accuracy and range & Low cost, high accuracy and range. \\
+ \hline
+ \textbf{Disadvantages} & Low accuracy, influenced by environment & Low popularity, difficult to maintain & likely to be influenced by environment. \\ [1ex] 
+ \hline
+    \end{tabular}
+\end{table}
 
 \section{Understanding iBeacon Technology}
 \label{iBeacon-tech}
@@ -362,7 +383,7 @@ We convert this image to a base64 encoded string using Javascript and specify in
 
 %System 
 
-\section{Proposed System}
+\section{System Design}
 \label{system}
 \paragraph{}In this study, a prototype of multilingual information service system was designed and constructed. 3 beacons was configured and placed next to each of the 3 signage in a park. These beacons continuously broadcast their UUID, major and Minor. A mobile application is developed to listen to these beacons. The mobile application leverages the smartphone’s bluetooth technology to listen to the beacons.
 
@@ -437,7 +458,7 @@ To discover the beacons from the smartphone, we have designed and developed a mo
         
         \item \textbf{Beacon Manager:} To discover iBeacons from the smartphone, we integrated 'react-native-beacons-manager' library into React Native. This library helps us scan for the beacons and listen to changes of the beacon signal strength. The library also supports 'background ranging' and 'foreground monitoring' of the beacons, meaning it helps us scan for the beacons even when the application is running in background. 
       
-      \item \textbf{Xcode:} To build and run the application on the iOS device, we need an Integrated Development Environment (IDE). Xcode is an IDE that can be used to run the developed mobile application on the iOS device.
+      \item \textbf{Xcode:} To build and run the application on the iOS device, we need an Integrated Development Environment (IDE). Xcode is an IDE that can be used to run the developed mobile application on the iOS device. The source code for the implementation could be found at \cite{git}
       
  \end{itemize}
  
@@ -768,96 +789,251 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 %\paragraph{}For evaluation, different signages with information from the library office was displayed in Spanish language. After the use of the system, 20 students that include 10 American students and 10 international/foreign students were asked to answer a questionnaire and an interview. This is to simulate the 'foreign-visitor' environment. This is important for our study because foreign visitors are our primary users.
 
 
-\paragraph{}We conducted a small scale evaluation of the multilingual digital signage system as mentioned in section \ref{system}. The purpose of this evaluation is to study the feasibility of using the inexpensive iBeacons along with computer vision features of the system. We set up a combination of digital and printed signages in a room. We set up three iBeacons along with two printed signages and measuring points in a room, approximately 25m x 15m.
+\paragraph{}We conducted a small scale evaluation of the multilingual digital signage system as mentioned in section \ref{system}. The purpose of this evaluation is to study the feasibility of using the inexpensive iBeacons along with computer vision features of the system. We set up a combination of digital and printed signages in a room. We set up three iBeacons along with two printed signages and measuring points in a room, approximately 45m x 35m.
 
-\paragraph{}Let us consider the digital signages (signages with iBeacons installed).There are two interactions during the discovery of nearby digital signages from the mobile application. The first part is interaction between iBeacons and the user. iBeacon will broadcast signals at a certain interval, if the smartphone detects and locates the iBeacons around it,  the application can handle the iBeacon event based on proximity location information, including major ID, minor ID and distance. The second part is interaction between the mobile application and database. During this interaction, the application should fetch respective information and display on the mobile application.
+\paragraph{}The iBeacons used in this experiment were Gimbal Series 10 beacons, distributed by Gimbal. For reception, we used installed the developed mobile application on iPhone 6s, running iOS version 11.3. We also setup two printed signages with information in Spanish language and placed them around the library, at least 30 meters apart.
 
+\subsection{Digital Signages }
+
+\paragraph{}These include the signages with iBeacons installed.There are two interactions during the discovery of nearby digital signages from the mobile application. The first part is interaction between iBeacons and the user. iBeacon will broadcast signals at a certain interval, if the smartphone detects and locates the iBeacons around it,  the application can handle the iBeacon event based on proximity location information, including major ID, minor ID and distance. The second part is interaction between the mobile application and database. During this interaction, the application should fetch respective information and display on the mobile application.
+
+\subsubsection{Test case 1}
+\label{oneone}
+\paragraph{}With the above mentioned setup of the signages inside the campus library, we use the mobile application to evaluate the feasibility of the proposed system. Each signage is at least 20 meters away from each other. We downloaded the developed mobile application on to the iPhone 6s and walked towards the room.
+
+\paragraph{}The mobile application picked up the closest digital signage when the user was 17.4 meters away. The other digital signages were listed at the distance of 22.3 meters and 27 meters away. On tapping each thumbnail of signage from the application, it fetched and displayed relevant signage information from the database. We were also able to translate the signage description from English to Spanish and the translation was 100\% correct.
+
+\begin{table}%[H]
+    \centering
+    \caption{Observations from test case 1} 
+    \label{my-label}
+       \begin{tabular}{|p{30mm}|p{35mm}|p{35mm}|}
+ \hline
+  & \textbf{Data}  \\ [0.5ex] 
+ \hline\hline
+ \textbf{Discovered} & 27.4 m away  \\ 
+ \hline
+ \textbf{Fetched signage data} & Yes  \\
+ \hline
+ \textbf{Text translated} & Yes   \\
+ \hline
+ \textbf{Error in text translated} & 0\%   \\ [1ex] 
+ \hline
+    \end{tabular}
+\end{table}
+
+%Test case 2
+\subsubsection{Test case 2}
+\label{one2one}
+\paragraph{}For this test case, we setup the digital signages closer than the previous test case. The aim of this test case is to evaluate for inference in beacon signals. Each signage was installed  15 meters away from each other. We ran the developed mobile application on the iPhone 6s and walked towards the room.
+
+\paragraph{}The mobile application picked up the closest digital signage when the user was 23.4 meters away. The other digital signages were listed at the distance of 26.3 meters and 35.7 meters away. On tapping each thumbnail of signage from the application, it fetched and displayed relevant signage information from the database. We were also able to translate the signage description from English to Spanish and the translation was 100\% correct.
+
+\paragraph{}This proves that the digital signage system can be set up in close proximity to each other and the system will not face any inference from the crowded iBeacon signals. 
+
+       \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{media/case1.png}
+	\caption{Digital signage discovered at 1.8 meters away}
+	\label{fig:eng}
+\end{figure} 
+
+\begin{table}%[H]
+    \centering
+    \caption{Observations from test case 1} 
+    \label{my-label}
+       \begin{tabular}{|p{30mm}|p{35mm}|p{35mm}|}
+ \hline
+  & \textbf{Data}  \\ [0.5ex] 
+ \hline\hline
+ \textbf{Discovered} & 27.4 m away  \\ 
+ \hline
+ \textbf{Fetched signage data} & Yes  \\
+ \hline
+ \textbf{Text translated} & Yes   \\
+ \hline
+ \textbf{Error in text translated} & 0\%   \\ [1ex] 
+ \hline
+    \end{tabular}
+\end{table}
+
+
+\subsection{Printed Signages }
+\label{twoone}
 \paragraph{}The other scenario we need to evaluate is the multilingual translation of printed signages (signages without iBeacons installed). When the user clicks an image of a signage, the mobile application should be able to extract text and translate it to the user's preferred language without missing critical information. We evaluate the feasibility of the system in the following scenarios.
 
-\paragraph{}The iBeacons used in this experiment were Gimbal Series 10 beacons, distributed by Gimbal. For reception, we used installed the developed mobile application on iPhone 6s, running iOS version 11.3.
-
-\subsection{1 digital signage and 1 printed signage }
-\label{oneone}
-\paragraph{}We set up two signages in the campus library, one signage with the iBeacon (digital signage) and one without the beacon (printed signage). We use the mobile application to evaluate the feasibility of the proposed system. Each signage is at least 30 meters away from each other. We downloaded the developed mobile application on to the iPhone 6s and walked towards the room.
-
-\paragraph{}The mobile application picked up the digital signage when the user was 27.4 meters away. On tapping the thumbnail from the application, it fetched and displayed relevant signage information from the database. We were also able to translate the signage description from English to Spanish and the translation was 100\% correct.
+\subsubsection{Test case 3}
+\label{threetwo}
+\paragraph{}We use the same mobile application used in test cases 1 and 2 to evaluate the feasibility of the system to extract text and translate it from Spanish to English. We positioned the mobile application at a distance of 35 feet from the signage.
 
 \paragraph{}To evaluate the text extraction and translation from printed signage, we clicked a picture of the printed signage. The application extracted relevant text from the printed signage. The application also supported the translation of the extracted text to Spanish language and the translation was 100\% correct.
 
-\subsection{2 digital signages and 1 printed signage }
-\label{twoone}
-\paragraph{}
+\paragraph{}We noticed an 0\% error in the text extraction and text translation from Spanish to English. Below figures \ref{fig:case3in}, \ref{fig:case3} and \ref{fig:eng} show the flow of the text extraction and translation for printed signage 1.
 
-\subsection{3 digital signages and 2 printed signages }
-\label{threetwo}
-\paragraph{}
 
-\subsection{Questionnaire}
+ \begin{figure} [H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/1.png}
+  \caption{Printed Signage 1}{Signage in Spanish language}
+  \label{fig:case3in}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/case3.PNG}
+  \caption{OCR feature}{Text extracted from the signage}
+  \label{fig:case3}
+\end{minipage}
+\end{figure}
 
-\paragraph{}We developed the below questionnaire to evaluate the system. The subjects were asked to answer the questions using the five grade system. 
+       \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{media/case3-eng.PNG}
+	\caption{Text translated to English}
+	\label{fig:eng}
+\end{figure} 
 
-\paragraph{}1. Have you faced the problems of not understanding signages when visiting foreign countries?
-\begin{itemize}
-	\item Strongly agree
-	\item Agree
-	\item Neither agree or disagree
-	\item Disagree
-	\item Strongly disagree
-\end{itemize}
 
-\paragraph{}
+\begin{table}%[H]
+    \centering
+    \caption{Observations from test case 3} 
+    \label{my-label3}
+       \begin{tabular}{|p{30mm}|p{35mm}|p{35mm}|}
+ \hline
+  & \textbf{Data}  \\ [0.5ex] 
+ \hline\hline
+ \textbf{Image captured from} & -  \\
+ \hline
+  \textbf{Text extracted} & -  \\
+ \hline
+ \textbf{Text translated} & Yes   \\
+ \hline
+ \textbf{Error in text extraction} & 0\%   \\
+ \hline
+ \textbf{Error in text translated} & 0\%   \\ [1ex] 
+ \hline
+    \end{tabular}
+\end{table}
 
-\paragraph{}2. Do you think this system solves the language problem?
-\begin{itemize}
-	\item Strongly agree
-	\item Agree
-	\item Neither agree or disagree
-	\item Disagree
-	\item Strongly disagree
-\end{itemize}
-\paragraph{}
+\subsubsection{Test case 4}
+\label{threefour}
+\paragraph{}For this test case, we use a printed signage with information in Spanish language and use our system to extract the text and translate it to English. The aim of this test case is to evaluate the text extraction and translation of different languages. 
 
-\paragraph{}3. Do you feel the application is easy to use?
-\begin{itemize}
-	\item Strongly agree
-	\item Agree
-	\item Neither agree or disagree
-	\item Disagree
-	\item Strongly disagree
-\end{itemize}
-\paragraph{}
+\paragraph{}To evaluate the text extraction and translation from a Spanish printed signage, we clicked a picture of the printed signage. The application extracted relevant text from the printed signage. The application also supported the translation of the extracted Spanish text to English language and the translation was 91\% correct.
 
-\paragraph{}4. Would you like to use this application in the future?
-\begin{itemize}
-	\item Strongly agree
-	\item Agree
-	\item Neither agree or disagree
-	\item Disagree
-	\item Strongly disagree
-\end{itemize}
+\paragraph{}We noticed an 8\% error in the text extraction feature and thereby the same error while translating the text to English. Below figures \ref{fig:case4in}, \ref{fig:case4} and \ref{fig:engs} show the flow of the text extraction and translation for signage 2.
 
-\paragraph{}
-\paragraph{}5. Would you recommend this application to your friends?
-\begin{itemize}
-	\item Strongly agree
-	\item Agree
-	\item Neither agree or disagree
-	\item Disagree
-	\item Strongly disagree
-\end{itemize}
+ \begin{figure} [H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/case4.png}
+  \caption{Printed Signage 1}{Signage 2 in Spanish language}
+  \label{fig:case4in}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{media/case4a.png}
+  \caption{OCR feature}{Text extracted from the signage 2}
+  \label{fig:case4}
+\end{minipage}
+\end{figure}
 
-\paragraph{} Question 1 asks the subjects if they have faced any problems in understanding the signages when visiting foreign countries. This helps us understand if there is a definite need of a multilingual signage system. Question 2 asks if the introduced system helps in solving the linguistic problem. This helps us understand if our system solves the problem.
+       \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{media/case4b.png}
+	\caption{Text translated to English}
+	\label{fig:engs}
+\end{figure} 
 
-\paragraph{}Questions 3 and 4 are targeted towards understanding the usability aspect of the system. This helps us make sure the design and user-experience of the system is effective and the 'usability'  goals are met. 
+\begin{table}%[H]
+    \centering
+    \caption{Observations from test case 4} 
+    \label{my-label4}
+       \begin{tabular}{|p{30mm}|p{35mm}|p{35mm}|}
+ \hline
+  & \textbf{Data}  \\ [0.5ex] 
+ \hline\hline
+ \textbf{Image captured from} & -  \\
+ \hline
+  \textbf{Text extracted} & -  \\
+ \hline
+ \textbf{Text translated} & Yes   \\
+ \hline
+ \textbf{Error in text extraction} & 0\%   \\
+ \hline
+ \textbf{Error in text translated} & 0\%   \\ [1ex] 
+ \hline
+    \end{tabular}
+\end{table}
 
-\paragraph{}Question 5 asks the subjects if they would recommend this system to their friends and family. This helps us understand what the user concretely feels about the system.
-
-\subsection{Survey Results}
-
-\textbf{Insert Pie chart here}
-
-\paragraph{}From the results, the percentages of the answers of “strongly agree” and “agree” were 90\% in Questions 1 and 2. 90\% of the subjects had faced problems with reading signages in foreign countries. Also, 90\% of them believe this system can solve the problem.
-
+%\subsection{Questionnaire}
+%
+%\paragraph{}We developed the below questionnaire to evaluate the system. The subjects were asked to answer the questions using the five grade system. 
+%
+%\paragraph{}1. Have you faced the problems of not understanding signages when visiting foreign countries?
+%\begin{itemize}
+%	\item Strongly agree
+%	\item Agree
+%	\item Neither agree or disagree
+%	\item Disagree
+%	\item Strongly disagree
+%\end{itemize}
+%
+%\paragraph{}
+%
+%\paragraph{}2. Do you think this system solves the language problem?
+%\begin{itemize}
+%	\item Strongly agree
+%	\item Agree
+%	\item Neither agree or disagree
+%	\item Disagree
+%	\item Strongly disagree
+%\end{itemize}
+%\paragraph{}
+%
+%\paragraph{}3. Do you feel the application is easy to use?
+%\begin{itemize}
+%	\item Strongly agree
+%	\item Agree
+%	\item Neither agree or disagree
+%	\item Disagree
+%	\item Strongly disagree
+%\end{itemize}
+%\paragraph{}
+%
+%\paragraph{}4. Would you like to use this application in the future?
+%\begin{itemize}
+%	\item Strongly agree
+%	\item Agree
+%	\item Neither agree or disagree
+%	\item Disagree
+%	\item Strongly disagree
+%\end{itemize}
+%
+%\paragraph{}
+%\paragraph{}5. Would you recommend this application to your friends?
+%\begin{itemize}
+%	\item Strongly agree
+%	\item Agree
+%	\item Neither agree or disagree
+%	\item Disagree
+%	\item Strongly disagree
+%\end{itemize}
+%
+%\paragraph{} Question 1 asks the subjects if they have faced any problems in understanding the signages when visiting foreign countries. This helps us understand if there is a definite need of a multilingual signage system. Question 2 asks if the introduced system helps in solving the linguistic problem. This helps us understand if our system solves the problem.
+%
+%\paragraph{}Questions 3 and 4 are targeted towards understanding the usability aspect of the system. This helps us make sure the design and user-experience of the system is effective and the 'usability'  goals are met. 
+%
+%\paragraph{}Question 5 asks the subjects if they would recommend this system to their friends and family. This helps us understand what the user concretely feels about the system.
+%
+%\subsection{Survey Results}
+%
+%\textbf{Insert Pie chart here}
+%
+%\paragraph{}From the results, the percentages of the answers of “strongly agree” and “agree” were 90\% in Questions 1 and 2. 90\% of the subjects had faced problems with reading signages in foreign countries. Also, 90\% of them believe this system can solve the problem.
+%
 
 
 \subsection{Testing environment}
@@ -876,7 +1052,7 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
  \hline
 \end{tabular}
 
-\section{Conclusion}
+\section{ Conclusion and future work}
 \label{sect-conclusion}
 \paragraph{}We studied the feasibility of using the combination of inexpensive iBeacons and computer vision to construct a system of multilingual digital signages. We conducted a crude experiment using an actual room to estimate the positioning accuracy and accuracy of language translation. 
 
@@ -888,7 +1064,6 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 	\item The usability goals of the mobile application and the system as a whole is met.
 \end{itemize}
 
-\subsubsection{Future work}
 
 \begin{itemize}
 	\item Determining the user's position in a network of beacon, thereby implementing indoor navigation.

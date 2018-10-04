@@ -57,7 +57,7 @@
 \contentsline {paragraph}{}{20}{paragraph*.37}
 \contentsline {paragraph}{}{20}{paragraph*.38}
 \contentsline {paragraph}{}{20}{paragraph*.39}
-\contentsline {section}{\numberline {7}Proposed System}{22}{section.7}
+\contentsline {section}{\numberline {7}System Design}{22}{section.7}
 \contentsline {paragraph}{}{22}{paragraph*.40}
 \contentsline {paragraph}{}{22}{paragraph*.41}
 \contentsline {paragraph}{}{22}{paragraph*.42}
@@ -121,36 +121,28 @@
 \contentsline {section}{\numberline {9}Case study}{43}{section.9}
 \contentsline {paragraph}{}{43}{paragraph*.79}
 \contentsline {paragraph}{}{43}{paragraph*.80}
+\contentsline {subsection}{\numberline {9.1}Digital Signages }{43}{subsection.9.1}
 \contentsline {paragraph}{}{43}{paragraph*.81}
+\contentsline {subsubsection}{\numberline {9.1.1}Test case 1}{43}{subsubsection.9.1.1}
 \contentsline {paragraph}{}{43}{paragraph*.82}
-\contentsline {subsection}{\numberline {9.1}1 digital signage and 1 printed signage }{43}{subsection.9.1}
 \contentsline {paragraph}{}{43}{paragraph*.83}
+\contentsline {subsubsection}{\numberline {9.1.2}Test case 2}{44}{subsubsection.9.1.2}
 \contentsline {paragraph}{}{44}{paragraph*.84}
 \contentsline {paragraph}{}{44}{paragraph*.85}
-\contentsline {subsection}{\numberline {9.2}2 digital signages and 1 printed signage }{44}{subsection.9.2}
 \contentsline {paragraph}{}{44}{paragraph*.86}
-\contentsline {subsection}{\numberline {9.3}3 digital signages and 2 printed signages }{44}{subsection.9.3}
-\contentsline {paragraph}{}{44}{paragraph*.87}
-\contentsline {subsection}{\numberline {9.4}Questionnaire}{44}{subsection.9.4}
-\contentsline {paragraph}{}{44}{paragraph*.88}
-\contentsline {paragraph}{}{44}{paragraph*.89}
-\contentsline {paragraph}{}{44}{paragraph*.90}
-\contentsline {paragraph}{}{45}{paragraph*.91}
-\contentsline {paragraph}{}{45}{paragraph*.92}
-\contentsline {paragraph}{}{45}{paragraph*.93}
-\contentsline {paragraph}{}{45}{paragraph*.94}
-\contentsline {paragraph}{}{45}{paragraph*.95}
-\contentsline {paragraph}{}{45}{paragraph*.96}
-\contentsline {paragraph}{}{46}{paragraph*.97}
-\contentsline {paragraph}{}{46}{paragraph*.98}
-\contentsline {paragraph}{}{46}{paragraph*.99}
-\contentsline {paragraph}{}{46}{paragraph*.100}
-\contentsline {subsection}{\numberline {9.5}Survey Results}{46}{subsection.9.5}
-\contentsline {paragraph}{}{46}{paragraph*.101}
-\contentsline {subsection}{\numberline {9.6}Testing environment}{47}{subsection.9.6}
-\contentsline {paragraph}{}{47}{paragraph*.102}
-\contentsline {section}{\numberline {10}Conclusion}{48}{section.10}
-\contentsline {paragraph}{}{48}{paragraph*.103}
-\contentsline {paragraph}{}{48}{paragraph*.104}
-\contentsline {subsubsection}{\numberline {10.0.1}Future work}{48}{subsubsection.10.0.1}
-\contentsline {section}{References}{50}{section*.105}
+\contentsline {subsection}{\numberline {9.2}Printed Signages }{45}{subsection.9.2}
+\contentsline {paragraph}{}{45}{paragraph*.87}
+\contentsline {subsubsection}{\numberline {9.2.1}Test case 3}{46}{subsubsection.9.2.1}
+\contentsline {paragraph}{}{46}{paragraph*.88}
+\contentsline {paragraph}{}{46}{paragraph*.89}
+\contentsline {paragraph}{}{46}{paragraph*.90}
+\contentsline {subsubsection}{\numberline {9.2.2}Test case 4}{48}{subsubsection.9.2.2}
+\contentsline {paragraph}{}{48}{paragraph*.91}
+\contentsline {paragraph}{}{48}{paragraph*.92}
+\contentsline {paragraph}{}{49}{paragraph*.93}
+\contentsline {subsection}{\numberline {9.3}Testing environment}{51}{subsection.9.3}
+\contentsline {paragraph}{}{51}{paragraph*.94}
+\contentsline {section}{\numberline {10} Conclusion and future work}{53}{section.10}
+\contentsline {paragraph}{}{53}{paragraph*.95}
+\contentsline {paragraph}{}{53}{paragraph*.96}
+\contentsline {section}{References}{56}{section*.97}

@@ -18,7 +18,7 @@
 \BOOKMARK [2][-]{subsection.5.1}{Sample Request}{section.5}% 18
 \BOOKMARK [2][-]{subsection.5.2}{Sample Response}{section.5}% 19
 \BOOKMARK [1][-]{section.6}{Algorithm}{}% 20
-\BOOKMARK [1][-]{section.7}{Proposed System}{}% 21
+\BOOKMARK [1][-]{section.7}{System Design}{}% 21
 \BOOKMARK [2][-]{subsection.7.1}{Environment}{section.7}% 22
 \BOOKMARK [3][-]{subsubsection.7.1.1}{Digital Signages}{subsection.7.1}% 23
 \BOOKMARK [3][-]{subsubsection.7.1.2}{Printed Signages}{subsection.7.1}% 24
@@ -41,12 +41,12 @@
 \BOOKMARK [3][-]{subsubsection.8.4.4}{Consistency}{subsection.8.4}% 41
 \BOOKMARK [3][-]{subsubsection.8.4.5}{Feedback}{subsection.8.4}% 42
 \BOOKMARK [1][-]{section.9}{Case study}{}% 43
-\BOOKMARK [2][-]{subsection.9.1}{1 digital signage and 1 printed signage }{section.9}% 44
-\BOOKMARK [2][-]{subsection.9.2}{2 digital signages and 1 printed signage }{section.9}% 45
-\BOOKMARK [2][-]{subsection.9.3}{3 digital signages and 2 printed signages }{section.9}% 46
-\BOOKMARK [2][-]{subsection.9.4}{Questionnaire}{section.9}% 47
-\BOOKMARK [2][-]{subsection.9.5}{Survey Results}{section.9}% 48
-\BOOKMARK [2][-]{subsection.9.6}{Testing environment}{section.9}% 49
-\BOOKMARK [1][-]{section.10}{Conclusion}{}% 50
-\BOOKMARK [2][-]{subsubsection.10.0.1}{Future work}{section.10}% 51
-\BOOKMARK [1][-]{section*.105}{References}{}% 52
+\BOOKMARK [2][-]{subsection.9.1}{Digital Signages }{section.9}% 44
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Test case 1}{subsection.9.1}% 45
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Test case 2}{subsection.9.1}% 46
+\BOOKMARK [2][-]{subsection.9.2}{Printed Signages }{section.9}% 47
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Test case 3}{subsection.9.2}% 48
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Test case 4}{subsection.9.2}% 49
+\BOOKMARK [2][-]{subsection.9.3}{Testing environment}{section.9}% 50
+\BOOKMARK [1][-]{section.10}{ Conclusion and future work}{}% 51
+\BOOKMARK [1][-]{section*.97}{References}{}% 52

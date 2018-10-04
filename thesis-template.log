@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 OCT 2018 23:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 OCT 2018 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -548,10 +548,13 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 LaTeX Warning: Label `fig:translate_uml' multiply defined.
 
 
-LaTeX Warning: Label `fig:translate_uml' multiply defined.
-
-
 LaTeX Warning: Label `euclid' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:eng' multiply defined.
 
 )
 \openout1 = `thesis-template.aux'.
@@ -732,205 +735,318 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 ] [2
 
 ] [3] [4] [5] [6]
-<media/comparison.png, id=417, 1223.57124pt x 428.60126pt>
-File: media/comparison.png Graphic file (type png)
-<use media/comparison.png>
-Package pdftex.def Info: media/comparison.png  used on input line 128.
-(pdftex.def)             Requested size: 390.0pt x 136.61238pt.
- [7] [8 <./media/comparison.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 1418) in paragraph at lines 148--148
+[]\OT1/cmr/m/n/12 Highly pop-u-lar,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]\OT1/cmr/m/n/12 Feasible ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\OT1/cmr/m/n/12 cu-racy and
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/12 Low cost, high
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+\OT1/cmr/m/n/12 ac-cu-racy and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]\OT1/cmr/m/n/12 Low ac-cu-racy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\OT1/cmr/m/n/12 in-flu-enced by
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 150--150
+[]\OT1/cmr/m/n/12 Low pop-u-lar-ity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]\OT1/cmr/m/n/12 likely to be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\OT1/cmr/m/n/12 in-flu-enced by
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-<media/ibeacon-format.jpg, id=434, 960.58875pt x 396.48125pt>
+<media/ibeacon-format.jpg, id=450, 960.58875pt x 396.48125pt>
 File: media/ibeacon-format.jpg Graphic file (type jpg)
 <use media/ibeacon-format.jpg>
-Package pdftex.def Info: media/ibeacon-format.jpg  used on input line 145.
+Package pdftex.def Info: media/ibeacon-format.jpg  used on input line 166.
 (pdftex.def)             Requested size: 390.0pt x 160.97331pt.
 [9
 
  <./media/ibeacon-format.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
 [10] [11] [12]
-<media/VISION_API.png, id=472, 307.1475pt x 523.9575pt>
+<media/VISION_API.png, id=488, 307.1475pt x 523.9575pt>
 File: media/VISION_API.png Graphic file (type png)
 <use media/VISION_API.png>
-Package pdftex.def Info: media/VISION_API.png  used on input line 198.
+Package pdftex.def Info: media/VISION_API.png  used on input line 219.
 (pdftex.def)             Requested size: 292.5pt x 499.00401pt.
  [13
 
 ] [14 <./media/VISION_API.png>]
-<media/request_sample.png, id=488, 714.67pt x 578.16pt>
+<media/request_sample.png, id=504, 714.67pt x 578.16pt>
 File: media/request_sample.png Graphic file (type png)
 <use media/request_sample.png>
-Package pdftex.def Info: media/request_sample.png  used on input line 209.
+Package pdftex.def Info: media/request_sample.png  used on input line 230.
 (pdftex.def)             Requested size: 390.0pt x 315.51pt.
  [15 <./media/request_sample.png>] [16]
-<media/Translate.png, id=522, 169.1118pt x 324.0105pt>
+<media/Translate.png, id=539, 169.1118pt x 324.0105pt>
 File: media/Translate.png Graphic file (type png)
 <use media/Translate.png>
-Package pdftex.def Info: media/Translate.png  used on input line 255.
+Package pdftex.def Info: media/Translate.png  used on input line 276.
 (pdftex.def)             Requested size: 195.0pt x 373.61281pt.
  [17
 
 ] [18 <./media/Translate.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 279.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 300.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 279.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 300.
  [19]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 310.
+put line 331.
  [20
 
 ]
 [21]
-<media/Architecture-3.png, id=588, 682.4697pt x 549.0111pt>
+<media/Architecture-3.png, id=605, 682.4697pt x 549.0111pt>
 File: media/Architecture-3.png Graphic file (type png)
 <use media/Architecture-3.png>
-Package pdftex.def Info: media/Architecture-3.png  used on input line 375.
+Package pdftex.def Info: media/Architecture-3.png  used on input line 396.
 (pdftex.def)             Requested size: 390.0pt x 313.74379pt.
  [22
 
 ] [23 <./media/Architecture-3.png>] [24] [25]
-<media/1.jpg, id=632, 752.8125pt x 1339.0025pt>
+<media/1.jpg, id=650, 752.8125pt x 1339.0025pt>
 File: media/1.jpg Graphic file (type jpg)
 <use media/1.jpg>
-Package pdftex.def Info: media/1.jpg  used on input line 452.
+Package pdftex.def Info: media/1.jpg  used on input line 473.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/2.PNG, id=633, 752.8125pt x 1339.0025pt>
+<media/2.PNG, id=651, 752.8125pt x 1339.0025pt>
 File: media/2.PNG Graphic file (type png)
 <use media/2.PNG>
-Package pdftex.def Info: media/2.PNG  used on input line 458.
+Package pdftex.def Info: media/2.PNG  used on input line 479.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
  [26] [27 <./media/1.jpg> <./media/2.PNG>]
-<media/3.PNG, id=647, 752.8125pt x 1339.0025pt>
+<media/3.PNG, id=666, 752.8125pt x 1339.0025pt>
 File: media/3.PNG Graphic file (type png)
 <use media/3.PNG>
-Package pdftex.def Info: media/3.PNG  used on input line 487.
+Package pdftex.def Info: media/3.PNG  used on input line 508.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/4.PNG, id=648, 752.8125pt x 1339.0025pt>
+<media/4.PNG, id=667, 752.8125pt x 1339.0025pt>
 File: media/4.PNG Graphic file (type png)
 <use media/4.PNG>
-Package pdftex.def Info: media/4.PNG  used on input line 493.
+Package pdftex.def Info: media/4.PNG  used on input line 514.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
  [28 <./media/3.PNG> <./media/4.PNG>]
-<media/5.PNG, id=659, 752.8125pt x 1339.0025pt>
+<media/5.PNG, id=678, 752.8125pt x 1339.0025pt>
 File: media/5.PNG Graphic file (type png)
 <use media/5.PNG>
-Package pdftex.def Info: media/5.PNG  used on input line 512.
+Package pdftex.def Info: media/5.PNG  used on input line 533.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
  [29]
-<media/beacon.PNG, id=668, 752.8125pt x 1339.0025pt>
+<media/beacon.PNG, id=688, 752.8125pt x 1339.0025pt>
 File: media/beacon.PNG Graphic file (type png)
 <use media/beacon.PNG>
-Package pdftex.def Info: media/beacon.PNG  used on input line 524.
+Package pdftex.def Info: media/beacon.PNG  used on input line 545.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/beacon2.PNG, id=669, 752.8125pt x 1339.0025pt>
+<media/beacon2.PNG, id=689, 752.8125pt x 1339.0025pt>
 File: media/beacon2.PNG Graphic file (type png)
 <use media/beacon2.PNG>
-Package pdftex.def Info: media/beacon2.PNG  used on input line 530.
+Package pdftex.def Info: media/beacon2.PNG  used on input line 551.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
  [30 <./media/5.PNG>] [31 <./media/beacon.PNG> <./media/beacon2.PNG>]
-<media/beacon3.PNG, id=685, 752.8125pt x 1339.0025pt>
+<media/beacon3.PNG, id=704, 752.8125pt x 1339.0025pt>
 File: media/beacon3.PNG Graphic file (type png)
 <use media/beacon3.PNG>
-Package pdftex.def Info: media/beacon3.PNG  used on input line 554.
+Package pdftex.def Info: media/beacon3.PNG  used on input line 575.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
  [32 <./media/beacon3.PNG>]
-<media/db.png, id=698, 973.6375pt x 368.37625pt>
+<media/db.png, id=717, 973.6375pt x 368.37625pt>
 File: media/db.png Graphic file (type png)
 <use media/db.png>
-Package pdftex.def Info: media/db.png  used on input line 582.
+Package pdftex.def Info: media/db.png  used on input line 603.
 (pdftex.def)             Requested size: 390.0pt x 147.55585pt.
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 596--597
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--601
+Underfull \hbox (badness 10000) in paragraph at lines 619--622
 
  []
 
 [34 <./media/db.png>] [35] [36
 
 ] [37] [38]
-<media/1a.PNG, id=744, 752.8125pt x 1339.0025pt>
+<media/1a.PNG, id=763, 752.8125pt x 1339.0025pt>
 File: media/1a.PNG Graphic file (type png)
 <use media/1a.PNG>
-Package pdftex.def Info: media/1a.PNG  used on input line 725.
+Package pdftex.def Info: media/1a.PNG  used on input line 746.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
  [39] [40 <./media/1a.PNG>] [41]
-<media/loading1.PNG, id=774, 752.8125pt x 1339.0025pt>
+<media/loading1.PNG, id=794, 752.8125pt x 1339.0025pt>
 File: media/loading1.PNG Graphic file (type png)
 <use media/loading1.PNG>
-Package pdftex.def Info: media/loading1.PNG  used on input line 757.
+Package pdftex.def Info: media/loading1.PNG  used on input line 778.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
 
-[42 <./media/loading1.PNG>]
-Overfull \hbox (1.5279pt too wide) in paragraph at lines 773--774
-[] [][] \OT1/cmr/m/n/12 Let us con-sider the dig-i-tal sig-nages (sig-nages wit
-h iBea-cons in-stalled).There
+[42 <./media/loading1.PNG>] [43
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]\OT1/cmr/bx/n/12 Fetched sig-
  []
 
-[43
 
-] [44] [45] [46] [47]
+Underfull \hbox (badness 10000) in paragraph at lines 818--818
+[]\OT1/cmr/bx/n/12 Text trans-
+ []
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 891.
+<media/case1.png, id=810, 752.8125pt x 1339.0025pt>
+File: media/case1.png Graphic file (type png)
+<use media/case1.png>
+Package pdftex.def Info: media/case1.png  used on input line 836.
+(pdftex.def)             Requested size: 195.0pt x 346.84526pt.
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 851--851
+[]\OT1/cmr/bx/n/12 Fetched sig-
+ []
 
-[48
 
-] (./thesis-template.bbl [49
+Underfull \hbox (badness 10000) in paragraph at lines 853--853
+[]\OT1/cmr/bx/n/12 Text trans-
+ []
+
+[45 <./media/case1.png>]
+<media/1.png, id=827, 752.8125pt x 1339.0025pt>
+File: media/1.png Graphic file (type png)
+<use media/1.png>
+Package pdftex.def Info: media/1.png  used on input line 878.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+<media/case3.PNG, id=828, 752.8125pt x 1339.0025pt>
+File: media/case3.PNG Graphic file (type png)
+<use media/case3.PNG>
+Package pdftex.def Info: media/case3.PNG  used on input line 884.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+ [46]
+<media/case3-eng.PNG, id=837, 752.8125pt x 1339.0025pt>
+File: media/case3-eng.PNG Graphic file (type png)
+<use media/case3-eng.PNG>
+Package pdftex.def Info: media/case3-eng.PNG  used on input line 892.
+(pdftex.def)             Requested size: 195.0pt x 346.84526pt.
+ [47 <./media/1.png> <./media/case3.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 906--906
+[]\OT1/cmr/bx/n/12 Image cap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
+[]\OT1/cmr/bx/n/12 Text trans-
+ []
+
+[48 <./media/case3-eng.PNG>]
+<media/case4.png, id=852, 752.8125pt x 1339.0025pt>
+File: media/case4.png Graphic file (type png)
+<use media/case4.png>
+Package pdftex.def Info: media/case4.png  used on input line 931.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+<media/case4a.png, id=853, 752.8125pt x 1339.0025pt>
+File: media/case4a.png Graphic file (type png)
+<use media/case4a.png>
+Package pdftex.def Info: media/case4a.png  used on input line 937.
+(pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
+ [49]
+<media/case4b.png, id=860, 752.8125pt x 1339.0025pt>
+File: media/case4b.png Graphic file (type png)
+<use media/case4b.png>
+Package pdftex.def Info: media/case4b.png  used on input line 945.
+(pdftex.def)             Requested size: 195.0pt x 346.84526pt.
+ [50 <./media/case4.png> <./media/case4a.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 958--958
+[]\OT1/cmr/bx/n/12 Image cap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 962--962
+[]\OT1/cmr/bx/n/12 Text trans-
+ []
+
+[51 <./media/case4b.png>] [52] [53
+
+] (./thesis-template.bbl [54
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 85--88
+Underfull \hbox (badness 10000) in paragraph at lines 110--113
 []\OT1/cmr/m/n/12 Wikipedia.  Rep-re-sen-ta-tional state trans-fer (rest) -
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 905.
- [50]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 905.
+[55])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1080.
+ [56]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1080.
  (./thesis-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 905.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 905.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1080.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1080.
+
 
 
 Package rerunfilecheck Warning: File `thesis-template.out' has changed.
@@ -938,40 +1054,37 @@ Package rerunfilecheck Warning: File `thesis-template.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis-template.out':
-(rerunfilecheck)             Before: AD276F341EDD8615874C02A9E7F306B5;3545
-(rerunfilecheck)             After:  0AA9C1742A4D6228EC1A1A55DE0A17DA;3545.
+(rerunfilecheck)             Before: 72FE9F0BE177590024DC0E1709E9BABA;3508
+(rerunfilecheck)             After:  C719195A10F79C399C7A70B92BF42865;3509.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 905.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1080.
  ) 
 Here is how much of TeX's memory you used:
- 12727 strings out of 492649
- 176531 string characters out of 6129622
- 321005 words of memory out of 5000000
- 16020 multiletter control sequences out of 15000+600000
+ 12785 strings out of 492649
+ 177311 string characters out of 6129622
+ 321647 words of memory out of 5000000
+ 16061 multiletter control sequences out of 15000+600000
  15744 words of font info for 67 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  44i,18n,43p,3264b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.104} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis-template.pdf (58 pages, 7446680 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis-template.pdf (64 pages, 11461926 bytes).
 PDF statistics:
- 951 PDF objects out of 1000 (max. 8388607)
- 843 compressed objects within 9 object streams
- 307 named destinations out of 1000 (max. 500000)
- 522 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1006 PDF objects out of 1200 (max. 8388607)
+ 886 compressed objects within 9 object streams
+ 319 named destinations out of 1000 (max. 500000)
+ 552 words of extra memory for PDF output out of 10000 (max. 10000000)
 

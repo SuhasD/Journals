@@ -5,51 +5,53 @@ The style file: plain.bst
 Database file #1: references.bib
 Warning--entry type for "firebase" isn't style-file defined
 --line 31 of file references.bib
-Warning--entry type for "rest" isn't style-file defined
+Warning--entry type for "git" isn't style-file defined
 --line 39 of file references.bib
+Warning--entry type for "rest" isn't style-file defined
+--line 47 of file references.bib
 Too many commas in name 1 of "Davide Mulfari, Antonio Celesti, Maria Fazio, Massimo Villari and Antonio Puliafito" for entry vision
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Davide Mulfari, Antonio Celesti, Maria Fazio, Massimo Villari and Antonio Puliafito" for entry vision
 while executing---line 1090 of file plain.bst
-You've used 15 entries,
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            579 strings with 6710 characters,
-and the built_in function-call counts, 5971 in all, are:
-= -- 577
-> -- 210
-< -- 13
-+ -- 86
-- -- 68
-* -- 352
-:= -- 867
-add.period$ -- 43
-call.type$ -- 15
-change.case$ -- 79
+            599 strings with 7372 characters,
+and the built_in function-call counts, 7436 in all, are:
+= -- 711
+> -- 271
+< -- 16
++ -- 111
+- -- 88
+* -- 438
+:= -- 1084
+add.period$ -- 54
+call.type$ -- 19
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 283
-empty$ -- 527
-format.name$ -- 68
-if$ -- 1375
+cite$ -- 19
+duplicate$ -- 351
+empty$ -- 660
+format.name$ -- 88
+if$ -- 1710
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 13
-newline$ -- 76
-num.names$ -- 30
-pop$ -- 113
+int.to.str$ -- 19
+missing$ -- 16
+newline$ -- 95
+num.names$ -- 38
+pop$ -- 148
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 82
 quote$ -- 0
-skip$ -- 255
+skip$ -- 314
 stack$ -- 0
-substring$ -- 399
-swap$ -- 124
-text.length$ -- 13
+substring$ -- 472
+swap$ -- 150
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 60
+type$ -- 76
 warning$ -- 0
-while$ -- 53
-width$ -- 17
-write$ -- 160
+while$ -- 67
+width$ -- 21
+write$ -- 200
 (There were 2 error messages)
