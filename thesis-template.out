@@ -1,52 +1,55 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Background}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Related Work}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Outline}{section.2}% 4
-\BOOKMARK [3][-]{subsubsection.2.2.1}{GPS}{subsection.2.2}% 5
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Wi-Fi}{subsection.2.2}% 6
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Near Field Communication \(NFC\)}{subsection.2.2}% 7
-\BOOKMARK [3][-]{subsubsection.2.2.4}{Bluetooth}{subsection.2.2}% 8
-\BOOKMARK [3][-]{subsubsection.2.2.5}{iBeacon}{subsection.2.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.2.6}{Comparison of indoor positioning methods}{subsection.2.2}% 10
-\BOOKMARK [1][-]{section.3}{Understanding iBeacon Technology}{}% 11
-\BOOKMARK [2][-]{subsection.3.1}{Existing applications implemented using iBeacon technology}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.2}{The algorithm to calculate distance based on RSSI}{section.3}% 13
-\BOOKMARK [1][-]{section.4}{Google Vision API}{}% 14
-\BOOKMARK [2][-]{subsection.4.1}{Sample Request}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.2}{Sample Response}{section.4}% 16
-\BOOKMARK [1][-]{section.5}{Google Cloud Translation API}{}% 17
-\BOOKMARK [2][-]{subsection.5.1}{Sample Request}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.2}{Sample Response}{section.5}% 19
-\BOOKMARK [1][-]{section.6}{Algorithm}{}% 20
-\BOOKMARK [1][-]{section.7}{System Design}{}% 21
-\BOOKMARK [2][-]{subsection.7.1}{Environment}{section.7}% 22
-\BOOKMARK [3][-]{subsubsection.7.1.1}{Digital Signages}{subsection.7.1}% 23
-\BOOKMARK [3][-]{subsubsection.7.1.2}{Printed Signages}{subsection.7.1}% 24
-\BOOKMARK [2][-]{subsection.7.2}{Mobile application}{section.7}% 25
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Background Monitoring}{subsection.7.2}% 26
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Beacon Ranging}{subsection.7.2}% 27
-\BOOKMARK [3][-]{subsubsection.7.2.3}{Development stack}{subsection.7.2}% 28
-\BOOKMARK [3][-]{subsubsection.7.2.4}{Screenshots}{subsection.7.2}% 29
-\BOOKMARK [2][-]{subsection.7.3}{REST API Integration}{section.7}% 30
-\BOOKMARK [2][-]{subsection.7.4}{Database}{section.7}% 31
-\BOOKMARK [1][-]{section.8}{Designing the User Experience}{}% 32
-\BOOKMARK [2][-]{subsection.8.1}{User Analysis}{section.8}% 33
-\BOOKMARK [3][-]{subsubsection.8.1.1}{Example Persona}{subsection.8.1}% 34
-\BOOKMARK [2][-]{subsection.8.2}{Task Analysis}{section.8}% 35
-\BOOKMARK [2][-]{subsection.8.3}{Context Analysis}{section.8}% 36
-\BOOKMARK [2][-]{subsection.8.4}{Design Principles}{section.8}% 37
-\BOOKMARK [3][-]{subsubsection.8.4.1}{Affordance}{subsection.8.4}% 38
-\BOOKMARK [3][-]{subsubsection.8.4.2}{Visibility}{subsection.8.4}% 39
-\BOOKMARK [3][-]{subsubsection.8.4.3}{Constraint}{subsection.8.4}% 40
-\BOOKMARK [3][-]{subsubsection.8.4.4}{Consistency}{subsection.8.4}% 41
-\BOOKMARK [3][-]{subsubsection.8.4.5}{Feedback}{subsection.8.4}% 42
-\BOOKMARK [1][-]{section.9}{Case study}{}% 43
-\BOOKMARK [2][-]{subsection.9.1}{Digital Signages }{section.9}% 44
-\BOOKMARK [3][-]{subsubsection.9.1.1}{Test case 1}{subsection.9.1}% 45
-\BOOKMARK [3][-]{subsubsection.9.1.2}{Test case 2}{subsection.9.1}% 46
-\BOOKMARK [2][-]{subsection.9.2}{Printed Signages }{section.9}% 47
-\BOOKMARK [3][-]{subsubsection.9.2.1}{Test case 3}{subsection.9.2}% 48
-\BOOKMARK [3][-]{subsubsection.9.2.2}{Test case 4}{subsection.9.2}% 49
-\BOOKMARK [2][-]{subsection.9.3}{Testing environment}{section.9}% 50
-\BOOKMARK [1][-]{section.10}{ Conclusion and future work}{}% 51
-\BOOKMARK [1][-]{section*.97}{References}{}% 52
+\BOOKMARK [2][-]{subsection.1.1}{Motivation}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Background}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Related Work}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Outline}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.1}{GPS}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Wi-Fi}{subsection.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Near Field Communication \(NFC\)}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Bluetooth}{subsection.2.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.2.5}{iBeacon}{subsection.2.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.6}{Comparison of indoor positioning methods}{subsection.2.2}% 11
+\BOOKMARK [1][-]{section.3}{Understanding iBeacon Technology}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Existing applications implemented using iBeacon technology}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Operating range of iBeacons}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Smartphones supporting iBeacon technology}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.4}{The algorithm to calculate distance based on RSSI}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Google Vision}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Sample Request}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Sample Response}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Google Cloud Translation}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Sample Request}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.2}{Sample Response}{section.5}% 22
+\BOOKMARK [1][-]{section.6}{Algorithm}{}% 23
+\BOOKMARK [1][-]{section.7}{System Design}{}% 24
+\BOOKMARK [2][-]{subsection.7.1}{Environment}{section.7}% 25
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Digital Signages}{subsection.7.1}% 26
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Printed Signages}{subsection.7.1}% 27
+\BOOKMARK [2][-]{subsection.7.2}{Mobile application}{section.7}% 28
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Background Monitoring}{subsection.7.2}% 29
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Beacon Ranging}{subsection.7.2}% 30
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Development stack}{subsection.7.2}% 31
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Screenshots}{subsection.7.2}% 32
+\BOOKMARK [2][-]{subsection.7.3}{REST API Integration}{section.7}% 33
+\BOOKMARK [2][-]{subsection.7.4}{Database}{section.7}% 34
+\BOOKMARK [1][-]{section.8}{Designing the User Experience}{}% 35
+\BOOKMARK [2][-]{subsection.8.1}{User Analysis}{section.8}% 36
+\BOOKMARK [3][-]{subsubsection.8.1.1}{Example Persona}{subsection.8.1}% 37
+\BOOKMARK [2][-]{subsection.8.2}{Task Analysis}{section.8}% 38
+\BOOKMARK [2][-]{subsection.8.3}{Context Analysis}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.4}{Design Principles}{section.8}% 40
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Affordance}{subsection.8.4}% 41
+\BOOKMARK [3][-]{subsubsection.8.4.2}{Visibility}{subsection.8.4}% 42
+\BOOKMARK [3][-]{subsubsection.8.4.3}{Constraint}{subsection.8.4}% 43
+\BOOKMARK [3][-]{subsubsection.8.4.4}{Consistency}{subsection.8.4}% 44
+\BOOKMARK [3][-]{subsubsection.8.4.5}{Feedback}{subsection.8.4}% 45
+\BOOKMARK [1][-]{section.9}{Case study}{}% 46
+\BOOKMARK [2][-]{subsection.9.1}{Digital Signages }{section.9}% 47
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Test case 1}{subsection.9.1}% 48
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Test case 2}{subsection.9.1}% 49
+\BOOKMARK [2][-]{subsection.9.2}{Printed Signages }{section.9}% 50
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Test case 3}{subsection.9.2}% 51
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Test case 4}{subsection.9.2}% 52
+\BOOKMARK [2][-]{subsection.9.3}{Testing environment}{section.9}% 53
+\BOOKMARK [1][-]{section.10}{ Conclusion and future work}{}% 54
+\BOOKMARK [1][-]{section*.100}{References}{}% 55

@@ -7,6 +7,20 @@ M.~S. Aman, C.~D. Quint, A.~Abdelgawad, and K.~Yelamarthi.
 \newblock In {\em 2017 IEEE Sensors Applications Symposium (SAS)}, pages 1--6,
   March 2017.
 
+\bibitem{campus}
+S.~Bai, C.~Chiu, J.~Hsu, and J.~Leu.
+\newblock Campus-wide wireless indoor positioning with hybrid ibeacon and wi-fi
+  system.
+\newblock In {\em 2017 6th International Symposium on Next Generation
+  Electronics (ISNE)}, pages 1--2, May 2017.
+
+\bibitem{demo}
+P.~Burzacca, M.~Mircoli, S.~Mitolo, and A.~Polzonetti.
+\newblock “ibeacon” technology that will make possible internet of things.
+\newblock In {\em International Conference on Software Intelligence
+  Technologies and Applications International Conference on Frontiers of
+  Internet of Things 2014}, pages 159--165, Dec 2014.
+
 \bibitem{vision}
 Maria Fazio Massimo~Villari Davide~Mulfari, Antonio~Celesti and Antonio
   Puliafito.
@@ -48,6 +62,12 @@ Y.~Jeng, M.~Hong, and H.~Lu.
 \newblock In {\em 2017 6th IIAI International Congress on Advanced Applied
   Informatics (IIAI-AAI)}, pages 715--718, July 2017.
 
+\bibitem{services}
+M.~Koühne and J.~Sieck.
+\newblock Location-based services with ibeacon technology.
+\newblock In {\em 2014 2nd International Conference on Artificial Intelligence,
+  Modelling and Simulation}, pages 315--321, Nov 2014.
+
 \bibitem{indoor}
 X.~Li, D.~Xu, X.~Wang, and R.~Muhammad.
 \newblock Design and implementation of indoor positioning system based on
@@ -65,6 +85,12 @@ T.~Ogi, K.~Ito, and S.~Konita.
 \newblock Multilingual digital signage using ibeacon communication.
 \newblock In {\em 2016 19th International Conference on Network-Based
   Information Systems (NBiS)}, pages 387--392, Sept 2016.
+
+\bibitem{indoorPositioning}
+Tao Peng, Xinhong Wang, Chao Wang, and Danqing Shi.
+\newblock Hybrid wireless indoor positioning with ibeacon and wi-fi.
+\newblock In {\em 11th International Conference on Wireless Communications,
+  Networking and Mobile Computing (WiCOM 2015)}, pages 1--5, Sept 2015.
 
 \bibitem{distance}
 S.~Rajkiran and C.~Balakrishnan.
@@ -99,12 +125,11 @@ C.~Takahashi and K.~Kondo.
 \newblock In {\em 2015 IEEE 4th Global Conference on Consumer Electronics
   (GCCE)}, pages 451--452, Oct 2015.
 
-\bibitem{augmented}
-C.~Wang, W.~Su, and Y.~Guo.
-\newblock An augmented reality mobile navigation system supporting ibeacon
-  assisted location-aware service.
-\newblock In {\em 2016 International Conference on Applied System Innovation
-  (ICASI)}, pages 1--4, May 2016.
+\bibitem{distanceTrack}
+C.~Takahashi and K.~Kondo.
+\newblock Accuracy evaluation of an indoor positioning method using ibeacons.
+\newblock In {\em 2016 IEEE 5th Global Conference on Consumer Electronics},
+  pages 1--2, Oct 2016.
 
 \bibitem{rest}
 Wikipedia.
@@ -117,5 +142,12 @@ Yang Yang, Zhouchi Li, and K.~Pahlavan.
 \newblock In {\em 2016 IEEE International Multi-Disciplinary Conference on
   Cognitive Methods in Situation Awareness and Decision Support (CogSIMA)},
   pages 187--191, March 2016.
+
+\bibitem{tracking}
+H.~Zou, Z.~Chen, H.~Jiang, L.~Xie, and C.~Spanos.
+\newblock Accurate indoor localization and tracking using mobile phone inertial
+  sensors, wifi and ibeacon.
+\newblock In {\em 2017 IEEE International Symposium on Inertial Sensors and
+  Systems (INERTIAL)}, pages 1--4, March 2017.
 
 \end{thebibliography}
