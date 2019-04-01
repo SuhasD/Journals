@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  4 OCT 2018 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  30 MAR 2019 22:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,311 +789,324 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--157
  []
 
 [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-<media/ibeacon-format.jpg, id=496, 960.58875pt x 396.48125pt>
+<media/ibeacon-format.jpg, id=498, 960.58875pt x 396.48125pt>
 File: media/ibeacon-format.jpg Graphic file (type jpg)
 <use media/ibeacon-format.jpg>
-Package pdftex.def Info: media/ibeacon-format.jpg  used on input line 173.
+Package pdftex.def Info: media/ibeacon-format.jpg  used on input line 174.
 (pdftex.def)             Requested size: 390.0pt x 160.97331pt.
 [10
 
  <./media/ibeacon-format.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-[11] [12] [13]
-<media/VISION_API.png, id=540, 307.1475pt x 523.9575pt>
+[11] [12] [13] [14
+
+]
+<media/VISION_API.png, id=552, 307.1475pt x 523.9575pt>
 File: media/VISION_API.png Graphic file (type png)
 <use media/VISION_API.png>
-Package pdftex.def Info: media/VISION_API.png  used on input line 240.
+Package pdftex.def Info: media/VISION_API.png  used on input line 248.
 (pdftex.def)             Requested size: 292.5pt x 499.00401pt.
- [14
+ [15
 
-] [15 <./media/VISION_API.png>]
-<media/request_sample.png, id=556, 714.67pt x 578.16pt>
+] [16 <./media/VISION_API.png>]
+<media/request_sample.png, id=569, 714.67pt x 578.16pt>
 File: media/request_sample.png Graphic file (type png)
 <use media/request_sample.png>
-Package pdftex.def Info: media/request_sample.png  used on input line 251.
+Package pdftex.def Info: media/request_sample.png  used on input line 259.
 (pdftex.def)             Requested size: 390.0pt x 315.51pt.
- [16 <./media/request_sample.png>] [17]
-<media/Translate.png, id=592, 169.1118pt x 324.0105pt>
+ [17 <./media/request_sample.png>]
+Overfull \hbox (11.8493pt too wide) in paragraph at lines 291--292
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[18]
+<media/Translate.png, id=610, 169.1118pt x 324.0105pt>
 File: media/Translate.png Graphic file (type png)
 <use media/Translate.png>
-Package pdftex.def Info: media/Translate.png  used on input line 297.
+Package pdftex.def Info: media/Translate.png  used on input line 312.
 (pdftex.def)             Requested size: 195.0pt x 373.61281pt.
- [18
+ [19
 
-] [19 <./media/Translate.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 321.
+] [20 <./media/Translate.png>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 336.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 321.
- [20]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 336.
+ [21]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 352.
- [21
+put line 370.
+ [22
 
 ]
-[22]
-<media/Architecture-3.png, id=658, 682.4697pt x 549.0111pt>
+[23]
+<media/Architecture-3.png, id=675, 682.4697pt x 549.0111pt>
 File: media/Architecture-3.png Graphic file (type png)
 <use media/Architecture-3.png>
-Package pdftex.def Info: media/Architecture-3.png  used on input line 417.
+Package pdftex.def Info: media/Architecture-3.png  used on input line 433.
 (pdftex.def)             Requested size: 390.0pt x 313.74379pt.
- [23
+ [24
 
-] [24 <./media/Architecture-3.png>] [25] [26]
-<media/1.jpg, id=703, 752.8125pt x 1339.0025pt>
+] [25 <./media/Architecture-3.png>] [26] [27] [28]
+<media/1.jpg, id=728, 752.8125pt x 1339.0025pt>
 File: media/1.jpg Graphic file (type jpg)
 <use media/1.jpg>
-Package pdftex.def Info: media/1.jpg  used on input line 494.
+Package pdftex.def Info: media/1.jpg  used on input line 518.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/2.PNG, id=704, 752.8125pt x 1339.0025pt>
+<media/2.PNG, id=729, 752.8125pt x 1339.0025pt>
 File: media/2.PNG Graphic file (type png)
 <use media/2.PNG>
-Package pdftex.def Info: media/2.PNG  used on input line 500.
+Package pdftex.def Info: media/2.PNG  used on input line 524.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
- [27] [28 <./media/1.jpg> <./media/2.PNG>]
-<media/3.PNG, id=720, 752.8125pt x 1339.0025pt>
+ [29 <./media/1.jpg> <./media/2.PNG>]
+<media/3.PNG, id=743, 752.8125pt x 1339.0025pt>
 File: media/3.PNG Graphic file (type png)
 <use media/3.PNG>
-Package pdftex.def Info: media/3.PNG  used on input line 529.
+Package pdftex.def Info: media/3.PNG  used on input line 557.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/4.PNG, id=721, 752.8125pt x 1339.0025pt>
+<media/4.PNG, id=744, 752.8125pt x 1339.0025pt>
 File: media/4.PNG Graphic file (type png)
 <use media/4.PNG>
-Package pdftex.def Info: media/4.PNG  used on input line 535.
+Package pdftex.def Info: media/4.PNG  used on input line 563.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
- [29] [30 <./media/3.PNG> <./media/4.PNG>]
-<media/5.PNG, id=737, 752.8125pt x 1339.0025pt>
+ [30]
+<media/5.PNG, id=752, 752.8125pt x 1339.0025pt>
 File: media/5.PNG Graphic file (type png)
 <use media/5.PNG>
-Package pdftex.def Info: media/5.PNG  used on input line 554.
+Package pdftex.def Info: media/5.PNG  used on input line 573.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
- [31 <./media/5.PNG>]
-<media/beacon.PNG, id=745, 752.8125pt x 1339.0025pt>
+ [31 <./media/3.PNG> <./media/4.PNG>] [32 <./media/5.PNG>]
+<media/beacon.PNG, id=766, 752.8125pt x 1339.0025pt>
 File: media/beacon.PNG Graphic file (type png)
 <use media/beacon.PNG>
-Package pdftex.def Info: media/beacon.PNG  used on input line 566.
+Package pdftex.def Info: media/beacon.PNG  used on input line 597.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/beacon2.PNG, id=746, 752.8125pt x 1339.0025pt>
+<media/beacon2.PNG, id=767, 752.8125pt x 1339.0025pt>
 File: media/beacon2.PNG Graphic file (type png)
 <use media/beacon2.PNG>
-Package pdftex.def Info: media/beacon2.PNG  used on input line 572.
+Package pdftex.def Info: media/beacon2.PNG  used on input line 603.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-[32 <./media/beacon.PNG> <./media/beacon2.PNG>]
-<media/beacon3.PNG, id=756, 752.8125pt x 1339.0025pt>
+[33 <./media/beacon.PNG> <./media/beacon2.PNG>]
+<media/beacon3.PNG, id=776, 752.8125pt x 1339.0025pt>
 File: media/beacon3.PNG Graphic file (type png)
 <use media/beacon3.PNG>
-Package pdftex.def Info: media/beacon3.PNG  used on input line 596.
+Package pdftex.def Info: media/beacon3.PNG  used on input line 623.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
- [33] [34 <./media/beacon3.PNG>]
-<media/db.png, id=775, 973.6375pt x 368.37625pt>
+ [34 <./media/beacon3.PNG>]
+<media/db.png, id=786, 973.6375pt x 368.37625pt>
 File: media/db.png Graphic file (type png)
 <use media/db.png>
-Package pdftex.def Info: media/db.png  used on input line 624.
+Package pdftex.def Info: media/db.png  used on input line 639.
 (pdftex.def)             Requested size: 390.0pt x 147.55585pt.
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+
+[35 <./media/db.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--643
+Underfull \hbox (badness 10000) in paragraph at lines 655--658
 
  []
 
-[36 <./media/db.png>] [37] [38
+[36] [37
 
-] [39] [40]
-<media/1a.PNG, id=821, 752.8125pt x 1339.0025pt>
+] [38] [39]
+<media/1a.PNG, id=820, 752.8125pt x 1339.0025pt>
 File: media/1a.PNG Graphic file (type png)
 <use media/1a.PNG>
-Package pdftex.def Info: media/1a.PNG  used on input line 767.
+Package pdftex.def Info: media/1a.PNG  used on input line 786.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
- [41] [42 <./media/1a.PNG>] [43]
-<media/loading1.PNG, id=850, 752.8125pt x 1339.0025pt>
+ [40] [41 <./media/1a.PNG>] [42]
+<media/loading1.PNG, id=851, 752.8125pt x 1339.0025pt>
 File: media/loading1.PNG Graphic file (type png)
 <use media/loading1.PNG>
-Package pdftex.def Info: media/loading1.PNG  used on input line 799.
+Package pdftex.def Info: media/loading1.PNG  used on input line 818.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
-
-[44 <./media/loading1.PNG>] [45
+ [43] [44 <./media/loading1.PNG>] [45
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 837--837
+Underfull \hbox (badness 10000) in paragraph at lines 882--882
 []\OT1/cmr/bx/n/12 Fetched sig-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 839--839
+Underfull \hbox (badness 10000) in paragraph at lines 884--884
 []\OT1/cmr/bx/n/12 Text trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 839--840
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
 []\OT1/cmr/m/n/12 "Materiales peli-grosos pre-
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 839--840
+Underfull \hbox (badness 1019) in paragraph at lines 884--885
 \OT1/cmr/m/n/12 el paso. No hay veh^^S^^Pculos
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 839--840
+Underfull \hbox (badness 3713) in paragraph at lines 884--885
 \OT1/cmr/m/n/12 veh^^S^^Pculos au-tor-iza-dos deben
  []
 
-<media/test1.png, id=866, 752.8125pt x 1339.0025pt>
+<media/test1.png, id=871, 752.8125pt x 1339.0025pt>
 File: media/test1.png Graphic file (type png)
 <use media/test1.png>
-Package pdftex.def Info: media/test1.png  used on input line 849.
+Package pdftex.def Info: media/test1.png  used on input line 895.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
 [46] [47 <./media/test1.png>]
-<media/case1.png, id=878, 752.8125pt x 1339.0025pt>
+<media/case1.png, id=884, 752.8125pt x 1339.0025pt>
 File: media/case1.png Graphic file (type png)
 <use media/case1.png>
-Package pdftex.def Info: media/case1.png  used on input line 865.
+Package pdftex.def Info: media/case1.png  used on input line 911.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 880--880
+ [48]
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
 []\OT1/cmr/bx/n/12 Fetched sig-
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 880--881
+Underfull \hbox (badness 2057) in paragraph at lines 926--927
 []\OT1/cmr/m/n/12 "Pedestrian ac-cess only be-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--882
+Underfull \hbox (badness 10000) in paragraph at lines 928--928
 []\OT1/cmr/bx/n/12 Text trans-
  []
 
-[48 <./media/case1.png>]
-<media/1.png, id=887, 752.8125pt x 1339.0025pt>
+[49 <./media/case1.png>]
+
+LaTeX Warning: Reference `fig:case3in' on page 50 undefined on input line 947.
+
+<media/1.png, id=898, 752.8125pt x 1339.0025pt>
 File: media/1.png Graphic file (type png)
 <use media/1.png>
-Package pdftex.def Info: media/1.png  used on input line 907.
+Package pdftex.def Info: media/1.png  used on input line 954.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/case3.PNG, id=888, 752.8125pt x 1339.0025pt>
+<media/case3.PNG, id=899, 752.8125pt x 1339.0025pt>
 File: media/case3.PNG Graphic file (type png)
 <use media/case3.PNG>
-Package pdftex.def Info: media/case3.PNG  used on input line 913.
+Package pdftex.def Info: media/case3.PNG  used on input line 960.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
- [49]
-<media/case3-eng.PNG, id=897, 752.8125pt x 1339.0025pt>
+[50]
+<media/case3-eng.PNG, id=908, 752.8125pt x 1339.0025pt>
 File: media/case3-eng.PNG Graphic file (type png)
 <use media/case3-eng.PNG>
-Package pdftex.def Info: media/case3-eng.PNG  used on input line 921.
+Package pdftex.def Info: media/case3-eng.PNG  used on input line 968.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
- [50 <./media/1.png> <./media/case3.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 935--935
+ [51 <./media/1.png> <./media/case3.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 982--982
 []\OT1/cmr/bx/n/12 Image cap-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 939--939
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
 []\OT1/cmr/bx/n/12 Text trans-
  []
 
-[51 <./media/case3-eng.PNG>]
-<media/case4.png, id=911, 752.8125pt x 1339.0025pt>
+[52 <./media/case3-eng.PNG>]
+<media/case4.png, id=925, 752.8125pt x 1339.0025pt>
 File: media/case4.png Graphic file (type png)
 <use media/case4.png>
-Package pdftex.def Info: media/case4.png  used on input line 960.
+Package pdftex.def Info: media/case4.png  used on input line 1008.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
-<media/case4a.png, id=912, 752.8125pt x 1339.0025pt>
+<media/case4a.png, id=926, 752.8125pt x 1339.0025pt>
 File: media/case4a.png Graphic file (type png)
 <use media/case4a.png>
-Package pdftex.def Info: media/case4a.png  used on input line 966.
+Package pdftex.def Info: media/case4a.png  used on input line 1014.
 (pdftex.def)             Requested size: 175.49881pt x 312.15256pt.
- [52]
-<media/case4b.png, id=920, 752.8125pt x 1339.0025pt>
+ [53]
+<media/case4b.png, id=934, 752.8125pt x 1339.0025pt>
 File: media/case4b.png Graphic file (type png)
 <use media/case4b.png>
-Package pdftex.def Info: media/case4b.png  used on input line 974.
+Package pdftex.def Info: media/case4b.png  used on input line 1022.
 (pdftex.def)             Requested size: 195.0pt x 346.84526pt.
- [53 <./media/case4.png> <./media/case4a.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 987--987
+ [54 <./media/case4.png> <./media/case4a.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1035
 []\OT1/cmr/bx/n/12 Image cap-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--991
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1039
 []\OT1/cmr/bx/n/12 Text trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
 []\OT1/cmr/m/n/12 "If JA VIDA gives you
  []
 
-[54 <./media/case4b.png>] [55] [56
+[55 <./media/case4b.png>] [56] [57
 
-] (./thesis-template.bbl [57
+] (./thesis-template.bbl [58
 
 
-] [58]
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
-[]\OT1/cmr/m/n/12 Wikipedia.  Rep-re-sen-ta-tional state trans-fer (rest) -
+] [59]
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+[]\OT1/cmr/m/n/12 Wikipedia, ``Rep-re-sen-ta-tional state trans-fer (rest) -
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1120.
- [59]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1120.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1149.
+ [60]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1149.
  (./thesis-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1149.
 
 Package rerunfilecheck Info: File `thesis-template.out' has not changed.
-(rerunfilecheck)             Checksum: E6FA1303C9A2084D2C7D31A99F9E43BC;3730.
+(rerunfilecheck)             Checksum: DD138BCF4AA44B222265BEA7D2C352F3;3747.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1149.
  ) 
 Here is how much of TeX's memory you used:
- 12824 strings out of 492649
- 177797 string characters out of 6129622
- 321930 words of memory out of 5000000
- 16079 multiletter control sequences out of 15000+600000
+ 12830 strings out of 492649
+ 177883 string characters out of 6129622
+ 321922 words of memory out of 5000000
+ 16080 multiletter control sequences out of 15000+600000
  15744 words of font info for 67 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  44i,18n,43p,3264b,1760s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1109,10 +1122,10 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis-template.pdf (68 pages, 13153945 bytes).
+Output written on thesis-template.pdf (69 pages, 13157765 bytes).
 PDF statistics:
- 1068 PDF objects out of 1200 (max. 8388607)
- 942 compressed objects within 10 object streams
- 336 named destinations out of 1000 (max. 500000)
+ 1083 PDF objects out of 1200 (max. 8388607)
+ 956 compressed objects within 10 object streams
+ 341 named destinations out of 1000 (max. 500000)
  581 words of extra memory for PDF output out of 10000 (max. 10000000)
 

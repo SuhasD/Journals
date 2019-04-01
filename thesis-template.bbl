@@ -1,153 +1,129 @@
 \begin{thebibliography}{10}
 
-\bibitem{sensing}
-M.~S. Aman, C.~D. Quint, A.~Abdelgawad, and K.~Yelamarthi.
-\newblock Sensing and classifying indoor environments: An iot based portable
-  tour guide system.
-\newblock In {\em 2017 IEEE Sensors Applications Symposium (SAS)}, pages 1--6,
-  March 2017.
-
-\bibitem{campus}
-S.~Bai, C.~Chiu, J.~Hsu, and J.~Leu.
-\newblock Campus-wide wireless indoor positioning with hybrid ibeacon and wi-fi
-  system.
-\newblock In {\em 2017 6th International Symposium on Next Generation
-  Electronics (ISNE)}, pages 1--2, May 2017.
-
-\bibitem{demo}
-P.~Burzacca, M.~Mircoli, S.~Mitolo, and A.~Polzonetti.
-\newblock “ibeacon” technology that will make possible internet of things.
-\newblock In {\em International Conference on Software Intelligence
-  Technologies and Applications International Conference on Frontiers of
-  Internet of Things 2014}, pages 159--165, Dec 2014.
-
-\bibitem{vision}
-Maria Fazio Massimo~Villari Davide~Mulfari, Antonio~Celesti and Antonio
-  Puliafito.
-\newblock Using google cloud vision in assistive technology scenarios.
-\newblock {\em IEEE Workshop on ICT solutions for eHealth 2016}, 2016.
-
-\bibitem{git}
-Suhas Dwarakanath.
-\newblock https://github.com/suhasd/thesis.
-
-\bibitem{firebase}
-Google Firebase.
-\newblock https://firebase.google.com/docs/.
-
-\bibitem{hci}
-Xiangqian Fu.
-\newblock Mobile phone ui design principles in the design of human-machine
-  interaction design.
-\newblock In {\em 2010 IEEE 11th International Conference on Computer-Aided
-  Industrial Design Conceptual Design 1}, volume~1, pages 697--701, Nov 2010.
-
-\bibitem{zoo}
-Anja~Schmidt Gudrun~Gorlitz.
-\newblock Digital signage: Informal learning in animal parks and zoos.
-\newblock {\em World Conference on E-Learning in Corporate Government
-  Healthcare and Higher Education 2008}, pp. 841-846:841--846, 2008.
-
-\bibitem{beacons}
-Z.~He, B.~Cui, W.~Zhou, and S.~Yokoi.
-\newblock A proposal of interaction system between visitor and collection in
-  museum hall by ibeacon.
-\newblock In {\em 2015 10th International Conference on Computer Science
-  Education (ICCSE)}, pages 427--430, July 2015.
-
-\bibitem{taiwan}
-Y.~Jeng, M.~Hong, and H.~Lu.
-\newblock The development of the mobile situated learning application based on
-  microlocation technology.
-\newblock In {\em 2017 6th IIAI International Congress on Advanced Applied
-  Informatics (IIAI-AAI)}, pages 715--718, July 2017.
-
-\bibitem{services}
-M.~Koühne and J.~Sieck.
-\newblock Location-based services with ibeacon technology.
-\newblock In {\em 2014 2nd International Conference on Artificial Intelligence,
-  Modelling and Simulation}, pages 315--321, Nov 2014.
-
-\bibitem{indoor}
-X.~Li, D.~Xu, X.~Wang, and R.~Muhammad.
-\newblock Design and implementation of indoor positioning system based on
-  ibeacon.
-\newblock In {\em 2016 International Conference on Audio, Language and Image
-  Processing (ICALIP)}, pages 126--130, July 2016.
-
-\bibitem{norman}
-Donald~A. Norman.
-\newblock Emotional design.
-\newblock {\em House of Electronics Industry}, pages 44--79, 2005.
+\bibitem{audioBeacon}
+C.~Takahashi and K.~Kondo, ``Indoor positioning method for augmented audio
+  reality navigation systems using ibeacons,'' in {\em 2015 IEEE 4th Global
+  Conference on Consumer Electronics (GCCE)}, pp.~451--452, Oct 2015.
 
 \bibitem{one}
-T.~Ogi, K.~Ito, and S.~Konita.
-\newblock Multilingual digital signage using ibeacon communication.
-\newblock In {\em 2016 19th International Conference on Network-Based
-  Information Systems (NBiS)}, pages 387--392, Sept 2016.
-
-\bibitem{indoorPositioning}
-Tao Peng, Xinhong Wang, Chao Wang, and Danqing Shi.
-\newblock Hybrid wireless indoor positioning with ibeacon and wi-fi.
-\newblock In {\em 11th International Conference on Wireless Communications,
-  Networking and Mobile Computing (WiCOM 2015)}, pages 1--5, Sept 2015.
-
-\bibitem{distance}
-S.~Rajkiran and C.~Balakrishnan.
-\newblock Rssi estimation using bluetooth in smart phones.
-\newblock In {\em 2015 2nd International Conference on Electronics and
-  Communication Systems (ICECS)}, pages 1431--1434, Feb 2015.
+T.~Ogi, K.~Ito, and S.~Konita, ``Multilingual digital signage using ibeacon
+  communication,'' in {\em 2016 19th International Conference on Network-Based
+  Information Systems (NBiS)}, pp.~387--392, Sept 2016.
 
 \bibitem{india}
-P.~Salunkhe, S.~Bhaskaran, J.~Amudha, and D.~Gupta.
-\newblock Recognition of multilingual text from signage boards.
-\newblock In {\em 2017 International Conference on Advances in Computing,
-  Communications and Informatics (ICACCI)}, pages 977--982, Sept 2017.
+P.~Salunkhe, S.~Bhaskaran, J.~Amudha, and D.~Gupta, ``Recognition of
+  multilingual text from signage boards,'' in {\em 2017 International
+  Conference on Advances in Computing, Communications and Informatics
+  (ICACCI)}, pp.~977--982, Sept 2017.
 
-\bibitem{uid}
-M.~Seraj and Chui~Yin Wong.
-\newblock A study of user interface design principles and requirements for
-  developing a mobile learning prototype.
-\newblock In {\em 2012 International Conference on Computer Information Science
-  (ICCIS)}, volume~2, pages 1014--1019, June 2012.
+\bibitem{zoo}
+A.~S. Gudrun~Gorlitz, ``Digital signage: Informal learning in animal parks and
+  zoos,'' {\em World Conference on E-Learning in Corporate Government
+  Healthcare and Higher Education 2008}, vol.~pp. 841-846, pp.~841--846, 2008.
 
-\bibitem{ocr}
-S.~Sonth and J.~S. Kallimani.
-\newblock Ocr based facilitator for the visually challenged.
-\newblock In {\em 2017 International Conference on Electrical, Electronics,
-  Communication, Computer, and Optimization Techniques (ICEECCOT)}, pages 1--7,
-  Dec 2017.
-
-\bibitem{audioBeacon}
-C.~Takahashi and K.~Kondo.
-\newblock Indoor positioning method for augmented audio reality navigation
-  systems using ibeacons.
-\newblock In {\em 2015 IEEE 4th Global Conference on Consumer Electronics
-  (GCCE)}, pages 451--452, Oct 2015.
-
-\bibitem{distanceTrack}
-C.~Takahashi and K.~Kondo.
-\newblock Accuracy evaluation of an indoor positioning method using ibeacons.
-\newblock In {\em 2016 IEEE 5th Global Conference on Consumer Electronics},
-  pages 1--2, Oct 2016.
-
-\bibitem{rest}
-Wikipedia.
-\newblock Representational state transfer (rest) -
-  https://en.wikipedia.org/wiki/.
+\bibitem{taiwan}
+Y.~Jeng, M.~Hong, and H.~Lu, ``The development of the mobile situated learning
+  application based on microlocation technology,'' in {\em 2017 6th IIAI
+  International Congress on Advanced Applied Informatics (IIAI-AAI)},
+  pp.~715--718, July 2017.
 
 \bibitem{room}
-Yang Yang, Zhouchi Li, and K.~Pahlavan.
-\newblock Using ibeacon for intelligent in-room presence detection.
-\newblock In {\em 2016 IEEE International Multi-Disciplinary Conference on
-  Cognitive Methods in Situation Awareness and Decision Support (CogSIMA)},
-  pages 187--191, March 2016.
+Y.~Yang, Z.~Li, and K.~Pahlavan, ``Using ibeacon for intelligent in-room
+  presence detection,'' in {\em 2016 IEEE International Multi-Disciplinary
+  Conference on Cognitive Methods in Situation Awareness and Decision Support
+  (CogSIMA)}, pp.~187--191, March 2016.
+
+\bibitem{distance}
+S.~Rajkiran and C.~Balakrishnan, ``Rssi estimation using bluetooth in smart
+  phones,'' in {\em 2015 2nd International Conference on Electronics and
+  Communication Systems (ICECS)}, pp.~1431--1434, Feb 2015.
+
+\bibitem{ocr}
+S.~Sonth and J.~S. Kallimani, ``Ocr based facilitator for the visually
+  challenged,'' in {\em 2017 International Conference on Electrical,
+  Electronics, Communication, Computer, and Optimization Techniques
+  (ICEECCOT)}, pp.~1--7, Dec 2017.
+
+\bibitem{services}
+M.~Koühne and J.~Sieck, ``Location-based services with ibeacon technology,''
+  in {\em 2014 2nd International Conference on Artificial Intelligence,
+  Modelling and Simulation}, pp.~315--321, Nov 2014.
+
+\bibitem{indoor}
+X.~Li, D.~Xu, X.~Wang, and R.~Muhammad, ``Design and implementation of indoor
+  positioning system based on ibeacon,'' in {\em 2016 International Conference
+  on Audio, Language and Image Processing (ICALIP)}, pp.~126--130, July 2016.
+
+\bibitem{indoorPositioning}
+T.~Peng, X.~Wang, C.~Wang, and D.~Shi, ``Hybrid wireless indoor positioning
+  with ibeacon and wi-fi,'' in {\em 11th International Conference on Wireless
+  Communications, Networking and Mobile Computing (WiCOM 2015)}, pp.~1--5, Sept
+  2015.
 
 \bibitem{tracking}
-H.~Zou, Z.~Chen, H.~Jiang, L.~Xie, and C.~Spanos.
-\newblock Accurate indoor localization and tracking using mobile phone inertial
-  sensors, wifi and ibeacon.
-\newblock In {\em 2017 IEEE International Symposium on Inertial Sensors and
-  Systems (INERTIAL)}, pages 1--4, March 2017.
+H.~Zou, Z.~Chen, H.~Jiang, L.~Xie, and C.~Spanos, ``Accurate indoor
+  localization and tracking using mobile phone inertial sensors, wifi and
+  ibeacon,'' in {\em 2017 IEEE International Symposium on Inertial Sensors and
+  Systems (INERTIAL)}, pp.~1--4, March 2017.
+
+\bibitem{sensing}
+M.~S. Aman, C.~D. Quint, A.~Abdelgawad, and K.~Yelamarthi, ``Sensing and
+  classifying indoor environments: An iot based portable tour guide system,''
+  in {\em 2017 IEEE Sensors Applications Symposium (SAS)}, pp.~1--6, March
+  2017.
+
+\bibitem{beacons}
+Z.~He, B.~Cui, W.~Zhou, and S.~Yokoi, ``A proposal of interaction system
+  between visitor and collection in museum hall by ibeacon,'' in {\em 2015 10th
+  International Conference on Computer Science Education (ICCSE)},
+  pp.~427--430, July 2015.
+
+\bibitem{campus}
+S.~Bai, C.~Chiu, J.~Hsu, and J.~Leu, ``Campus-wide wireless indoor positioning
+  with hybrid ibeacon and wi-fi system,'' in {\em 2017 6th International
+  Symposium on Next Generation Electronics (ISNE)}, pp.~1--2, May 2017.
+
+\bibitem{demo}
+P.~Burzacca, M.~Mircoli, S.~Mitolo, and A.~Polzonetti, ``“ibeacon”
+  technology that will make possible internet of things,'' in {\em
+  International Conference on Software Intelligence Technologies and
+  Applications International Conference on Frontiers of Internet of Things
+  2014}, pp.~159--165, Dec 2014.
+
+\bibitem{distanceTrack}
+C.~Takahashi and K.~Kondo, ``Accuracy evaluation of an indoor positioning
+  method using ibeacons,'' in {\em 2016 IEEE 5th Global Conference on Consumer
+  Electronics}, pp.~1--2, Oct 2016.
+
+\bibitem{rest}
+Wikipedia, ``Representational state transfer (rest) -
+  https://en.wikipedia.org/wiki/.''
+
+\bibitem{vision}
+M.~F. M.~V. Davide~Mulfari, Antonio~Celesti and A.~Puliafito, ``Using google
+  cloud vision in assistive technology scenarios,'' {\em IEEE Workshop on ICT
+  solutions for eHealth 2016}, 2016.
+
+\bibitem{git}
+S.~Dwarakanath, ``https://github.com/suhasd/thesis.''
+
+\bibitem{firebase}
+G.~Firebase, ``https://firebase.google.com/docs/.''
+
+\bibitem{uid}
+M.~Seraj and C.~Y. Wong, ``A study of user interface design principles and
+  requirements for developing a mobile learning prototype,'' in {\em 2012
+  International Conference on Computer Information Science (ICCIS)}, vol.~2,
+  pp.~1014--1019, June 2012.
+
+\bibitem{hci}
+X.~Fu, ``Mobile phone ui design principles in the design of human-machine
+  interaction design,'' in {\em 2010 IEEE 11th International Conference on
+  Computer-Aided Industrial Design Conceptual Design 1}, vol.~1, pp.~697--701,
+  Nov 2010.
+
+\bibitem{norman}
+D.~A. Norman, ``Emotional design,'' {\em House of Electronics Industry},
+  pp.~44--79, 2005.
 
 \end{thebibliography}
