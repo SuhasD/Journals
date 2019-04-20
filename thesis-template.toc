@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {3.1}Existing applications implemented using iBeacon technology}{12}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Operating range of iBeacons}{12}{subsection.3.2}
 \contentsline {paragraph}{}{12}{paragraph*.25}
-\contentsline {subsection}{\numberline {3.3}Smartphones supporting iBeacon technology}{13}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Smartphones supporting iBeacon technology}{12}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Calculating distance between iBeacons, based on RSSI}{13}{subsection.3.4}
 \contentsline {paragraph}{}{13}{paragraph*.26}
 \contentsline {paragraph}{}{13}{paragraph*.27}
@@ -100,14 +100,14 @@
 \contentsline {section}{\numberline {9}User Experience Design (UX Design)}{37}{section.9}
 \contentsline {paragraph}{}{37}{paragraph*.66}
 \contentsline {paragraph}{}{37}{paragraph*.67}
-\contentsline {paragraph}{}{38}{paragraph*.68}
+\contentsline {paragraph}{}{37}{paragraph*.68}
 \contentsline {subsection}{\numberline {9.1}Context Analysis}{38}{subsection.9.1}
 \contentsline {subsection}{\numberline {9.2}Task Analysis}{38}{subsection.9.2}
 \contentsline {paragraph}{}{38}{paragraph*.69}
 \contentsline {subsection}{\numberline {9.3}User Analysis}{39}{subsection.9.3}
 \contentsline {subsubsection}{\numberline {9.3.1}Example Persona}{39}{subsubsection.9.3.1}
 \contentsline {paragraph}{}{39}{paragraph*.70}
-\contentsline {paragraph}{}{40}{paragraph*.71}
+\contentsline {paragraph}{}{39}{paragraph*.71}
 \contentsline {paragraph}{}{40}{paragraph*.72}
 \contentsline {subsection}{\numberline {9.4}Design Principles}{40}{subsection.9.4}
 \contentsline {subsubsection}{\numberline {9.4.1}Affordance}{40}{subsubsection.9.4.1}

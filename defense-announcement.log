@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  30 MAR 2019 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  18 APR 2019 23:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -188,7 +188,7 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count112
 \cp@tempcnt=\count113
 )
-No file defense-announcement.aux.
+(./defense-announcement.aux)
 \openout1 = `defense-announcement.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -203,6 +203,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
+
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
@@ -324,8 +325,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./media
 /ci-logo.png>] (./defense-announcement.aux) ) 
 Here is how much of TeX's memory you used:
- 4439 strings out of 492649
- 60874 string characters out of 6129622
+ 4441 strings out of 492649
+ 60924 string characters out of 6129622
  141953 words of memory out of 5000000
  8277 multiletter control sequences out of 15000+600000
  8779 words of font info for 31 fonts, out of 8000000 for 9000
@@ -337,7 +338,7 @@ t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist
 fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on defense-announcement.pdf (1 page, 129708 bytes).
+Output written on defense-announcement.pdf (1 page, 130144 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
