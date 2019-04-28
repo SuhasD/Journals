@@ -23,8 +23,8 @@
 \contentsline {paragraph}{}{7}{paragraph*.16}
 \contentsline {subsubsection}{\numberline {2.2.3}Near Field Communication (NFC)}{7}{subsubsection.2.2.3}
 \contentsline {paragraph}{}{7}{paragraph*.17}
-\contentsline {subsubsection}{\numberline {2.2.4}Bluetooth}{7}{subsubsection.2.2.4}
-\contentsline {paragraph}{}{7}{paragraph*.18}
+\contentsline {subsubsection}{\numberline {2.2.4}Bluetooth}{8}{subsubsection.2.2.4}
+\contentsline {paragraph}{}{8}{paragraph*.18}
 \contentsline {subsubsection}{\numberline {2.2.5}iBeacon}{8}{subsubsection.2.2.5}
 \contentsline {paragraph}{}{8}{paragraph*.19}
 \contentsline {subsubsection}{\numberline {2.2.6}Comparison of indoor positioning methods}{8}{subsubsection.2.2.6}
@@ -37,9 +37,8 @@
 \contentsline {subsection}{\numberline {3.1}Existing applications implemented using iBeacon technology}{12}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Operating range of iBeacons}{12}{subsection.3.2}
 \contentsline {paragraph}{}{12}{paragraph*.25}
-\contentsline {subsection}{\numberline {3.3}Smartphones supporting iBeacon technology}{12}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Calculating distance between iBeacons, based on RSSI}{13}{subsection.3.4}
-\contentsline {paragraph}{}{13}{paragraph*.26}
+\contentsline {subsection}{\numberline {3.3}Calculating distance between iBeacons, based on RSSI}{12}{subsection.3.3}
+\contentsline {paragraph}{}{12}{paragraph*.26}
 \contentsline {paragraph}{}{13}{paragraph*.27}
 \contentsline {paragraph}{}{13}{paragraph*.28}
 \contentsline {section}{\numberline {4}RESTful web services}{14}{section.4}
@@ -73,8 +72,8 @@
 \contentsline {paragraph}{}{24}{paragraph*.48}
 \contentsline {subsection}{\numberline {8.1}Environment setup}{25}{subsection.8.1}
 \contentsline {paragraph}{}{25}{paragraph*.49}
-\contentsline {subsubsection}{\numberline {8.1.1}Digital Signages}{25}{subsubsection.8.1.1}
-\contentsline {paragraph}{}{25}{paragraph*.50}
+\contentsline {subsubsection}{\numberline {8.1.1}Digital Signages}{26}{subsubsection.8.1.1}
+\contentsline {paragraph}{}{26}{paragraph*.50}
 \contentsline {subsubsection}{\numberline {8.1.2}Printed Signages}{26}{subsubsection.8.1.2}
 \contentsline {paragraph}{}{26}{paragraph*.51}
 \contentsline {subsection}{\numberline {8.2}Mobile application}{26}{subsection.8.2}
@@ -135,8 +134,8 @@
 \contentsline {subsubsection}{\numberline {10.2.1}Test Case 1}{46}{subsubsection.10.2.1}
 \contentsline {paragraph}{}{46}{paragraph*.87}
 \contentsline {paragraph}{}{46}{paragraph*.88}
-\contentsline {subsubsection}{\numberline {10.2.2}Test Case 2}{47}{subsubsection.10.2.2}
-\contentsline {paragraph}{}{47}{paragraph*.89}
+\contentsline {subsubsection}{\numberline {10.2.2}Test Case 2}{48}{subsubsection.10.2.2}
+\contentsline {paragraph}{}{48}{paragraph*.89}
 \contentsline {paragraph}{}{48}{paragraph*.90}
 \contentsline {paragraph}{}{48}{paragraph*.91}
 \contentsline {subsection}{\numberline {10.3}Printed Signages }{49}{subsection.10.3}

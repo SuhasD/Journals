@@ -7,7 +7,7 @@
 
 \usepackage{algorithm}
 \usepackage[noend]{algpseudocode}
-
+\usepackage[autostyle]{csquotes}
 \makeatletter
 \def\BState{\State\hskip-\ALG@thistlm}
 \makeatother
@@ -83,51 +83,51 @@ In this study, in order to solve such problems, a multilingual information servi
 \section{Background}
 \label{sect-background}
 
-\paragraph{}Text extraction and text translation are highly researched areas in the field of computer vision to model a smart self-learning system, which include text associated with banners, highway and roadside sign boards or the information on local transport system. These information in the form of text provide significant clues about that environment \cite{india}. Text detection can also help those who are visually impaired and tourist alike to convey the right information in more understandable way.\cite{india}
+\paragraph{}Text extraction and text translation are highly researched areas in the field of computer vision to model a smart self-learning system, which include text associated with banners, highway and roadside sign boards or the information on local transport system. This information in the form of text provide significant clues about that environment \cite{india}. Text detection can also help those who are visually impaired and tourist alike to convey the right information in more understandable way \cite{india}.
 
 \paragraph{}As a method of accessing information on public signages, there are two ways of using a smart phone to find information in relevant languages; the user needs to search information by himself or herself, then translate it relevant language to access necessary information. Alternatively, when digital signage is used, the user can find and access information by coming in proximity of the digital signage without performing any special action. In this study, we explore ways to improve searching and accessing information by using smartphone camera and the method of information provision using the digital signage using iBeacons. This should make users who visit foreign countries get information without making extra efforts. 
 
 \subsection{Related Work}
 
-\paragraph{} A study of multilingual digital signage using iBeacon communication was done, for the purpose of evaluating the technology in an university campus at Japan.  \cite{one} In the experiment, the authors installed 25 iBeacon devices at sightseeing spots, restaurants, souvenir shops, photo shops, etc. in Shirakawa-go, a popular tourist area of Japan. When visitors look at these heritage spots, it is difficult for them to understand whether it is a restaurant or a souvenir shop. By using this system, tourists were able to obtain necessary information in their native languages when they enter each iBeacon area while walking in Shirakawa-go. The paper confirmed that this system can be used effectively for both Japanese and the foreigners \cite{one}.  In their system, it was possible to change the displayed language automatically when the user comes near to the digital signage, by using the mechanism of background scanning of iBeacons. However, their study is dependent on installing and configuring bluetooth iBeacons for the user to be able to understand the signages. It does not support text translations from printed signages. In our study, we aim to support both digital and printed signages.
+\paragraph{} A study of multilingual digital signage using iBeacon communication was done, for the purpose of evaluating the technology in an university campus at Japan \cite{one}.  In the experiment, the authors installed 25 iBeacon devices at sightseeing spots, restaurants, souvenir shops, photo shops, etc. in Shirakawa-go, a popular tourist area of Japan. When visitors look at these heritage spots, it is difficult for them to understand whether it is a restaurant or a souvenir shop. By using this system, tourists were able to obtain necessary information in their native languages when they enter each iBeacon area while walking in Shirakawa-go. The paper confirmed that this system can be used effectively for both Japanese and the foreigners \cite{one}.  In their system, it was possible to change the displayed language automatically when the user comes near to the digital signage, by using the mechanism of background scanning of iBeacons. However, their study is dependent on installing and configuring bluetooth iBeacons for the user to be able to understand the signages. It does not support text translations from printed signages. In our study, we aim to support both digital and printed signages.
 
-\paragraph{}American MLB has been using iBeacons in some stadiums. Their mobile application can provide navigation system, so the ticket in user's hand will pop out automatically and their position will be tracked when they get close to ticket entrance. Many techniques such as the method of displaying information written in several languages in user's native language, the method of displaying multilingual information simultaneously, and the method of switching displayed language using touch screens, have been used. \cite{zoo} When iBeacon is scanned by the nearest mobile application, the proximity of the beacon will be accessed and customers will be provided with service based on the proximity.\cite{taiwan} \cite{room}
+\paragraph{}American MLB has been using iBeacons in some stadiums. Their mobile application can provide navigation system, so the ticket in user's hand will pop out automatically and their position will be tracked when they get close to ticket entrance. Many techniques such as the method of displaying information written in several languages in user's native language, the method of displaying multilingual information simultaneously, and the method of switching displayed language using touch screens, have been used. \cite{zoo} When iBeacon is scanned by the nearest mobile application, the proximity of the beacon will be accessed and customers will be provided with service based on the proximity \cite{taiwan} \cite{room}.
 
-\paragraph{}In India, a study of text detection and extraction based on Stroke Width Transform (SWT) to extract letters was conducted. \cite{india} This application focussed on tourism industry and local transport, to help people to deal with different languages in India which involve text associated with natural scenes in the local public places. Using SWT method, various Indian languages and their combination with English were detected. However, this study only translates the regional languages used in India and does not translate the detected texts into International languages languages. This is still a hindrance for foreigners to understand their environment.
+\paragraph{}In India, a study of text detection and extraction based on Stroke Width Transform (SWT) to extract letters was conducted \cite{india}. This application focussed on tourism industry and local transport, to help people to deal with different languages in India which involve text associated with natural scenes in the local public places. Using SWT method, various Indian languages and their combination with English were detected. However, this study only translates the regional languages used in India and does not translate the detected texts into International languages languages. This is still a hindrance for foreigners to understand their environment.
 
-\paragraph{} To develop a location-based system such as the digital signage system in our study, accurately determining user's proximity to the signage is important. The problem of proximity detection is found to be difficult in a variety of environment. Existing approaches like Global Positioning System and Wi-Fi triangulations are insufficient to meet the requirements of high accuracy and also involve high cost to setup. A study was made using, Bluetooth which is commonly available in all smartphones to find the proximity over shorter distance and determine the distance based on the Received Signal Strength Indicator (RSSI) values of the Bluetooth  beacons \cite{distance}. In existing systems, GPS is used to find the location, which won't work as accurately indoors and inside most commercial building areas. So the authors proposed a system to overcome the problem by using Bluetooth to Bluetooth proximity estimation. By using the received signal strength of the Bluetooth device, RSSI value is used to find out exact distance between the devices. This technique helps in determining the location of nearby user. The study proposed the proximity determination model by combining Bluetooth RSSI value. The results demonstrate that Bluetooth offers a feasible mechanism that is accurate and power-efficient for measuring user's proximity indoors \cite{distance}. While this study does not focus on text detection or digital signage, this is  useful for our study to determine the distance of the user/smartphone to the iBeacons.
+\paragraph{} To develop a location-based system such as the digital signage system in our study, accurately determining user's proximity to the signage is important. The problem of proximity detection is found to be difficult in a variety of environments. Existing approaches like Global Positioning System and Wi-Fi triangulations are insufficient to meet the requirements of high accuracy and also involve high cost to setup. A study was made using, Bluetooth which is commonly available in all smartphones to find the proximity over shorter distance and determine the distance based on the Received Signal Strength Indicator (RSSI) values of the Bluetooth  beacons \cite{distance}. In existing systems, GPS is used to find the location, which won't work as accurately indoors and inside most commercial building areas. So the authors proposed a system to overcome the problem by using Bluetooth to Bluetooth proximity estimation. By using the received signal strength of the Bluetooth device, RSSI value is used to find out the approximate distance between the devices. This technique helps in determining the location of nearby user. The study proposed the proximity determination model by combining Bluetooth RSSI value. The results demonstrate that Bluetooth offers a feasible mechanism that is accurate and power-efficient for measuring user's proximity indoors \cite{distance}. While this study does not focus on text detection or digital signage, this is  useful for our study to determine the distance of the user/smartphone to the iBeacons.
 
-\paragraph{}Optical Character Recognition (OCR) is the electronic conversion of images into machine encoded text. It provides alpha-numeric recognition of printed and handwritten characters. In the recent past, OCR has been an active topic of research and has wide applications in healthcare, banking, finance and education. One of the applications of OCR is to help with visually impaired persons. According to the World Health Organization (WHO), around 285 million people around the world are estimated to be visually impaired, out of which 90\% live in developing countries. Thus there is a definite need to develop a system to provide information to the visually impaired. In the research by S. Sonth and J. S. Kallimani, a camera based framework was built on the Raspberry Pi, integrating with Image processing algorithms, OCR and Text-to-Speech (TTS) module \cite{ocr}. The smartphone camera is used to capture an image of the printed or handwritten text, and the image was then subject to preprocessing before being fed into the OCR system.\cite{ocr} This study, however does not focus on language translation or digital signage, we use the adopt image pre-processing techniques like binarization, de-noising, deskewing, segmentation and feature extraction in our research.
+\paragraph{}Optical Character Recognition (OCR) is the electronic conversion of images into machine encoded text. It provides alpha-numeric recognition of printed and handwritten characters. In the recent past, OCR has been an active topic of research and has wide applications in healthcare, banking, finance and education. One of the applications of OCR is to help with visually impaired persons. According to the World Health Organization (WHO), around 285 million people around the world are estimated to be visually impaired, out of which 90\% live in developing countries. Thus there is a definite need to develop a system to provide information to the visually impaired. In the research by S. Sonth and J. S. Kallimani, a camera based framework was built on the Raspberry Pi, integrating with Image processing algorithms, OCR and Text-to-Speech (TTS) module \cite{ocr}. The smartphone camera is used to capture an image of the printed or handwritten text, and the image was then subject to preprocessing before being fed into the OCR system \cite{ocr}. This study, however does not focus on language translation or digital signage, we adopt image pre-processing techniques like binarization, de-noising, de-skewing, segmentation and feature extraction in our research.
 
-\paragraph{}In Taiwan, to encourage learning English, a study was carried out using the iBeacon's micro-positioning function to set the location in museum, restaurant, store, etc. When user's mobile phone detects the presence of iBeacons, the mobile application facilitates learning by interacting with users' environment. \cite{taiwan} Vocabulary includes the single words and expressions commonly used in daily life. With the narration and use of everyday sentence structure and grammar, users can learn English conveniently and quickly and apply it to real situations. In this way, users can learn English from the surroundings to enhance their English ability, achieve better effects with minimal efforts and in a fun way in the proposed system. With the combination of the proposed application, English learning materials and iBeacon micro-location feature, learners can receive the surrounding related learning materials. In this manner, learners will have chance to build the connection between the learning materials and the environment which can enforce their memory to remember the learning concept.  \cite{taiwan} It was found that the system can raise the learning intent of the learners and may improve their learning effectiveness. However, this study focusses on converting Chinese language to English based on the user's location. It does not support multiple languages and the system is entirely dependent on iBeacons.
+\paragraph{}In Taiwan, to encourage learning English, a study was carried out using the iBeacon's micro-positioning function to set the location in museum, restaurant, store, etc. When user's mobile phone detects the presence of iBeacons, the mobile application facilitates learning by interacting with users' environment \cite{taiwan}. Vocabulary includes the single words and expressions commonly used in daily life. With the narration and use of everyday sentence structure and grammar, users can learn English conveniently and quickly and apply it to real situations. In this way, users can learn English from the surroundings to enhance their English ability, achieve better effects with minimal efforts and in a fun way in the proposed system. With the combination of the proposed application, English learning materials and iBeacon micro-location feature, learners can receive the surrounding related learning materials. In this manner, learners will have chance to build the connection between the learning materials and the environment which can enforce their memory to remember the learning concept \cite{taiwan}. It was found that the system can raise the learning intent of the learners and may improve their learning effectiveness. However, this study focusses on converting Chinese language to English based on the user's location. It does not support multiple languages and the system is entirely dependent on iBeacons.
 
-\paragraph{} With the rapid rise in multimedia and data services, demand for positioning has increased, especially in indoor environment which needs to determine the proximity  of the user to provide context based information. \cite{services} There is a lack of accuracy in current positioning system. A study was made to design and develop a mobile-based indoor location system which has the mobile applications with the Bluetooth Low Energy technology based on the iBeacon \cite{indoor}. The authors adopted Gaussian filter and Unscented Kalman filter method to read signals from iBeacon device. With the extracted signals, the authors compared them with-in database. They were able to display data based on micro-location on the user's smartphone.  It was found that the iBeacon approach has better performance compared with WiFi method  \cite{indoor}. However, this study does not translate the detected texts into the user's preferred languages. This is still a hindrance for foreigners to understand their environment.
+\paragraph{} With the rapid rise in multimedia and data services, demand for positioning has increased, especially in indoor environment which needs to determine the proximity  of the user to provide context based information \cite{services}. There is a lack of accuracy in current positioning systems. A study was made to design and develop a mobile-based indoor location system for mobile applications with the Bluetooth Low Energy technology based on the iBeacon \cite{indoor}. The authors adopted Gaussian filter and Unscented Kalman filter method to read signals from iBeacon device. With the extracted signals, the authors compared them with a database. They were able to display data based on micro-location on the user's smartphone.  It was found that the iBeacon approach has better performance compared with WiFi method  \cite{indoor}. However, this study does not translate the detected texts into the user's preferred languages. This is still a hindrance for foreigners to understand their environment.
 
 \subsection{Outline}
 
-\paragraph{}With the recent development in Internet of things (IoT), the user and their location is closely interrelated. The outdoor positioning system based on satellite position (GPS) has been getting more accurate. However, GPS positioning satellite signals can only be best used in outdoor environment, it difficult to meet the needs of indoor positioning  \cite{indoor}. So, there is an urgent demand for indoor positioning technology and providing micro-location-aware data. Micro-location is a term used to define the location, accurate down to a few meters. 
+\paragraph{}With the recent developments in Internet of Things (IoT), the user and their location is closely interrelated. The outdoor positioning system based on satellite position (GPS) has been getting more accurate. However, GPS positioning satellite signals can only be best used in outdoor environments, it is difficult to meet the needs of indoor positioning  \cite{indoor}. So, there is an urgent demand for indoor positioning technology and providing micro-location-aware data. Micro-location is a term used to define the location, accurate down to a few meters. 
 
 \paragraph{}In recent years, many types of short-range wireless communication protocol and related products are emerging in the market. Some of the short-range wireless data communication includes WIFI, Bluetooth, ZigBee, RFID, NFC and Ultra Wideband (UWB) among other types of technology \cite{indoorPositioning}. These technologies play an important role in their respective areas and requirements. Let us evaluate some of the options we have to provide data based on micro-location.
 
 \subsubsection{GPS}
-\paragraph{} The outdoor positioning system, which is based on global satellite position (GPS) provides users with the needs of decently accurate positioning, accurate to 5 meters. However, GPS positioning satellite signals is only feasible in outdoor environment. GPS fails to determine the user's location accurately inside a building or within a room \cite{indoor}. This means, we cannot use GPS in our study as we need to accurately determine users location.
+\paragraph{} The outdoor positioning system, which is based on global satellite position (GPS) provides users with the needs of positioning, accurate to 10 meters. However, GPS positioning satellite signals is only feasible in outdoor environment. GPS fails to determine the user's location accurately inside a building or within a room \cite{indoor}. This means, we cannot use GPS in our study as we need to determine users location, with accuracy ranging from 0.1 to 50 meters.
 
 \subsubsection{Wi-Fi}
-\paragraph{} The coverage of radio wave is wide. It could reach 100 meters, and achieve coverage with comprehensive in clear sorroundings. Also, the speed of network transmission is higher, it’s useful for real-time interaction of the application. The Wi-Fi network construction has a low cost, easy to maintain and very suitable for use in mobile phones. However, the core drawbacks are data security and performance slightly less compared to Bluetooth \cite{indoor}. It is also difficult to accurately triangulate the user's position inside the network.
+\paragraph{} The coverage of Wi-Fi is wide. It could reach 100 meters, and achieve coverage with comprehensive in clear surroundings. Also, the speed of network transmission is higher, it’s useful for real-time interaction of the application. The Wi-Fi network construction has a low cost, is easy to maintain and very suitable for use in mobile phones. However, the core drawbacks are that data security and performance are slightly less compared to Bluetooth \cite{indoor}. It is also difficult to accurately triangulate the user's position inside the network.
 
 \subsubsection{Near Field Communication (NFC)}
-\paragraph{}NFC is a set of short-range wireless technologies that enable two electronic devices, one of which is usually a smartphone, to establish communication by bringing them in close proximity. However, the range  of NFC is less than 10 centimeters and it gets very expensive to install a lot of NFC tags. \cite{tracking} Thus, it is not feasible to use NFC in our study.
+\paragraph{}NFC is a set of short-range wireless technologies that enable two electronic devices, one of which is usually a smartphone, to establish communication by bringing them in close proximity. However, the range  of NFC is less than 10 centimeters and it gets very expensive to install a lot of NFC tags to achieve the required proximity services \cite{tracking}. Thus, it is not feasible to use NFC in our study.
 
 \subsubsection{Bluetooth}
-\paragraph{}Bluetooth is a radio technology which supports short distance communication. The main advantage of Bluetooth indoor positioning technology is that, Bluetooth chips are small, easy to integrate with mobile phones and even in smaller devices. On the other hand, the shortcomings of Bluetooth technology are;  relatively high power consumption and lack of stability when the system is setup in complex space environment \cite{indoor}. For our study, this fits right in as most of the people have smartphones that support Bluetooth technology.
+\paragraph{}Bluetooth is a radio technology which supports short distance communication. The main advantage of Bluetooth indoor positioning technology is that, Bluetooth chips are small, easy to integrate with mobile phones and even in smaller devices. On the other hand, the shortcomings of Bluetooth technology are;  relatively high power consumption and lack of stability when the system is setup in complex space environment \cite{indoor}. 
 
 \subsubsection{iBeacon}
-\paragraph{}The communication protocol used in iBeacon is the Bluetooth Low Energy (BLE). Bluetooth version 4.0 devices supports BLE \cite{indoor}. iBeacon communication frequency works on the 2.4GHz band, which is as fast as the Wi-Fi. iBeacon has proximity sensing technology, it can transfer information such as Uniform Code of unique ID (UUID). Mobile applications can scan and read the information about UUID and RSSI, and it can be transformed into a physical location, which triggers location-aware applications and information. iBeacons are also low-cost devices and typically run for an year on a single coin battery such as CR2032. \cite{audioBeacon} This makes it feasible for us to implement iBeacons into out study of providing data based on user's micro-location.
+\paragraph{}The communication protocol used in iBeacon is the Bluetooth Low Energy (BLE). Bluetooth version 4.0 devices supports BLE \cite{indoor}. iBeacon communication frequency works on the 2.4GHz band, which is as fast as the Wi-Fi. iBeacon has proximity sensing technology, it can transfer information such as Uniform Code of unique ID (UUID). Mobile applications can scan and read the information about UUID and RSSI, and it can be transformed into a physical location, which triggers location-aware applications and information. iBeacons are also low-cost devices and typically run for a year on a single coin battery such as CR2032 \cite{audioBeacon}. This makes it feasible for us to implement iBeacons into out study of providing data based on user's micro-location.
 
 \subsubsection{Comparison of indoor positioning methods}
-\paragraph{} Below table presents the advantages and disadvantages of various indoor positioning systems \cite{sensing}. It can be seen that iBeacon has advantages of low cost, long battery life, feasible accuracy and range. % \cite{augmented}
+\paragraph{} The table below presents the advantages and disadvantages of various indoor positioning systems \cite{sensing}. It can be seen that iBeacon has advantages of low cost, long battery life, feasible accuracy and range. % \cite{augmented}
 
-\paragraph{} iBeacon technology runs on Bluetooth, which is widely. Also the fact that Bluetooth technology is supported by most of the modern smartphones \cite{indoor} makes it the most feasible choice to implement the multilingual signage system for our study.
+\paragraph{} iBeacon technology runs on Bluetooth, which is widely supported by most of the smartphones today \cite{audioBeacon}. Also the fact that Bluetooth technology is supported by most of the modern smartphones \cite{indoor} makes it the most feasible choice to implement the multilingual signage system for our study.
  
 %\begin{center}
 %\begin{figure}[H]
@@ -144,7 +144,7 @@ In this study, in order to solve such problems, a multilingual information servi
     \label{my-label2}
        \begin{tabular}{|p{30mm}|p{30mm}|p{30mm}|p{30mm}|}
  \hline
-  & \textbf{Wi-Fi }&.        \textbf{RFID} &  \textbf{iBeacon} \\ [0.5ex] 
+  & \textbf{Wi-Fi }&.        \textbf{NFC/RFID} &  \textbf{iBeacon} \\ [0.5ex] 
  \hline\hline
  \textbf{Cost} & Medium & Medium & Low \\ 
  \hline
@@ -154,17 +154,17 @@ In this study, in order to solve such problems, a multilingual information servi
  \hline
  \textbf{Advantages} & Highly popular, far sensing range & Feasible accuracy and range & Low cost, high accuracy and range. \\
  \hline
- \textbf{Disadvantages} & Low accuracy, influenced by environment & Low popularity, difficult to maintain & likely to be influenced by environment. \\ [1ex] 
+ \textbf{Disadvantages} & Low accuracy, influenced by environment & Low popularity, difficult to maintain & Likely to be influenced by environment. \\ [1ex] 
  \hline
     \end{tabular}
-     \caption{Comparison of popular indoor positioning methods} {The important aspects we consider for this study to decide the method is the low cost and high accuracy feature. The range of the positioning method also played a huge role in order for us to consider the positioning method.}
+     \caption{Comparison of popular indoor positioning methods} {The important aspects we consider for this study to decide the method is the low cost and high accuracy feature \cite{sensing}. The range of the positioning method also played a huge role in order for us to consider the positioning method.}
 \end{table}
 
 \section{Understanding iBeacon Technology}
 \label{iBeacon-tech}
 \paragraph{}iBeacon is Apple’s implementation of Bluetooth low-energy (BLE) wireless technology to create a way of providing micro-location-based information and services to nearby smartphones supporting BLE. This allows mobile applications on a smartphone to determine when it has entered or left the region, along with an estimation of proximity to the smartphone. \\
 
-Bluetooth 4.0 is proposed according to the Bluetooth technology standard set by the Bluetooth Special Interest Group (SIG) to achieve two-way transmission. When compared with traditional Bluetooth, Bluetooth 4.0 has the advantages of lower cost and lower energy. A button cell, such as CR2032 battery can make the device supporting Bluetooth Low Energy be operated for 1 to 2 years. \cite{taiwan} \\
+Bluetooth 4.0 is proposed according to the Bluetooth technology standard set by the Bluetooth Special Interest Group (SIG) to achieve two-way transmission. When compared with traditional Bluetooth, Bluetooth 4.0 has the advantages of lower cost and lower energy. A button cell, such as CR2032 battery can make the device supporting Bluetooth Low Energy be operated for 1 to 2 years \cite{taiwan}. \\
 
 iBeacon devices simply broadcasts its configured advertising packets in specific time intervals \cite{one}. Apple has standardized the format for BLE Advertising. In this format, a packet of information from a beacon consists of four main pieces of information. \\
 
@@ -182,38 +182,29 @@ iBeacon devices simply broadcasts its configured advertising packets in specific
 
 
 \paragraph{} 
-\textbf{UUID}: This is a 16 byte string used to differentiate a large group of related beacons. For example, if National Park Services (NPS) maintained a network of beacons among all national parks, all national park beacons would share the same UUID. This allows NPS dedicated smartphone app to know which beacon advertisements come from NPS owned beacons. Example: E6FA79C7-804F-4742-863B-BD4D282ED9BA \\
+\textbf{UUID}: This is a 16 byte string used to differentiate a large group of related beacons. For example, if National Park Services (NPS) maintained a network of beacons among all national parks, all national park beacons would share the same UUID. This allows NPS dedicated smartphone app to know which beacon advertisements come from NPS owned beacons. Example: E6FA79C7-804F-4742-863B-BD4D282ED9BA. \\
 
-\textbf{Major}: This is a 2 byte string used to distinguish a smaller subset of beacons within the larger group. For example, if NPS had fifty beacons in a particular national park, all fifty would have the same Major. This allows NPS to know exactly which park its visitor is in. Example: A beacon with UUID E6FA79C7-804F-4742-863B-BD4D282ED9BA and a major number of 1101  \\
+\textbf{Major}: This is a 2 byte string used to distinguish a smaller subset of beacons within the larger group. For example, if NPS had fifty beacons in a particular national park, all fifty would have the same Major. This allows NPS to know exactly which park its visitor is in. Example: A beacon with UUID E6FA79C7-804F-4742-863B-BD4D282ED9BA and a major number of 1101. \\
 
-\textbf{Minor}: This is a 2 byte string meant to identify individual beacons. Keeping with the NPS example, a beacon at the front of the park would have its own unique Minor. This allows NPS’s dedicated app to know exactly where the visitor is in the park. Example: A beacon with UUID E6FA79C7-804F-4742-863B-BD4D282ED9BA, major number of 1101 and a minor number of 9901\\
+\textbf{Minor}: This is a 2 byte string meant to identify individual beacons. Keeping with the NPS example, a beacon at the front of the park would have its own unique Minor. This allows NPS’s dedicated app to know exactly where the visitor is in the park. Example: A beacon with UUID E6FA79C7-804F-4742-863B-BD4D282ED9BA, major number of 1101 and a minor number of 9901.\\
 
 \textbf{Tx Power}: This is used to determine proximity (distance) from the beacon. TX power is defined as the strength of the signal exactly 1 meter from the device. This needs to be calibrated in advance to deployment. Devices can then use this as a baseline to calculate an estimate of distance between the beacon and the smartphone.  \\
 
 \subsection{Existing applications implemented using iBeacon technology}
 
 \begin{itemize}
-	\item In a store, the retailer can understand shoppers’ interests by calculating the time spent by a shopper in front of a specific item in the store, and then, the application in shopper’s smartphone will show the other recommendation of related products. \cite{beacons}.
+	\item In a store, the retailer can understand shoppers’ interests by calculating the time spent by a shopper in front of a specific item in the store, and then, the application in shopper’s smartphone will show the other recommendation of related products \cite{beacons}.
 
 \item The retailers can track shoppers behavior, for example, the shopper has seen the same goods in the other store of the same chain online and use with iBeacon technology to recommend those when visiting the store \cite{beacons}. The retailers can push the coupons information as well.
 
 \item iBeacon technology brings many options for the retailers to send notifications of the items/events information to user's smartphone \cite{beacons}; to trace users interests or potential demands; to contextualize shoppers’ purchase tendency based on the user's history.
 
-\item{} A study was conducted implementing iBeacons in the campus for the purpose of indoor positioning of the students and send out relevant information. \cite{campus}
+\item{} A study was conducted implementing iBeacons in the campus for the purpose of indoor positioning of the students and send out relevant information \cite{campus}.
 
 \end{itemize}
 
 \subsection{Operating range of iBeacons}
-\paragraph{}iBeacon devices transmit its information to all devices that use this technology from a range of a few inches to more than 70 meters. The actual distance at which the device operates varies, depending on the environment. Just like all the radio waves, Bluetooth loses its power when it encounters obstacles. \cite{demo} All devices capable of supporting the Bluetooth 4.0 can take advantage of this system without the need of having to pair devices previously.
-
-\subsection{Smartphones supporting iBeacon technology}
-\begin{itemize}
-	\item \textbf{Android} - Devices with Bluetooth 4.0+ and Android OS 4.3+ (e.g. Samsung Galaxy S7/J1 mini Prime, Samsung Galaxy Note 2/3, HTC One, Google/LG Nexus 7 2013 /Nexus 4/Nexus 5, OnePlus One, LG G3)
-	\item \textbf{iOS} -  devices with Bluetooth 4.0+ (iPhone 4S and later, iPad (3rd generation) and later, iPad Mini (1st generation) and later, iPod Touch (5th generation))
-	\item \textbf{Windows phone} - devices with Bluetooth 4.0+ and the Lumia Cyan update
-
-\end{itemize}
-
+\paragraph{}iBeacon devices transmit its information to all devices that use this technology from a range of a few inches to more than 70 meters. The actual distance at which the device operates varies, depending on the environment. Just like all the radio waves, Bluetooth loses its power when it encounters obstacles \cite{demo}. All devices capable of supporting the Bluetooth 4.0 can take advantage of this system without the need of having to pair devices previously.
 
 \subsection{Calculating distance between iBeacons, based on RSSI}
 \paragraph{}The rate of signal strength will not be stable because of RF signal in actual obstacles in environment. So, there is no longer accurate correspondence between the RSSI and distance. Also, we need to purify the received data in order to reduce the correspoding positioning errors.
@@ -265,11 +256,11 @@ We convert this image to a base64 encoded string using Javascript and specify in
 
 \begin{lstlisting}
 {
-	"requests":[{"image":{
-	"content":"base64_encoded_string_of_image"
+	`requests':[{`image':{
+	`content':`base64_encoded_string_of_image'
 },	
-	"features":[{"type":"TEXT_DETECTION",
-	"maxResults":1}]}]
+	`features':[{`type':`TEXT_DETECTION',
+	`maxResults':1}]}]
 }
 \end{lstlisting}
 
@@ -282,15 +273,16 @@ We convert this image to a base64 encoded string using Javascript and specify in
 
 \begin{lstlisting}
 {
-   "responses": [{
-	"textAnnotations": [{
-	"locale": "en",
-	"description": "Lorem Ipsum",
-	"boundingPoly": {
-	"vertices": [
-		{"x": 327,"y": 412},{"x": 1158,"y": 412},
-		{"x": 1158,"y": 680},
-		{"x": 327,"y": 680}
+   
+   `responses': [{
+	`textAnnotations': [{
+	`locale': `en',
+	`description': `Pedestrian access only beyond this point',
+	`boundingPoly': {
+	`vertices': [
+		{`x': 327,`y': 412},{`x"': 1158,`y': 412},
+		{`x': 1158,`y': 680},
+		{`x': 327,`y': 680}
 		]}
 	  }]
   }]
@@ -305,7 +297,7 @@ We convert this image to a base64 encoded string using Javascript and specify in
 
 \paragraph{}Translation API supports more than one hundred different languages, which makes it an ideal choice for us to use in this study. Translation API can be accessed using REST APIs. We extract text from the printed signages using Google Cloud Vision API, we then send the text to Google Translate API and convert it into the user's desired language.
 
-\paragraph{}Figure \ref{fig:translate_uml} describes the process of language translation in our system. We obtain the text from the printed media using Google Vision API as mentioned in section \ref{vision}. We then pass the obtained text to Google Cloud Translation API with the preferred language in the headers of REST API. The response from the Google Translate is then displayed in the user's smartphone. A sample request and response is shown below:
+\paragraph{}Figure \ref{fig:translate_uml} describes the process of language translation in our system. We obtain the text from the printed media using Google Vision API as mentioned in Section \ref{vision}. We then pass the obtained text to Google Cloud Translation API with the preferred language in the headers of REST API. The response from the Google Translate is then displayed in the user's smartphone. A sample request and response is shown below:
 
 \begin{figure}[H]
 	\centering
@@ -322,20 +314,20 @@ We convert this image to a base64 encoded string using Javascript and specify in
 
 \begin{lstlisting}
     fetch(`https://translation.googleapis.com/language/
-    translate/v2?key='API_KEY_HERE', {
-      method: 'POST',
+    translate/v2?key=`API_KEY', {
+      method: `POST',
       headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
+        `Accept': `application/json',
+        `Content-Type': `application/json',
       },
       body: JSON.stringify({
-        q: "text_to_be_translated",
-        target: "target_language"
+        q: `text_to_be_translated',
+        target: `target_language'
       })
     })
     .then(data => data.json())
     .then(res => this.cleanText(res))
-    .catch(err => 	`(err))
+    .catch(err => (err))
   }
 \end{lstlisting}
 
@@ -346,10 +338,10 @@ We convert this image to a base64 encoded string using Javascript and specify in
 \begin{lstlisting}
 
 {
-  "data": {
-    "translations": [
+  `data': {
+    `translations': [
       {
-        "translatedText": "translated_text_here"
+        `translatedText': `translated_text_here'
       }
     ]
   }
@@ -437,10 +429,10 @@ We convert this image to a base64 encoded string using Javascript and specify in
 
 \subsection{Environment setup}
 \label{env}
-\paragraph{}To evaluate the system, we constructed a combination of digital signages and printed signages were placed around the California State University, Channel Islands (CSUCI) campus. Each signages were placed at least 150 meters apart.
+\paragraph{}To evaluate the system, we constructed a combination of digital signages and printed signages were placed around the California State University, Channel Islands (CSUCI) campus. Each signages were placed at least 100 meters apart. For optimal working of the system, the beacons need to be placed 15 meters apart.
 
 \subsubsection{Digital Signages}
-\paragraph{}The digital signage was set up using the bluetooth iBeacons. Each iBeacon is mounted on individual signages in the campus. The beacons are powered by individual CR2032 lithium-ion coin batteries. The users used the iPhone 6s in which the application program that reacts with the iBeacon signals. The parameters of the beacons, which are discussed in the section \ref{iBeacon-tech} can be configured only by the administrator of the mobile application. To evaluate the system, we use 3 beacons. Below are the configurations of each beacon used in the study.
+\paragraph{}The digital signage was set up using the bluetooth iBeacons. Each iBeacon is mounted on individual signages in the campus. The beacons are powered by individual CR2032 lithium-ion coin batteries. The users used the iPhone 6s in which the application program that reacts with the iBeacon signals. The parameters of the beacons, which are discussed in the Section \ref{iBeacon-tech} can be configured only by the administrator of the mobile application. To evaluate the system, we use 3 beacons. Below are the configurations of each beacon used in the study.
 
 \begin{lstlisting}
 UUID: E6FA79C7-804F-4742-863B-BD4D282ED9BA
@@ -471,7 +463,7 @@ Minor: 9993
 \subsection{Mobile application}
 
 \paragraph{}
-To discover the beacons from the smartphone, we have designed and developed a mobile application. This mobile application is built using React native and Javascript. The mobile application uses Google Cloud Vision to detect the printed text using the smartphone camera. The Google Cloud Vision API detects the printed information using OCR feature as mentioned in section  \ref{vision}. This text can be converted to any language using Google Cloud Translation API, discussed in section \ref{translate}. The mobile application interacts with these APIs using RESTful method  To improve the efficiency and user-experience, we used both iBeacon monitoring and ranging to discover and interact with the beacons.
+To discover the beacons from the smartphone, we have designed and developed a mobile application. This mobile application is built using React native and Javascript. The mobile application uses Google Cloud Vision to detect the printed text using the smartphone camera. The Google Cloud Vision API detects the printed information using OCR feature as mentioned in Section  \ref{vision}. This text can be converted to any language using Google Cloud Translation API, discussed in Section \ref{translate}. The mobile application interacts with these APIs using RESTful method. To improve the efficiency and user-experience, we used both iBeacon monitoring and ranging to discover and interact with the beacons.
 
 
 \subsubsection{Background Monitoring}
@@ -486,7 +478,7 @@ To discover the beacons from the smartphone, we have designed and developed a mo
 \begin{itemize}
   \item \textbf{React Native:} To develop the front end of the mobile application. The advantage of using React Native is it helps us to develop for both Android and iOS with the same codebase. Also, React Native is efficient in terms of performance.
   
-   \item \textbf{JavaScript:} We used Javascript to interact with the web-services such as Google Vision and Google Translate. It makes it efficient to convert the captured images into Base64 encoded string and pass it in the headers of the request. Also, javascript makes it easier to process/parse the JSON response from the web-service and display it on the front-end using React Native. We use Javascript also to communicate with the Google Firestore database to query and retrieve data.
+   \item \textbf{JavaScript:} We used JavaScript to interact with the web-services such as Google Vision and Google Translate. It makes it efficient to convert the captured images into Base64 encoded string and pass it in the headers of the request. Also, JavaScript makes it easier to process/parse the JSON response from the web-service and display it on the front-end using React Native. We use JavaScript also to communicate with the Google Firestore database to query and retrieve data.
   
       \item \textbf{Camera:} To access the smartphone camera, we included a library called 'react-native-camera'. This extends the functionality of camera in terms of fragments and hence makes it easier to listen to the camera events and implement our logic where necessary.
       
@@ -494,7 +486,7 @@ To discover the beacons from the smartphone, we have designed and developed a mo
         
         \item \textbf{Beacon Manager:} To discover iBeacons from the smartphone, we integrated 'react-native-beacons-manager' library into React Native. This library helps us scan for the beacons and listen to changes of the beacon signal strength. The library also supports 'background ranging' and 'foreground monitoring' of the beacons, meaning it helps us scan for the beacons even when the application is running in background. 
       
-      \item \textbf{Xcode:} To build and run the application on the iOS device, we need an Integrated Development Environment (IDE). Xcode is an IDE that can be used to run the developed mobile application on the iOS device. The source code for the implementation could be found at \cite{git}
+      \item \textbf{Xcode:} To build and run the application on the iOS device, we need an Integrated Development Environment (IDE). Xcode is an IDE that can be used to run the developed mobile application on the iOS device. The source code for the implementation could be found at \cite{git}.
       
  \end{itemize}
  
@@ -529,7 +521,7 @@ To discover the beacons from the smartphone, we have designed and developed a mo
 
 
 
-\paragraph{}Figure \ref{fig:ocr} shows the text extracted from the image captured on figure \ref{fig:landing}. This screen is presented to the user right after capturing an image of a physical signage. We convert the captured image into Base64 string and pass it to Google Cloud Vision using REST and extract the text from the image. The screen on  \ref{fig:ocr} has the below functionalities: 
+\paragraph{}Figure \ref{fig:ocr} shows the text extracted from the image captured on Figure \ref{fig:landing}. This screen is presented to the user right after capturing an image of a physical signage. We convert the captured image into Base64 string and pass it to Google Cloud Vision using REST and extract the text from the image. The screen on Figure \ref{fig:ocr} has the below functionalities: 
 
 \begin{itemize}
 	\item Display the extracted text from the image
@@ -538,7 +530,7 @@ To discover the beacons from the smartphone, we have designed and developed a mo
 
 
 
-\paragraph{}Figure \ref{fig:translated} shows the text translated into Spanish. This is the same text extracted from figure \ref{fig:landing}. The extracted text is shown on \ref{fig:ocr}. This screen is presented to the user after the user chooses a language and taps on the 'GO' button. We listen to the event, capture the language selected and send a request to Google Translation API using web-services. The screen on figure \ref{fig:translated} has the below functionalities:
+\paragraph{}Figure \ref{fig:translated} shows the text translated into Spanish. This is the same text extracted from Figure \ref{fig:landing}. The extracted text is shown on Figure \ref{fig:ocr}. This screen is presented to the user after the user chooses a language and taps on the 'GO' button. We listen to the event, capture the language selected and send a request to Google Translation API using web-services. The screen on figure \ref{fig:translated} has the below functionalities:
 
 \begin{itemize}
 	\item Display the translated text in user's preferred language.
@@ -547,7 +539,7 @@ To discover the beacons from the smartphone, we have designed and developed a mo
 	\item Go back to landing page.
 \end{itemize}
 
-\paragraph{}An important design consideration was to allow the option to share the translated text in any form. Figure \ref{fig:share} shows the Share feature we integrated so the user can record the translated text and share them with friends and family who might need the information. In our system, the user can choose from the multiple options to share the translated text with. The default options of the iOS include e-mail application, messaging application, notes application etc. 
+\paragraph{}An important design consideration was to allow the option to share the translated text in any form. Figure \ref{fig:share} shows the Share feature we integrated so the user can record the translated text and share them with friends and family who might need the information. In our system, the user can choose from the multiple options to share the translated text. The default options of the iOS applications include e-mail application, messaging application, notes application etc. 
 
 
  \begin{figure} [H]
@@ -575,14 +567,14 @@ To discover the beacons from the smartphone, we have designed and developed a mo
 	\label{fig:type}
 \end{figure} 
 
-\paragraph{} The user lands on the screen shown in figure \ref{fig:beaconDetails} after tapping on any of the digital signage thumbnail. When the user taps on a particular signage, the system screen fetches the pre-configured information and media from the database and displays them on this screen. This screen displays the image of the signage, the title and the description of the signage in English. This component  has the below functionalities:
+\paragraph{} The user lands on the screen shown in Figure \ref{fig:beaconDetails} after tapping on any of the digital signage thumbnail. When the user taps on a particular signage, the system screen fetches the pre-configured information and media from the database and displays them on this screen. This screen displays the image of the signage, the title and the description of the signage in English. This component  has the below functionalities:
 
 \begin{itemize}
 	\item Fetch and display the appropriate data (media, title and description) from the database.
 	\item Provide the user with the option of translating the information into supported languages.
 \end{itemize}
 
-\paragraph{}The screen in Figure \ref{fig:beaconTranslate} is shown when the user taps on 'Translate' button from screen in figure \ref{fig:beaconDetails}. The information of the digital signage is passed to this screen. Now, the user can translate the text into any supported language. This component is capable of the below functionalities:
+\paragraph{}The screen in Figure \ref{fig:beaconTranslate} is shown when the user taps on 'Translate' button from screen in Figure \ref{fig:beaconDetails}. The information of the digital signage is passed to this screen. Now, the user can translate the text into any supported language. This component is capable of the below functionalities:
 
 \begin{itemize}
 	\item Display the beacon information.
@@ -607,7 +599,7 @@ To discover the beacons from the smartphone, we have designed and developed a mo
 \end{figure}
 
 
-\paragraph{}Figure \ref{fig:beaconSpanish} is shown when the user selects a language and taps on 'Go' button from figure \ref{fig:beaconTranslate}. The information of the digital signage is passed to this screen. Now, the user can translate the text into any supported language. This component is capable of the below functionalities:
+\paragraph{}Figure \ref{fig:beaconSpanish} is shown when the user selects a language and taps on 'Go' button from Figure \ref{fig:beaconTranslate}. The information of the digital signage is passed to this screen. Now, the user can translate the text into any supported language. This component is capable of the below functionalities:
 
 \begin{itemize}
 	\item Display the translated text in user's preferred language.
@@ -632,29 +624,29 @@ To discover the beacons from the smartphone, we have designed and developed a mo
 
 \subsection{Database}
 \label{database}
-\paragraph{}To store the information of each signage in a database, we chose Google Cloud Firestore. Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform \cite{firebase}. It keeps the data in sync across applications through realtime listeners and offers offline support for mobile and web so we can build applications that work regardless of network latency or Internet connectivity \cite{firebase}. Google Firestore is free of cost for less than 50 simultaneous connections to the database, which is a right fit for for the study.
+\paragraph{}To store the information of each signage in a database, we chose Google Cloud Firestore. Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud Platform \cite{firebase}. It keeps the data in sync across applications through realtime listeners and offers offline support for mobile and web so we can build applications that work regardless of network latency or Internet connectivity \cite{firebase}. Google Firestore is free of cost for less than 50 simultaneous connections to the database, which is a right fit for the study.
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{media/db.png}
-	\caption{Database Schema}{We have designed the Database schema in a way that it is very easy to scale and use the system for any physical environment. The UUID is on top level of the schema and the Major and Minor number follows the UUID. This makes it easy to segregate data and query it without having to compromise for the application performance.}
+	\caption{Database Schema}{Database schema has been designed in a way that it is very easy to scale and use the system for any physical environment. The UUID is on top level of the schema and the Major and Minor number follows the UUID. }
 	\label{fig:db}
 \end{figure} 
 
-\paragraph{} We designed the database schema with a goal to keep it as simple as possible so it can be scalable in the future. We organize the database schema as follows:
+\paragraph{} We designed the database schema with a goal to keep it as simple as possible so it can be scalable in the future. This makes it easy to segregate data and query it without having to compromise for the application performance. We organize the database schema as follows:
 
 \begin{itemize}
   \item \textbf{Park:} Root of the database. All the beacons with the specified UUID falls under this bucket. 
   
   \item \textbf{Major:} This is the level 1 of the database. This is essentially the 'major' parameter of the iBeacons. Since all the 3 beacons we configured have the same 'major' value, we just have one collection of level 1. This level of database makes it possible for our mobile application to differentiate the sections of the park. This allows the administrator to configure beacon parameters according to sections of the park.
   
-  \item \textbf{beacons}: This is the level 2 of the database schema. We now have identified which park the beacons are present in and which section of the park the beacons are present in using the above two levels. 'beacons' section of the database serves as the collection of beacons under a particular section of the park. They contain all the information about the individual beacons present in discovered section.
+  \item \textbf{beacons}: This is the level 2 of the database schema. We now have identified which park the beacons are present in and which section of the park the beacons are present in using the above two levels. `beacons' section of the database serves as the collection of beacons under a particular section of the park. They contain all the information about the individual beacons present in discovered section.
   
-    \item \textbf{Minor}: This is the last level of the designed database schema. '9992' refers to the 'minor' value of the iBeacon. Each iBeacon will have its own unique 'minor' value. This helps us to query for the exact beacon data. Each entry at this level have the below fields and values: \\
+    \item \textbf{Minor}: This is the last level of the designed database schema. `9992' refers to the `minor' value of the iBeacon. Each iBeacon will have its own unique `minor' value. This helps us to query for the exact beacon data. Each entry at this level have the below fields and values: \\
     
-    \textbf{'name':} The name of the signage. \\
-    \textbf{'img':} Contains the URL of a picture of the signage. \\
-    \textbf{'english' :} This field contains the description of the signage, in English.\\
+    \textbf{`name':} The name of the signage. \\
+    \textbf{`img':} Contains the URL of a picture of the signage. \\
+    \textbf{`english' :} This field contains the description of the signage, in English.\\
   
 \end{itemize}
 
@@ -663,13 +655,13 @@ To discover the beacons from the smartphone, we have designed and developed a mo
 
 \section{User Experience Design (UX Design)}
 \label{ux}
-\paragraph{} Incorporating User Interface (UI) Design principles and guidelines are very important for developing any mobile-based learning application. By observing good UI design practices and implementing them in the system, it can be helpful for users to improve usability and grasp critical information as displayed in the application. 
+\paragraph{} Incorporating User Interface (UI) Design principles and guidelines are very important for developing any mobile-based application. By observing good UI design practices and implementing them in the system, it can be helpful for users to improve usability and grasp critical information as displayed in the application. 
 
 \paragraph{} For this study, a set of User Interface Design (UID) principles is considered \cite{uid} for designing and developing the mobile-based multi-lingual signage application. Below are the set of UIDs adopted:
 
 \begin{itemize}
 
- \item  Navigation need be simple and clear from a page to page or to
+ \item  Navigation needs be simple and clear from page to page or to
 any particular section. It needs to be
 consistent throughout all pages in the application.
 
@@ -697,7 +689,7 @@ them to keep using the application.
 %From the psychological point of view, interface design can be divided into feeling (visual, auditory and tactile etc) and emotional levels. User interface design is an important part of on-screen aplications. Interface design is a complex engineering which have different disciplines in, cognitive psychology, design, linguistics, etc. \cite{hci}. There are three main principles of User interface design:  Intuitive user interface, Reduce the burden of user memory, maintain the consistency of the interface. %
 
 
-\paragraph{}We are going to carefully design the User Interface (UI) and User Experience (UX) based on the best practices for Human Computer Interaction (HCI). Below sections describe the concepts behind designing the UI and UX.
+\paragraph{}We are going to carefully design the User Interface (UI) and User Experience (UX) based on the best practices for Human Computer Interaction (HCI). The section below describe the concepts behind designing the UI and UX.
 
 
     \subsection{Context Analysis}
@@ -728,7 +720,7 @@ them to keep using the application.
  
   \item The application should remember the selected language and display the translated text into the preferred language.
   
-  \item The application should scan for digital signages and display the distance of the user from the signage.
+  \item Once the application discover the digital signages, it should display the distance of the user from the signage.
   
     \item The application should fetch the appropriate information from the database and display the same.
     
@@ -785,7 +777,7 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
     
     
      \subsubsection{Visibility}
-     \paragraph{}The usability is improved when its status and methods of how to use are clearly visible, intuitively. The more visible functions are, the more likely users will be able to understand how the system works.\cite{norman} In contrast, when functions are 'out of sight,' it makes them more difficult to find and understand the application.
+     \paragraph{}The usability is improved when its status and methods of how to use are clearly visible, intuitively. The more visible functions are, the more likely users will be able to understand how the system works \cite{norman}. In contrast, when functions are 'out of sight,' it makes them more difficult to find and understand the application.
      
          \paragraph{} In the mobile application developed, the capture picture button has a green color, so as to invite the user to click the button. The camera functionality also has an 'upload image' icon and 'type and translate' icon present upfront. Their is no ambiguity in the user interface. The digital signage section also lists the nearby digital signages along with the title and distance from the user. This improves the visibility of all the features of the app without the user having to scroll down. 
      
@@ -823,19 +815,19 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 %\paragraph{}For evaluation, different signages with information from the library office was displayed in Spanish language. After the use of the system, 20 students that include 10 American students and 10 international/foreign students were asked to answer a questionnaire and an interview. This is to simulate the 'foreign-visitor' environment. This is important for our study because foreign visitors are our primary users.
 
 
-\paragraph{}We conducted a small scale evaluation of the multilingual digital signage system as mentioned in section \ref{system}. The purpose of this evaluation is to study the feasibility of using the inexpensive iBeacons along with computer vision features of the system. We set up a combination of digital and printed signages in a room. We set up three iBeacons along with two printed signages and measuring points in a room, approximately 45m x 35m.
+\paragraph{}We conducted a small scale evaluation of the multilingual digital signage system as mentioned in Section \ref{system}. The purpose of this evaluation is to study the feasibility of using the inexpensive iBeacons along with computer vision features of the system. We set up a combination of digital and printed signages in a room. We set up three iBeacons along with two printed signages and measuring points in a room, approximately 45m x 35m.
 
 \paragraph{}The iBeacons used in this experiment were Gimbal Series 10 beacons, distributed by Gimbal. For reception, we used installed the developed mobile application on iPhone 6s, running iOS version 11.3. We also setup two printed signages with information in Spanish language and placed them around the library, at least 30 meters apart.
 
 \subsection{Testing environment}
-\paragraph{}
 
-
+\paragraph{}Three iBeacons were configured as digital signages and setup along
+with two printed signages in a room, approximately 45m x 35m. The developed mobile application was installed on iPhone 6s, running iOS version 11.3 with a 4G network. Table \ref{my-test} shows the testing environment for case study.
 
 \begin{table}%[H]
     \centering
     
-    \label{my-label4}
+    \label{my-test}
        \begin{tabular}{|p{30mm}|p{55mm}|p{35mm}|}
  \hline
   & \textbf{Data}  \\ [0.5ex] 
@@ -855,13 +847,13 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 
 \subsection{Digital Signages }
 
-\paragraph{}These include the signages with iBeacons installed.There are two interactions during the discovery of nearby digital signages from the mobile application. The first part is interaction between iBeacons and the user. iBeacon will broadcast signals at a certain interval, if the smartphone detects and locates the iBeacons around it,  the application can handle the iBeacon event based on proximity location information, including major ID, minor ID and distance. The second part is interaction between the mobile application and database. During this interaction, the application should fetch respective information and display on the mobile application.
+\paragraph{}These include the signages with iBeacons installed. There are two interactions during the discovery of nearby digital signages from the mobile application. The first part is interaction between iBeacons and the user. iBeacon will broadcast signals at a certain interval, if the smartphone detects and locates the iBeacons around it,  the application can handle the iBeacon event based on proximity location information, including major ID, minor ID and distance. The second part is interaction between the mobile application and database. During this interaction, the application should fetch respective information and display on the mobile application.
 
 \subsubsection{Test Case 1}
 \label{oneone}
 \paragraph{}With the above mentioned setup of the signages inside the campus library, we use the mobile application to evaluate the feasibility of the proposed system. Each signage is at least 20 meters away from each other. We downloaded the developed mobile application on to the iPhone 6s and walked towards the room.
 
-\paragraph{}The mobile application picked up the closest digital signage when the user was 17.4 meters away. The other digital signages were listed at the distance of 22.3 meters and 27 meters away. On tapping each thumbnail of signage from the application, it fetched and displayed relevant signage information from the database. We were also able to translate the signage description from English to Spanish and the translation was 100\% correct.
+\paragraph{}The mobile application picked up the closest digital signage when the user was 17.4 meters away. As and when the user walked towards the signage, the distance decreased appropriately. The other digital signages were listed at the distance of 22.3 meters and 27 meters away. On tapping each thumbnail of signage from the application, it fetched and displayed relevant signage information from the database. We were also able to translate the signage description from English to Spanish and the translation was 100\% correct.
 
 \begin{table}%[H]
     \centering
@@ -894,11 +886,11 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 %Test case 2
 \subsubsection{Test Case 2}
 \label{one2one}
-\paragraph{}For this test case, we setup the digital signages closer than the previous test case. The aim of this test case is to evaluate for inference in beacon signals. Each signage was installed  15 meters away from each other. We ran the developed mobile application on the iPhone 6s and walked towards the room.
+\paragraph{}For this test case, we setup the digital signages closer than the previous test case. The aim of this test case is to evaluate for interference in beacon signals. Each signage was installed  15 meters away from each other. We ran the developed mobile application on the iPhone 6s and walked towards the room.
 
 \paragraph{}The mobile application picked up the closest digital signage when the user was 23.4 meters away. The other digital signages were listed at the distance of 26.3 meters and 35.7 meters away. On tapping each thumbnail of signage from the application, it fetched and displayed relevant signage information from the database. We were also able to translate the signage description from English to Spanish and the translation was 100\% correct.
 
-\paragraph{}This proves that the digital signage system can be set up in close proximity to each other and the system will not face any inference from the crowded iBeacon signals. 
+\paragraph{}This proves that the digital signage system can be set up in close proximity to each other and the system will not face any interference from the crowded iBeacon signals. 
 
        \begin{figure}[H]
 	\centering
@@ -938,7 +930,7 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 
 \paragraph{}To evaluate the text extraction and translation from printed signage, we clicked a picture of the printed signage. The application extracted relevant text from the printed signage. The application also supported the translation of the extracted text to Spanish language and the translation was 100\% correct.
 
-\paragraph{}We noticed an 0\% error in the text extraction and text translation from Spanish to English. Below figures \ref{fig:case3in}, \ref{fig:case3} and \ref{fig:eng} show the flow of the text extraction and translation for printed signage 1.
+\paragraph{}We noticed an 0\% error in the text extraction and text translation from Spanish to English. Below figures  \ref{fig:case3} and \ref{fig:eng} show the flow of the text extraction and translation for printed signage 1.
 
 
  \begin{figure} [H]
@@ -952,7 +944,7 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{media/case3.PNG}
-  \caption{OCR feature}{This screenshot shows the text extracted from the printed signage shown in figure \ref{fig:case3ins}. We used OCR feature to extract the text.}
+  \caption{OCR feature}{This screenshot shows the text extracted from the printed signage shown in Figure \ref{fig:case3ins}. We used OCR feature to extract the text.}
   \label{fig:case3}
 \end{minipage}
 \end{figure}
@@ -984,16 +976,16 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
  \textbf{Error in text translated} & 0\%   \\ [1ex] 
  \hline
     \end{tabular}
-     \caption{Observations from test case 3} {The table shows the text extracted from the printed signage shown in figure  \ref{fig:case3ins}. We notice that the text is extracted from the Spanish printed signage and translated to English with 0\% error in text extraction and translation}
+     \caption{Observations from test case 3} {The table shows the text extracted from the printed signage shown in Figure  \ref{fig:case3ins}. We notice that the text is extracted from the Spanish printed signage and translated to English with 0\% error in text extraction and translation}
 \end{table}
 
 \subsubsection{Test Case 4}
 \label{threefour}
-\paragraph{}For this test case, we use a printed signage with information in Spanish language and use our system to extract the text and translate it to English. The aim of this test case is to evaluate the text extraction and translation of different languages. 
+\paragraph{}For this test case, we use another printed signage with information in Spanish language and use our system to extract the text and translate it to English. The aim of this test case is to evaluate the text extraction and translation of different languages. 
 
 \paragraph{}To evaluate the text extraction and translation from a Spanish printed signage, we clicked a picture of the printed signage. The application extracted relevant text from the printed signage. The application also supported the translation of the extracted Spanish text to English language and the translation was 91\% correct.
 
-\paragraph{}We noticed an 8\% error in the text extraction feature and thereby the same error while translating the text to English. Below figures \ref{fig:case4in}, \ref{fig:case4} and \ref{fig:engs} show the flow of the text extraction and translation for signage 2.
+\paragraph{}We noticed an 8\% error in the text extraction feature and thereby the same error while translating the text to English. Below Figure \ref{fig:case4in}, \ref{fig:case4} and \ref{fig:engs} show the flow of the text extraction and translation for signage 2.
 
  \begin{figure} [H]
 \centering
@@ -1006,7 +998,7 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 \begin{minipage}{.5\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{media/case4a.png}
-  \caption{OCR feature}{This screenshot shows the text extracted from the printed signage shown in figure \ref{fig:case4in}. We used OCR feature to extract the text.}
+  \caption{OCR feature}{This screenshot shows the text extracted from the printed signage shown in Figure \ref{fig:case4in}. We used OCR feature to extract the text.}
   \label{fig:case4}
 \end{minipage}
 \end{figure}
@@ -1014,7 +1006,7 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
        \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{media/case4b.png}
-	\caption{Text translated to English}{The extracted text from figure \ref{fig:case4in} is then translated to English using the Google Translate API. We notice that the text is extracted with with 4\% error and 8\% error in text translation.}
+	\caption{Text translated to English}{The extracted text from Figure \ref{fig:case4in} is then translated to English using the Google Translate API. We notice that the text is extracted with with 4\% error and 8\% error in text translation.}
 	\label{fig:engs}
 \end{figure} 
 
@@ -1037,7 +1029,7 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
  \textbf{Error in text translated} & 8\%   \\ [1ex] 
  \hline
     \end{tabular}
-     \caption{Observations from test case 4} {The table shows the text extracted from the printed signage shown in figure 19. We notice that the text is extracted from Spanish language with with 4\% error and 8\% error in text translation from Spanish to English language.}
+     \caption{Observations from test case 4} {The table shows the text extracted from the printed signage shown in Figure 19. We notice that the text is extracted from Spanish language with with 4\% error and 8\% error in text translation from Spanish to English language.}
 \end{table}
 
 %\subsection{Questionnaire}
@@ -1112,7 +1104,7 @@ Amazon rainforests through images and icons. Rebecca is motivated to participate
 
 \section{ Conclusion and future work}
 \label{sect-conclusion}
-\paragraph{}We studied the feasibility of using the combination of inexpensive iBeacons and computer vision to construct a system of multilingual digital signages. We conducted a crude experiment using an actual room to estimate the positioning accuracy and accuracy of language translation. When three beacons, placed on individual signages, we were able to discover them from the mobile application when in proximity. We were able to fetch respective data from the server and display signage information on the mobile application. We could also translate the information to any of the supported languages. Using the same mobile application, we could also extract text from printed signages and translate the same into different languages with acceptable context of translation. We believe this level of accuracy is acceptable for a system of multilingual digital signage. This system proves to be useful for non-native visitors to understand their surroundings better and obtain critical information using the mobile application. 
+\paragraph{}We studied the feasibility of using the combination of inexpensive iBeacons and computer vision to construct a system of multilingual digital signages. We conducted a preliminary experiment using an actual room to estimate the positioning accuracy and accuracy of language translation. When three beacons, placed on individual signages, we were able to discover them from the mobile application when in proximity. We were able to fetch respective data from the server and display signage information on the mobile application. We could also translate the information to any of the supported languages. Using the same mobile application, we could also extract text from printed signages and translate the same into different languages with acceptable context of translation. We believe this level of accuracy is acceptable for a system of multilingual digital signage. This system proves to be useful for non-native visitors to understand their surroundings better and obtain critical information using the mobile application. 
 
 %\paragraph{} 
 %
