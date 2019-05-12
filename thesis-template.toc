@@ -32,123 +32,122 @@
 \contentsline {paragraph}{}{8}{paragraph*.21}
 \contentsline {section}{\numberline {3}Understanding iBeacon Technology}{10}{section.3}
 \contentsline {paragraph}{}{10}{paragraph*.22}
-\contentsline {paragraph}{}{11}{paragraph*.23}
+\contentsline {paragraph}{}{10}{paragraph*.23}
 \contentsline {paragraph}{}{11}{paragraph*.24}
 \contentsline {subsection}{\numberline {3.1}Existing applications implemented using iBeacon technology}{12}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Operating range of iBeacons}{12}{subsection.3.2}
 \contentsline {paragraph}{}{12}{paragraph*.25}
-\contentsline {subsection}{\numberline {3.3}Calculating distance between iBeacons, based on RSSI}{12}{subsection.3.3}
-\contentsline {paragraph}{}{12}{paragraph*.26}
+\contentsline {subsection}{\numberline {3.3}Calculating distance between iBeacons, based on RSSI}{13}{subsection.3.3}
+\contentsline {paragraph}{}{13}{paragraph*.26}
 \contentsline {paragraph}{}{13}{paragraph*.27}
-\contentsline {paragraph}{}{13}{paragraph*.28}
 \contentsline {section}{\numberline {4}RESTful web services}{14}{section.4}
+\contentsline {paragraph}{}{14}{paragraph*.28}
 \contentsline {paragraph}{}{14}{paragraph*.29}
-\contentsline {paragraph}{}{14}{paragraph*.30}
 \contentsline {section}{\numberline {5}Google Vision}{15}{section.5}
+\contentsline {paragraph}{}{15}{paragraph*.30}
 \contentsline {paragraph}{}{15}{paragraph*.31}
 \contentsline {paragraph}{}{15}{paragraph*.32}
-\contentsline {paragraph}{}{15}{paragraph*.33}
 \contentsline {subsection}{\numberline {5.1}Sample Request}{17}{subsection.5.1}
-\contentsline {paragraph}{}{17}{paragraph*.34}
+\contentsline {paragraph}{}{17}{paragraph*.33}
 \contentsline {subsection}{\numberline {5.2}Sample Response}{18}{subsection.5.2}
+\contentsline {paragraph}{}{18}{paragraph*.34}
 \contentsline {paragraph}{}{18}{paragraph*.35}
-\contentsline {paragraph}{}{18}{paragraph*.36}
 \contentsline {section}{\numberline {6}Google Cloud Translation}{19}{section.6}
+\contentsline {paragraph}{}{19}{paragraph*.36}
 \contentsline {paragraph}{}{19}{paragraph*.37}
 \contentsline {paragraph}{}{19}{paragraph*.38}
-\contentsline {paragraph}{}{19}{paragraph*.39}
 \contentsline {subsection}{\numberline {6.1}Sample Request}{20}{subsection.6.1}
+\contentsline {paragraph}{}{20}{paragraph*.39}
 \contentsline {paragraph}{}{20}{paragraph*.40}
-\contentsline {paragraph}{}{20}{paragraph*.41}
 \contentsline {subsection}{\numberline {6.2}Sample Response}{21}{subsection.6.2}
-\contentsline {paragraph}{}{21}{paragraph*.42}
+\contentsline {paragraph}{}{21}{paragraph*.41}
 \contentsline {section}{\numberline {7}Algorithm}{22}{section.7}
+\contentsline {paragraph}{}{22}{paragraph*.42}
 \contentsline {paragraph}{}{22}{paragraph*.43}
 \contentsline {paragraph}{}{22}{paragraph*.44}
-\contentsline {paragraph}{}{22}{paragraph*.45}
 \contentsline {section}{\numberline {8}System Design}{24}{section.8}
+\contentsline {paragraph}{}{24}{paragraph*.45}
 \contentsline {paragraph}{}{24}{paragraph*.46}
 \contentsline {paragraph}{}{24}{paragraph*.47}
-\contentsline {paragraph}{}{24}{paragraph*.48}
 \contentsline {subsection}{\numberline {8.1}Environment setup}{25}{subsection.8.1}
-\contentsline {paragraph}{}{25}{paragraph*.49}
+\contentsline {paragraph}{}{25}{paragraph*.48}
 \contentsline {subsubsection}{\numberline {8.1.1}Digital Signages}{26}{subsubsection.8.1.1}
-\contentsline {paragraph}{}{26}{paragraph*.50}
+\contentsline {paragraph}{}{26}{paragraph*.49}
 \contentsline {subsubsection}{\numberline {8.1.2}Printed Signages}{26}{subsubsection.8.1.2}
-\contentsline {paragraph}{}{26}{paragraph*.51}
+\contentsline {paragraph}{}{26}{paragraph*.50}
 \contentsline {subsection}{\numberline {8.2}Mobile application}{26}{subsection.8.2}
-\contentsline {paragraph}{}{26}{paragraph*.52}
+\contentsline {paragraph}{}{26}{paragraph*.51}
 \contentsline {subsubsection}{\numberline {8.2.1}Background Monitoring}{27}{subsubsection.8.2.1}
-\contentsline {paragraph}{}{27}{paragraph*.53}
+\contentsline {paragraph}{}{27}{paragraph*.52}
 \contentsline {subsubsection}{\numberline {8.2.2}Beacon Ranging}{27}{subsubsection.8.2.2}
-\contentsline {paragraph}{}{27}{paragraph*.54}
+\contentsline {paragraph}{}{27}{paragraph*.53}
 \contentsline {subsubsection}{\numberline {8.2.3}Development stack}{27}{subsubsection.8.2.3}
-\contentsline {paragraph}{}{27}{paragraph*.55}
+\contentsline {paragraph}{}{27}{paragraph*.54}
 \contentsline {subsubsection}{\numberline {8.2.4}Screenshots}{28}{subsubsection.8.2.4}
-\contentsline {paragraph}{}{28}{paragraph*.56}
-\contentsline {paragraph}{}{29}{paragraph*.57}
+\contentsline {paragraph}{}{28}{paragraph*.55}
+\contentsline {paragraph}{}{29}{paragraph*.56}
+\contentsline {paragraph}{}{30}{paragraph*.57}
 \contentsline {paragraph}{}{30}{paragraph*.58}
-\contentsline {paragraph}{}{30}{paragraph*.59}
-\contentsline {paragraph}{}{31}{paragraph*.60}
-\contentsline {paragraph}{}{32}{paragraph*.61}
+\contentsline {paragraph}{}{31}{paragraph*.59}
+\contentsline {paragraph}{}{32}{paragraph*.60}
+\contentsline {paragraph}{}{33}{paragraph*.61}
 \contentsline {paragraph}{}{33}{paragraph*.62}
-\contentsline {paragraph}{}{33}{paragraph*.63}
 \contentsline {subsection}{\numberline {8.3}Database}{34}{subsection.8.3}
-\contentsline {paragraph}{}{34}{paragraph*.64}
-\contentsline {paragraph}{}{35}{paragraph*.65}
+\contentsline {paragraph}{}{34}{paragraph*.63}
+\contentsline {paragraph}{}{35}{paragraph*.64}
 \contentsline {section}{\numberline {9}User Experience Design (UX Design)}{37}{section.9}
+\contentsline {paragraph}{}{37}{paragraph*.65}
 \contentsline {paragraph}{}{37}{paragraph*.66}
 \contentsline {paragraph}{}{37}{paragraph*.67}
-\contentsline {paragraph}{}{37}{paragraph*.68}
 \contentsline {subsection}{\numberline {9.1}Context Analysis}{38}{subsection.9.1}
 \contentsline {subsection}{\numberline {9.2}Task Analysis}{38}{subsection.9.2}
-\contentsline {paragraph}{}{38}{paragraph*.69}
+\contentsline {paragraph}{}{38}{paragraph*.68}
 \contentsline {subsection}{\numberline {9.3}User Analysis}{39}{subsection.9.3}
 \contentsline {subsubsection}{\numberline {9.3.1}Example Persona}{39}{subsubsection.9.3.1}
+\contentsline {paragraph}{}{39}{paragraph*.69}
 \contentsline {paragraph}{}{39}{paragraph*.70}
-\contentsline {paragraph}{}{39}{paragraph*.71}
-\contentsline {paragraph}{}{40}{paragraph*.72}
+\contentsline {paragraph}{}{40}{paragraph*.71}
 \contentsline {subsection}{\numberline {9.4}Design Principles}{40}{subsection.9.4}
 \contentsline {subsubsection}{\numberline {9.4.1}Affordance}{40}{subsubsection.9.4.1}
+\contentsline {paragraph}{}{40}{paragraph*.72}
 \contentsline {paragraph}{}{40}{paragraph*.73}
-\contentsline {paragraph}{}{40}{paragraph*.74}
 \contentsline {subsubsection}{\numberline {9.4.2}Visibility}{41}{subsubsection.9.4.2}
-\contentsline {paragraph}{}{41}{paragraph*.75}
-\contentsline {paragraph}{}{42}{paragraph*.76}
+\contentsline {paragraph}{}{41}{paragraph*.74}
+\contentsline {paragraph}{}{42}{paragraph*.75}
 \contentsline {subsubsection}{\numberline {9.4.3}Constraint}{42}{subsubsection.9.4.3}
+\contentsline {paragraph}{}{42}{paragraph*.76}
 \contentsline {paragraph}{}{42}{paragraph*.77}
-\contentsline {paragraph}{}{42}{paragraph*.78}
 \contentsline {subsubsection}{\numberline {9.4.4}Consistency}{42}{subsubsection.9.4.4}
+\contentsline {paragraph}{}{42}{paragraph*.78}
 \contentsline {paragraph}{}{42}{paragraph*.79}
-\contentsline {paragraph}{}{42}{paragraph*.80}
 \contentsline {subsubsection}{\numberline {9.4.5}Feedback}{43}{subsubsection.9.4.5}
+\contentsline {paragraph}{}{43}{paragraph*.80}
 \contentsline {paragraph}{}{43}{paragraph*.81}
-\contentsline {paragraph}{}{43}{paragraph*.82}
 \contentsline {section}{\numberline {10}Case study}{45}{section.10}
+\contentsline {paragraph}{}{45}{paragraph*.82}
 \contentsline {paragraph}{}{45}{paragraph*.83}
-\contentsline {paragraph}{}{45}{paragraph*.84}
 \contentsline {subsection}{\numberline {10.1}Testing environment}{45}{subsection.10.1}
-\contentsline {paragraph}{}{45}{paragraph*.85}
+\contentsline {paragraph}{}{45}{paragraph*.84}
 \contentsline {subsection}{\numberline {10.2}Digital Signages }{45}{subsection.10.2}
-\contentsline {paragraph}{}{45}{paragraph*.86}
+\contentsline {paragraph}{}{45}{paragraph*.85}
 \contentsline {subsubsection}{\numberline {10.2.1}Test Case 1}{46}{subsubsection.10.2.1}
+\contentsline {paragraph}{}{46}{paragraph*.86}
 \contentsline {paragraph}{}{46}{paragraph*.87}
-\contentsline {paragraph}{}{46}{paragraph*.88}
 \contentsline {subsubsection}{\numberline {10.2.2}Test Case 2}{48}{subsubsection.10.2.2}
+\contentsline {paragraph}{}{48}{paragraph*.88}
 \contentsline {paragraph}{}{48}{paragraph*.89}
 \contentsline {paragraph}{}{48}{paragraph*.90}
-\contentsline {paragraph}{}{48}{paragraph*.91}
 \contentsline {subsection}{\numberline {10.3}Printed Signages }{49}{subsection.10.3}
-\contentsline {paragraph}{}{49}{paragraph*.92}
+\contentsline {paragraph}{}{49}{paragraph*.91}
 \contentsline {subsubsection}{\numberline {10.3.1}Test Case 3}{50}{subsubsection.10.3.1}
+\contentsline {paragraph}{}{50}{paragraph*.92}
 \contentsline {paragraph}{}{50}{paragraph*.93}
 \contentsline {paragraph}{}{50}{paragraph*.94}
-\contentsline {paragraph}{}{50}{paragraph*.95}
 \contentsline {subsubsection}{\numberline {10.3.2}Test Case 4}{52}{subsubsection.10.3.2}
-\contentsline {paragraph}{}{52}{paragraph*.96}
+\contentsline {paragraph}{}{52}{paragraph*.95}
+\contentsline {paragraph}{}{53}{paragraph*.96}
 \contentsline {paragraph}{}{53}{paragraph*.97}
-\contentsline {paragraph}{}{53}{paragraph*.98}
 \contentsline {section}{\numberline {11} Conclusion and future work}{57}{section.11}
+\contentsline {paragraph}{}{57}{paragraph*.98}
 \contentsline {paragraph}{}{57}{paragraph*.99}
-\contentsline {paragraph}{}{57}{paragraph*.100}
-\contentsline {section}{References}{60}{section*.101}
+\contentsline {section}{References}{60}{section*.100}

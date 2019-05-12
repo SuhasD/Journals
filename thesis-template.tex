@@ -172,11 +172,11 @@ iBeacon devices simply broadcasts its configured advertising packets in specific
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\linewidth]{media/ibeacon-format.jpg}
-	\caption{iBeacon packet format}{The figure shows how the breakdown of the beacon information. The smartphone needs to read the UUID, Major and Minor to fetch related data to the beacon. Tx power is associated with the strength or range of the beacon}
-	\label{fig:translate_uml}
+	\caption{iBeacon packet format}
+	\label{fig:iBPacket}
 \end{figure} 
 
-\paragraph{}Breaking down the iBeacon information, there are five major parts: fixed iBeacon prefix; the proximity UUID: an identifier used to distinguish the beacons from other systems using similar bluetooth beacons; the major number can group a related set of beacons in an organization, such an exhibition hall in a museum or a floor in a store; the minor number can be used to identify individual beacons in specific areas because each beacon has a different minor number, by which we know where the user is exactly located. TX power, is used to determine how close the user is to a beacon \cite{beacons}. It can be presented either as an estimate (immediate/near/far/out of range) or it can be used to calculate more precise measurement in meters.
+\paragraph{}Figure \ref{fig:iBPacket} shows how the breakdown of the beacon information. The smartphone needs to read the UUID, Major and Minor to fetch related data to the beacon. Tx power is associated with the strength or range of the beacon. Breaking down the iBeacon information, there are five major parts: fixed iBeacon prefix; the proximity UUID: an identifier used to distinguish the beacons from other systems using similar bluetooth beacons; the major number can group a related set of beacons in an organization, such an exhibition hall in a museum or a floor in a store; the minor number can be used to identify individual beacons in specific areas because each beacon has a different minor number, by which we know where the user is exactly located. TX power, is used to determine how close the user is to a beacon \cite{beacons}. It can be presented either as an estimate (immediate/near/far/out of range) or it can be used to calculate more precise measurement in meters.
 %
 %\paragraph{}An iBeacon can be placed in around an item (goods, art works, or some places of a shop or institution) or a special areas, take the lobby or the hallway between two exhibition halls or between the exhibition hall and other area.
 
@@ -207,17 +207,15 @@ iBeacon devices simply broadcasts its configured advertising packets in specific
 \paragraph{}iBeacon devices transmit its information to all devices that use this technology from a range of a few inches to more than 70 meters. The actual distance at which the device operates varies, depending on the environment. Just like all the radio waves, Bluetooth loses its power when it encounters obstacles \cite{demo}. All devices capable of supporting the Bluetooth 4.0 can take advantage of this system without the need of having to pair devices previously.
 
 \subsection{Calculating distance between iBeacons, based on RSSI}
-\paragraph{}The rate of signal strength will not be stable because of RF signal in actual obstacles in environment. So, there is no longer accurate correspondence between the RSSI and distance. Also, we need to purify the received data in order to reduce the correspoding positioning errors.
+\paragraph{}When a network of iBeacons are setup in an environment, we could expect interference in the signals. Thus, there is a need to calculate accurate correspondence between the RSSI and distance. For better accuracy in calculating the distance between an iBeacon and the user, three continuous signal strength readings are captured from the device and averaged. This averaged distance is shown to the user on the mobile application.
 
-\paragraph{}We place iBeacon at a fixed position in the test environment. The mobile terminal detects the response of iBeacon signal strength, and we build out RSSI vector set based on the received signal, this set represents the RSSI vector is R=(R\textsubscript{1}, R\textsubscript{2}.....R\textsubscript{i}.....R\textsubscript{P}),where i is the signal strength of i-node RSSI, P is the total number of iBeacon. \cite{distanceTrack}
-
-\paragraph{}We then repeatedly measure RSSI and averaging the values, the average value as the iBeacon RSSI value r=(r\textsubscript{1}, r\textsubscript{2} ,,,, r\textsubscript{i} ,,, r\textsubscript{m}), the formula is as follows:
+\paragraph{}We place an iBeacon at a fixed positions in the test environment. The mobile terminal detects the response of iBeacon signal, and we build out the RSSI vector set based on the received signals, this set represents the RSSI vector for each beacon R\textsubscript{i}=(R\textsubscript{1}, R\textsubscript{2}.....R\textsubscript{n}),where i is an individual iBeacon and n is the total number of signal readings for iBeacon i \cite{distanceTrack}.
 
 \begin{equation}
-RSSI = 1/m \sum_{i=1}^m RSSI \textsubscript{i}
+RSSI\textsubscript{avg} = 1/n \sum_{i=1}^n R \textsubscript{i}
 \end{equation}
 
-where m is the total number of collected RSSI vector at the coordinate points. This approach would correct the rather unstable distance of the beacon from the user. 
+where n is the total number of collected RSSI signals. This approach would correct the rather unstable distance of the beacon from the user. 
 
 
 \section{RESTful web services}
