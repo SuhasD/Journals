@@ -1,24 +1,24 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces iBeacon packet format}}{10}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Process flow diagram for Text Detection using Google Vision}}{16}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Example image for testing Google Vision API}}{17}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Process flow diagram using Google Translation}}{20}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces System design process flow diagram. The diagram shows all the individual components of the system and how it is integrated together to achieve the objective.}}{25}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Home page}}{29}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Text extraction}}{29}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Translated text}}{31}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Share text feature}}{31}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Type and translate text feature}}{32}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Digital Signage}}{33}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Translate feature}}{33}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Text translated to Spanish language}}{34}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Database Schema}}{35}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Affordance design principle}}{41}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Feedback design principle}}{44}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Digital signage 1}}{47}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Digital signage 2}}{49}{figure.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Printed Signage 1}}{51}{figure.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces OCR feature}}{51}{figure.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Text translated to English}}{52}{figure.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Printed Signage 2}}{54}{figure.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces OCR feature}}{54}{figure.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Text translated to English}}{55}{figure.24}
+\contentsline {figure}{\numberline {1}{\ignorespaces iBeacon packet format}}{14}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Process flow diagram for Text Detection using Google Vision}}{22}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Example image for testing Google Vision API}}{23}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Process flow diagram using Google Translation}}{27}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces System design process flow diagram. }}{31}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Home page}}{37}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Text extraction}}{37}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Translated text}}{39}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Share text feature}}{39}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Type and translate text feature}}{40}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Digital Signage}}{42}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Translate feature}}{42}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Text translated to Spanish language}}{43}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Database Schema}}{44}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Affordance design principle}}{51}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Feedback design principle}}{55}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Digital signage 1}}{59}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Digital signage 2}}{61}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Printed Signage 1}}{63}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces OCR feature}}{63}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Text translated to English}}{64}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Printed Signage 2}}{66}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces OCR feature}}{66}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Text translated to English}}{67}{figure.24}

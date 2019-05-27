@@ -20,35 +20,34 @@
 \BOOKMARK [1][-]{section.6}{Google Cloud Translation}{}% 20
 \BOOKMARK [2][-]{subsection.6.1}{Sample Request}{section.6}% 21
 \BOOKMARK [2][-]{subsection.6.2}{Sample Response}{section.6}% 22
-\BOOKMARK [1][-]{section.7}{Algorithm}{}% 23
-\BOOKMARK [1][-]{section.8}{System Design}{}% 24
-\BOOKMARK [2][-]{subsection.8.1}{Environment setup}{section.8}% 25
-\BOOKMARK [3][-]{subsubsection.8.1.1}{Digital Signages}{subsection.8.1}% 26
-\BOOKMARK [3][-]{subsubsection.8.1.2}{Printed Signages}{subsection.8.1}% 27
-\BOOKMARK [2][-]{subsection.8.2}{Mobile application}{section.8}% 28
-\BOOKMARK [3][-]{subsubsection.8.2.1}{Background Monitoring}{subsection.8.2}% 29
-\BOOKMARK [3][-]{subsubsection.8.2.2}{Beacon Ranging}{subsection.8.2}% 30
-\BOOKMARK [3][-]{subsubsection.8.2.3}{Development stack}{subsection.8.2}% 31
-\BOOKMARK [3][-]{subsubsection.8.2.4}{Screenshots}{subsection.8.2}% 32
-\BOOKMARK [2][-]{subsection.8.3}{Database}{section.8}% 33
-\BOOKMARK [1][-]{section.9}{User Experience Design \(UX Design\)}{}% 34
-\BOOKMARK [2][-]{subsection.9.1}{Context Analysis}{section.9}% 35
-\BOOKMARK [2][-]{subsection.9.2}{Task Analysis}{section.9}% 36
-\BOOKMARK [2][-]{subsection.9.3}{User Analysis}{section.9}% 37
-\BOOKMARK [3][-]{subsubsection.9.3.1}{Example Persona}{subsection.9.3}% 38
-\BOOKMARK [2][-]{subsection.9.4}{Design Principles}{section.9}% 39
-\BOOKMARK [3][-]{subsubsection.9.4.1}{Affordance}{subsection.9.4}% 40
-\BOOKMARK [3][-]{subsubsection.9.4.2}{Visibility}{subsection.9.4}% 41
-\BOOKMARK [3][-]{subsubsection.9.4.3}{Constraint}{subsection.9.4}% 42
-\BOOKMARK [3][-]{subsubsection.9.4.4}{Consistency}{subsection.9.4}% 43
-\BOOKMARK [3][-]{subsubsection.9.4.5}{Feedback}{subsection.9.4}% 44
-\BOOKMARK [1][-]{section.10}{Case study}{}% 45
-\BOOKMARK [2][-]{subsection.10.1}{Testing environment}{section.10}% 46
-\BOOKMARK [2][-]{subsection.10.2}{Digital Signages }{section.10}% 47
-\BOOKMARK [3][-]{subsubsection.10.2.1}{Test Case 1}{subsection.10.2}% 48
-\BOOKMARK [3][-]{subsubsection.10.2.2}{Test Case 2}{subsection.10.2}% 49
-\BOOKMARK [2][-]{subsection.10.3}{Printed Signages }{section.10}% 50
-\BOOKMARK [3][-]{subsubsection.10.3.1}{Test Case 3}{subsection.10.3}% 51
-\BOOKMARK [3][-]{subsubsection.10.3.2}{Test Case 4}{subsection.10.3}% 52
-\BOOKMARK [1][-]{section.11}{ Conclusion and future work}{}% 53
-\BOOKMARK [1][-]{section*.100}{References}{}% 54
+\BOOKMARK [1][-]{section.7}{System Design}{}% 23
+\BOOKMARK [2][-]{subsection.7.1}{Environment setup}{section.7}% 24
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Digital Signages}{subsection.7.1}% 25
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Printed Signages}{subsection.7.1}% 26
+\BOOKMARK [2][-]{subsection.7.2}{Mobile application}{section.7}% 27
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Background Monitoring}{subsection.7.2}% 28
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Beacon Ranging}{subsection.7.2}% 29
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Development stack}{subsection.7.2}% 30
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Screenshots}{subsection.7.2}% 31
+\BOOKMARK [2][-]{subsection.7.3}{Database}{section.7}% 32
+\BOOKMARK [1][-]{section.8}{User Experience Design \(UX Design\)}{}% 33
+\BOOKMARK [2][-]{subsection.8.1}{Context Analysis}{section.8}% 34
+\BOOKMARK [2][-]{subsection.8.2}{Task Analysis}{section.8}% 35
+\BOOKMARK [2][-]{subsection.8.3}{User Analysis}{section.8}% 36
+\BOOKMARK [3][-]{subsubsection.8.3.1}{Example Persona}{subsection.8.3}% 37
+\BOOKMARK [2][-]{subsection.8.4}{Design Principles}{section.8}% 38
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Affordance}{subsection.8.4}% 39
+\BOOKMARK [3][-]{subsubsection.8.4.2}{Visibility}{subsection.8.4}% 40
+\BOOKMARK [3][-]{subsubsection.8.4.3}{Constraint}{subsection.8.4}% 41
+\BOOKMARK [3][-]{subsubsection.8.4.4}{Consistency}{subsection.8.4}% 42
+\BOOKMARK [3][-]{subsubsection.8.4.5}{Feedback}{subsection.8.4}% 43
+\BOOKMARK [1][-]{section.9}{Case Study}{}% 44
+\BOOKMARK [2][-]{subsection.9.1}{Testing Environment}{section.9}% 45
+\BOOKMARK [2][-]{subsection.9.2}{Digital Signages }{section.9}% 46
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Test Case 1}{subsection.9.2}% 47
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Test Case 2}{subsection.9.2}% 48
+\BOOKMARK [2][-]{subsection.9.3}{Printed Signages }{section.9}% 49
+\BOOKMARK [3][-]{subsubsection.9.3.1}{Test Case 3}{subsection.9.3}% 50
+\BOOKMARK [3][-]{subsubsection.9.3.2}{Test Case 4}{subsection.9.3}% 51
+\BOOKMARK [1][-]{section.10}{ Conclusion and future work}{}% 52
+\BOOKMARK [1][-]{section*.97}{References}{}% 53
